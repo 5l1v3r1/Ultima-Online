@@ -1,0 +1,173 @@
+<!DOCTYPE profile>
+<profile>
+ <data name="CommandPrefix">0x0</data>
+ <data name="UseObjectsQueue">True</data>
+ <data name="ShowCorpseNames">True</data>
+ <data name="ShowCreatureNames">False</data>
+ <data name="OpenCorpses">True</data>
+ <data name="OpenCorpsesRange">0x2</data>
+ <data name="ShowMobileHits">True</data>
+ <data name="PositionInTitle">False</data>
+ <data name="ForceResolution">False</data>
+ <data name="GameWindowWidth">0x320</data>
+ <data name="GameWindowHeight">0x258</data>
+ <data name="FilterLight">True</data>
+ <data name="FilterMusic">True</data>
+ <data name="FilterBardsMusic">False</data>
+ <data name="FilterSound">False</data>
+ <data name="FilterWeather">False</data>
+ <data name="FilterSeason">False</data>
+ <data name="FixedSeason">0x0</data>
+ <data name="FilterDeath">False</data>
+ <data name="FilterRepeatedMessages">False</data>
+ <data name="FilterOthersSpeechColor">False</data>
+ <data name="FilterSnoopingMessages">False</data>
+ <data name="FilterTradeWindow">False</data>
+ <data name="FilterRewardGump">False</data>
+ <data name="HandsBeforePotions">True</data>
+ <data name="HandsBeforeCasting">True</data>
+ <data name="SmartTarget">0x3</data>
+ <data name="SmartTargetRange">True</data>
+ <data name="SmartTargetRangeValue">0xc</data>
+ <data name="HighlightCurrentTarget">True</data>
+ <data name="BlockInvalidHeal">True</data>
+ <data name="ActionDelay">0x258</data>
+ <data name="UseObjectsLimit">0x5</data>
+ <data name="TargetShare">0x1</data>
+ <data name="MountSerial">0x85d17</data>
+ <data name="BladeSerial">0xffffffff</data>
+ <data name="BoneCutter">False</data>
+ <data name="AutoMount">True</data>
+ <data name="AutoBandage">False</data>
+ <data name="AutoBandageTarget">0x0</data>
+ <data name="AutoBandageScale">False</data>
+ <data name="AutoBandageCount">False</data>
+ <data name="AutoBandageStart">True</data>
+ <data name="AutoBandageStartValue">0x5f</data>
+ <data name="AutoBandageDelay">0x9c4</data>
+ <data name="AutoBandageFormula">True</data>
+ <data name="AutoBandageHidden">False</data>
+ <data name="OpenDoors">True</data>
+ <data name="UseDoors">False</data>
+ <data name="SpellsColor">False</data>
+ <data name="SpellsMode">0x2</data>
+ <data name="SpellsTargetShare">0x0</data>
+ <data name="OpenDoorsMode">0x3</data>
+ <data name="OpenCorpsesMode">0x3</data>
+ <data name="ShowMobileFlags">False</data>
+ <data name="StateHighlightMode">0x0</data>
+ <data name="StaticFields">False</data>
+ <data name="CountStealthSteps">False</data>
+ <data name="FriendsListOnly">False</data>
+ <data name="FriendsParty">True</data>
+ <data name="MoveConflictingItems">False</data>
+ <data name="CustomCaption">True</data>
+ <data name="CustomCaptionMode">0x1</data>
+ <data name="CustomCaptionText">UO - $name $statusbar - $hits/$mana/$stam</data>
+ <data name="WarnCounters">True</data>
+ <data name="WarnCountersValue">0x5</data>
+ <data name="HighlightReagents">True</data>
+ <data name="DisplayCountersName">False</data>
+ <data name="CaptionUseNotoHue">True</data>
+ <data name="CaptionUseNotoHue">True</data>
+ <data name="DisplayCountersImage">True</data>
+ <data name="FilterKarmaMessages">False</data>
+ <data name="FilterFameMessages">False</data>
+ <data name="PreventDismount">False</data>
+ <data name="PreventAttackFriends">True</data>
+ <data name="AutoSearchContainers">False</data>
+ <data name="AutoAcceptParty">True</data>
+ <data name="StaticFieldsMode">0x0</data>
+ <counters/>
+ <scavenger enabled="True"/>
+ <vendors>
+  <buystate list="" enabled="False"/>
+  <sellstate list="" enabled="False"/>
+ </vendors>
+ <autosearchexemptions/>
+ <objects>
+  <obj name="found">0x41e92050</obj>
+  <obj name="gc">0x41e92050</obj>
+  <obj name="lore">0x412efff4</obj>
+ </objects>
+ <hotkeys>
+  <hotkey param="med resist mage" pass="True" key="0x103" action="macro.play"/>
+  <hotkey param="Toggle purple pot" pass="True" key="0xc0" action="macro.play"/>
+  <hotkey param="stun refresh" pass="True" key="0x41" action="macro.play"/>
+  <hotkey param="place trash barrel" pass="True" key="0x4" action="macro.play"/>
+  <hotkey param="potions" pass="True" key="0xdb" action="macro.play"/>
+  <hotkey param="enter gate" pass="True" key="0x47" action="macro.play"/>
+  <hotkey param="vendor buy" pass="True" key="0xbc" action="macro.play"/>
+  <hotkey pass="True" key="0x39" action="hotkeys"/>
+  <hotkey pass="True" key="0x42" action="actions.grabitem"/>
+  <hotkey pass="True" key="0x45" action="actions.togglemounted"/>
+  <hotkey pass="True" key="0x5a" action="targeting.target.cancel"/>
+  <hotkey pass="True" key="0x58" action="targeting.target.last"/>
+  <hotkey pass="True" key="0x59" action="targeting.target.self"/>
+  <hotkey pass="True" key="0x56" action="spells.magery.paralyze"/>
+  <hotkey pass="True" key="0x104" action="spells.magery.magicreflection"/>
+  <hotkey pass="True" key="0x31" action="spells.miniheal.self"/>
+  <hotkey pass="True" key="0x32" action="spells.bigheal.self"/>
+  <hotkey pass="True" key="0x54" action="spells.magery.greaterheal"/>
+  <hotkey pass="True" key="0x102" action="spells.magery.teleport"/>
+  <hotkey pass="True" key="0x33" action="spells.magery.magicarrow"/>
+  <hotkey pass="True" key="0x233" action="spells.magery.fireball"/>
+  <hotkey pass="True" key="0x35" action="spells.magery.energybolt"/>
+  <hotkey pass="True" key="0x34" action="spells.magery.explosion"/>
+  <hotkey pass="True" key="0x36" action="spells.magery.meteorswarm"/>
+  <hotkey pass="True" key="0x46" action="spells.magery.earthquake"/>
+  <hotkey pass="True" key="0x37" action="spells.magery.lightning"/>
+  <hotkey pass="True" key="0x38" action="spells.magery.manadrain"/>
+  <hotkey pass="True" key="0x4a" action="spells.magery.weaken"/>
+  <hotkey pass="True" key="0x4b" action="spells.magery.clumsy"/>
+  <hotkey pass="True" key="0x4c" action="spells.magery.feeblemind"/>
+  <hotkey pass="True" key="0x44" action="spells.magery.recall"/>
+  <hotkey pass="True" key="0x48" action="spells.magery.invisibility"/>
+  <hotkey pass="True" key="0x52" action="spells.magery.reveal"/>
+  <hotkey pass="True" key="0x25a" action="spells.magery.resurrection"/>
+  <hotkey pass="True" key="0x49" action="spells.magery.archprotection"/>
+  <hotkey pass="True" key="0x50" action="spells.magery.poison"/>
+  <hotkey pass="True" key="0x4f" action="spells.magery.harm"/>
+  <hotkey pass="True" key="0x254" action="spells.magery.cure"/>
+  <hotkey pass="True" key="0x55" action="spells.magery.bless"/>
+  <hotkey pass="True" key="0x51" action="spells.magery.wallofstone"/>
+  <hotkey pass="True" key="0x4d" action="skills.meditation"/>
+ </hotkeys>
+ <macros>
+  <macro interrupt="False" loop="True" name="med resist mage">if mana &lt; 40;useskill 'meditation';while mana &lt; 80;endwhile;else;cast 'mana vampire' 'self';pause 1000;endif;</macro>
+  <macro interrupt="False" loop="False" name="magic arrow">cast 'Magic Arrow' 'Last';</macro>
+  <macro interrupt="False" loop="False" name="Toggle purple pot">@getenemy 'murderer' 'Enemy' 'criminal' 'gray' 'closest';if @injournal 'You should throw it now' 'system';//?? Phase 2 toss the pot at last target;usetype '0xf0d' 'any' 'backpack' '2';waitfortarget 35000;pause 100;attack 'enemy';target! 'last';@clearjournal;else;//?? Phase 1 start pot countdown and clear cursor;usetype '0xf0d' 'any' 'backpack' '2';pause 100;@canceltarget;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!;//!! Could add functionality to obtain target here;//!! I left out;@target! 'enemy';endif;</macro>
+  <macro interrupt="False" loop="False" name="stun refresh">//Prime Stun - Drink refresh if needed//;clearjournal;if stam &lt; 30;usetype! 0xf0b;pause 600;endif;setability 'stun';attack 'enemy';while not @injournal 'You successfully';pause 100;endwhile;clearjournal;partymsg 'stunned';</macro>
+  <macro interrupt="False" loop="False" name="place trash barrel">msg 'I wish to place a trash barrel';</macro>
+  <macro interrupt="False" loop="False" name="potions">// Author: Kraz;// Description: drink refresh, cure and heal potions when needed, also eat enchanted apples if mortalled;if not timerexists 'Heal Potion';createtimer 'Heal Potion';endif;if not timerexists 'Enchanted Apple';createtimer 'Enchanted Apple';endif;if stam &lt; 15;// Refresh potion;usetype! 0xf0b;endif;if poisoned 'self';// Cure potion;usetype! 0xf07;endif;if not yellowhits 'self';if diffhits >= 30 and timer 'Heal Potion' >= 10250;// Heal potion;if usetype! 0xf0c;settimer 'Heal Potion' 0;endif;endif;// Enchanted apple;elseif timer 'Enchanted Apple' >= 30250 and usetype! 0x2fd8;settimer 'Enchanted Apple' 0;endif;</macro>
+  <macro interrupt="True" loop="False" name="alchy factory">//What's missing or could be improved:;//* for some reason it asked for a new keg twice when one keg //is full. Does anyone know why?;//* specific pot identification //(lesser/normal/greater[/deadly]) is missing. I could do that //with clickobject and injournal but that would slow things //down a lot. Any ideas?;clearjournal;while not @findobject 'WhiteKeg';headmsg 'Strength Keg?';promptalias 'WhiteKeg';endwhile;while not @findobject 'BlueKeg';headmsg 'Agility Keg?';promptalias 'BlueKeg';endwhile;while not @findobject 'YellowKeg';headmsg 'GHeal Keg?';promptalias 'YellowKeg';endwhile;while not @findobject 'OrangeKeg';headmsg 'GCure Keg?';promptalias 'OrangeKeg';endwhile;while not @findobject 'RedKeg';headmsg 'TRefresh Keg?';promptalias 'RedKeg';endwhile;while not @findobject 'PurpleKeg';headmsg 'GExplo Keg?';promptalias 'PurpleKeg';endwhile;while @findtype 0xf09;moveitem 'found' 'WhiteKeg';if @injournal 'The keg will not hold any more!' 'system';headmsg 'Strength keg is full!' 38;unsetalias 'WhiteKeg';replay;endif;pause 650;endwhile;while @findtype 0xf08;moveitem 'found' 'BlueKeg';if @injournal 'The keg will not hold any more!' 'system';headmsg 'Agility keg is full!' 38;unsetalias 'BlueKeg';replay;endif;pause 650;endwhile;while @findtype 0xf0c;moveitem 'found' 'YellowKeg';if @injournal 'The keg will not hold any more!' 'system';headmsg 'GHeal keg is full!' 38;unsetalias 'YellowKeg';replay;endif;pause 650;endwhile;while @findtype 0xf07;moveitem 'found' 'OrangeKeg';if @injournal 'The keg will not hold any more!' 'system';headmsg 'GCure keg is full!' 38;unsetalias 'OrangeKeg';replay;endif;pause 650;endwhile;while @findtype 0xf0b;moveitem 'found' 'RedKeg';if @injournal 'The keg will not hold any more!' 'system';headmsg 'TRefresh keg is full!' 38;unsetalias 'RedKeg';replay;endif;pause 650;endwhile;while @findtype 0xf0d;moveitem 'found' 'PurpleKeg';if @injournal 'The keg will not hold any more!' 'system';headmsg 'GExplo keg is full!' 38;unsetalias 'PurpleKeg';replay;endif;pause 650;endwhile;</macro>
+  <macro interrupt="False" loop="False" name="enter gate">usetype '0xf6c' 'any' 'ground' '2';waitforgump 'any' 15000;replygump 0xdd8b146a 1;</macro>
+  <macro interrupt="False" loop="True" name="Alchemy Trainer">////////////////////////////////////;//   This macro is designed for   //;// training alchemy from 30. Have //;//  5 empty kegs on you and a lot //;//  of mortars and pestals. This  //;//   macro only makes PVP worthy  //;//   potions to minimize waste.   //;//                                //;//  Turn on loop and click play!  //;//                                //;//      ~~Made by kdivers~~       //;////////////////////////////////////;if skill 'alchemy' &lt; 60 and not @findobject 'TR';headmsg 'Select Total Refresh Keg';promptalias 'TR';endif;if skill 'alchemy' &lt; 70 and not @findobject 'GA';headmsg 'Select Greater Agility Keg';promptalias 'GA';endif;if skill 'alchemy' &lt; 80 and not @findobject 'GS';headmsg 'Select Greater Strength Keg';promptalias 'GS';endif;if skill 'alchemy' &lt; 90 and not @findobject 'GH';headmsg 'Select Greater Heal Keg';promptalias 'GH';endif;if skill 'alchemy' &lt; 100 and not @findobject 'GC';headmsg 'Select Greater Cure Keg';promptalias 'GC';endif;if skill 'alchemy' &lt; 30;headmsg 'Buy more skill!';stop;elseif skill 'alchemy' &lt; 60;if usetype 0xe9b 0x0 'backpack';waitforgump 0x38920abd 15000;replygump 0x38920abd 1;waitforgump 0x38920abd 15000;replygump 0x38920abd 9;waitforgump 0x38920abd 2000;endif;if @findtype 0xf0b 0x0 'backpack';moveitem 'found' 'TR';pause 600;endif;elseif skill 'alchemy' &lt; 70;if usetype 0xe9b 0x0 'backpack';waitforgump 0x38920abd 15000;replygump 0x38920abd 8;waitforgump 0x38920abd 15000;replygump 0x38920abd 9;waitforgump 0x38920abd 2000;endif;if @findtype 0xf08 0x0 'backpack';moveitem 'found' 'GA';pause 600;endif;elseif skill 'alchemy' &lt; 80;if usetype 0xe9b 0x0 'backpack';waitforgump 0x38920abd 15000;replygump 0x38920abd 29;waitforgump 0x38920abd 15000;replygump 0x38920abd 9;waitforgump 0x38920abd 2000;endif;if @findtype 0xf09 0x0 'backpack';moveitem 'found' 'GS';pause 600;endif;elseif skill 'alchemy' &lt; 90;if usetype 0xe9b 0x0 'backpack';waitforgump 0x38920abd 15000;replygump 0x38920abd 22;waitforgump 0x38920abd 15000;replygump 0x38920abd 16;waitforgump 0x38920abd 2000;endif;if @findtype 0xf0c 0x0 'backpack';moveitem 'found' 'GH';pause 600;endif;elseif skill 'alchemy' &lt; 100;if usetype 0xe9b 0x0 'backpack';waitforgump 0x38920abd 15000;replygump 0x38920abd 43;waitforgump 0x38920abd 15000;replygump 0x38920abd 16;waitforgump 0x38920abd 2000;endif;if @findtype 0xf07 0x0 'backpack';moveitem 'found' 'GC';pause 600;endif;else;headmsg 'Alchemy complete!';stop;endif;</macro>
+  <macro interrupt="False" loop="False" name="vendor buy">msg 'Vendor buy';</macro>
+  <macro interrupt="False" loop="False" name="1">cast 'mana drain' 'self';pause 3000;cast 'mana drain' 'self';pause 3000;cast 'mana drain' 'self';pause 3000;cast 'mana drain' 'self';pause 3000;cast 'mana drain' 'self';pause 3000;cast 'mana drain' 'self';pause 3000;cast 'mana drain' 'self';pause 3000;</macro>
+  <macro interrupt="True" loop="False" name="test">////////////////////////////////////;//   This macro is designed for   //;// training magery from 30. It is //;//  intended for characters with  //;//        40+ intelligence.       //;//                                //;//  Turn on loop and click play!  //;//                                //;//      ~~Made by kdivers~~       //;////////////////////////////////////;if @injournal 'insufficient mana';clearjournal;useskill 'meditation';while mana &lt; maxmana;endwhile;else;if skill 'magery' &lt; 30;headmsg 'Buy more skill!';stop;elseif skill 'magery' &lt; 45;cast 'bless' 'self';pause 1000;elseif skill 'magery' &lt; 55;cast 'mana drain' 'self';pause 1000;elseif skill 'magery' &lt; 75;cast 'invisibility' 'self';while waitingfortarget;endwhile;pause 1000;elseif skill 'magery' &lt; 100;cast 'mana vampire' 'self';pause 1000;else;headmsg 'Magery complete!';stop;endif;endif;</macro>
+  <macro interrupt="True" loop="True" name="arms lore">if not @findalias 'lore';headmsg 'Select the item to train arms lore on';promptalias 'lore';endif;if skill 'arms lore' &lt; 100;useskill 'arms lore';waitfortarget 2000;target! 'lore';pause 1000;else;headmsg 'Arms Lore Complete!';stop;endif;</macro>
+  <macro interrupt="False" loop="True" name="heal">bandageself;pause 15000;</macro>
+ </macros>
+ <autoloot>
+  <enabled>False</enabled>
+  <container>0xffffffff</container>
+  <guards>False</guards>
+ </autoloot>
+ <organizer>
+  <group target="0x42bb913e" source="0x4001dd4d" stack="True" complete="True" loop="False" name="restock">
+   <item graphic="0xf85" amount="0x0"/>
+   <item graphic="0xf8c" amount="0x0"/>
+   <item graphic="0xf86" amount="0x0"/>
+   <item graphic="0xf7b" amount="0x0"/>
+   <item graphic="0xf84" amount="0x0"/>
+   <item graphic="0xf8d" amount="0x0"/>
+   <item graphic="0xf7a" amount="0x0"/>
+   <item graphic="0xf88" amount="0x0"/>
+  </group>
+  <group target="0x4019e6ce" source="0x412efff1" stack="False" complete="True" loop="False" name="alchy fact">
+   <item graphic="0xe9b" amount="0x0"/>
+  </group>
+ </organizer>
+ <spellgrid/>
+</profile>

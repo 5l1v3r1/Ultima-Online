@@ -1,0 +1,145 @@
+<!DOCTYPE profile>
+<profile>
+ <data name="CommandPrefix">0x0</data>
+ <data name="UseObjectsQueue">True</data>
+ <data name="ShowCorpseNames">True</data>
+ <data name="ShowCreatureNames">False</data>
+ <data name="OpenCorpses">True</data>
+ <data name="OpenCorpsesRange">0x2</data>
+ <data name="ShowMobileHits">True</data>
+ <data name="PositionInTitle">False</data>
+ <data name="ForceResolution">False</data>
+ <data name="GameWindowWidth">0x320</data>
+ <data name="GameWindowHeight">0x258</data>
+ <data name="FilterLight">True</data>
+ <data name="FilterMusic">True</data>
+ <data name="FilterBardsMusic">False</data>
+ <data name="FilterSound">False</data>
+ <data name="FilterWeather">False</data>
+ <data name="FilterSeason">False</data>
+ <data name="FixedSeason">0x0</data>
+ <data name="FilterDeath">False</data>
+ <data name="FilterRepeatedMessages">False</data>
+ <data name="FilterOthersSpeechColor">False</data>
+ <data name="FilterSnoopingMessages">False</data>
+ <data name="FilterTradeWindow">False</data>
+ <data name="FilterRewardGump">False</data>
+ <data name="HandsBeforePotions">True</data>
+ <data name="HandsBeforeCasting">True</data>
+ <data name="SmartTarget">0x3</data>
+ <data name="SmartTargetRange">False</data>
+ <data name="SmartTargetRangeValue">0xc</data>
+ <data name="HighlightCurrentTarget">False</data>
+ <data name="BlockInvalidHeal">True</data>
+ <data name="ActionDelay">0x258</data>
+ <data name="UseObjectsLimit">0x5</data>
+ <data name="TargetShare">0x0</data>
+ <data name="MountSerial">0x6a414</data>
+ <data name="BladeSerial">0xffffffff</data>
+ <data name="BoneCutter">False</data>
+ <data name="AutoMount">False</data>
+ <data name="AutoBandage">True</data>
+ <data name="AutoBandageTarget">0x0</data>
+ <data name="AutoBandageScale">True</data>
+ <data name="AutoBandageCount">True</data>
+ <data name="AutoBandageStart">False</data>
+ <data name="AutoBandageStartValue">0x5f</data>
+ <data name="AutoBandageDelay">0x9c4</data>
+ <data name="AutoBandageFormula">True</data>
+ <data name="AutoBandageHidden">False</data>
+ <data name="OpenDoors">True</data>
+ <data name="UseDoors">False</data>
+ <data name="SpellsColor">False</data>
+ <data name="SpellsMode">0x2</data>
+ <data name="SpellsTargetShare">0x0</data>
+ <data name="OpenDoorsMode">0x3</data>
+ <data name="OpenCorpsesMode">0x3</data>
+ <data name="ShowMobileFlags">True</data>
+ <data name="StateHighlightMode">0x0</data>
+ <data name="StaticFields">False</data>
+ <data name="CountStealthSteps">False</data>
+ <data name="FriendsListOnly">True</data>
+ <data name="FriendsParty">True</data>
+ <data name="MoveConflictingItems">False</data>
+ <data name="CustomCaption">True</data>
+ <data name="CustomCaptionMode">0x1</data>
+ <data name="CustomCaptionText">UO - $name $statusbar - $hits/$mana/$stam</data>
+ <data name="WarnCounters">True</data>
+ <data name="WarnCountersValue">0x5</data>
+ <data name="HighlightReagents">True</data>
+ <data name="DisplayCountersName">False</data>
+ <data name="CaptionUseNotoHue">True</data>
+ <data name="CaptionUseNotoHue">True</data>
+ <data name="DisplayCountersImage">True</data>
+ <data name="FilterKarmaMessages">False</data>
+ <data name="FilterFameMessages">False</data>
+ <data name="PreventDismount">False</data>
+ <data name="PreventAttackFriends">True</data>
+ <data name="AutoSearchContainers">False</data>
+ <data name="AutoAcceptParty">True</data>
+ <data name="StaticFieldsMode">0x0</data>
+ <counters/>
+ <scavenger enabled="True">
+  <scavenge enabled="True" graphic="0xf3f" color="0x0"/>
+ </scavenger>
+ <vendors>
+  <buystate enabled="False" list=""/>
+  <sellstate enabled="False" list=""/>
+ </vendors>
+ <autosearchexemptions/>
+ <objects>
+  <obj name="found">0x6ae8a</obj>
+  <obj name="potion">0x40b5241a</obj>
+ </objects>
+ <hotkeys>
+  <hotkey pass="True" action="macro.play" key="0x71" param="Skill Provo"/>
+  <hotkey pass="True" action="macro.play" key="0x41" param="Auto Provoke"/>
+  <hotkey pass="True" action="macro.play" key="0x57" param="Purple Pot Toggle"/>
+  <hotkey pass="True" action="macro.play" key="0x20" param="Attack Script"/>
+  <hotkey pass="True" action="macro.play" key="0x73" param="anatmoy"/>
+  <hotkey pass="True" action="macro.play" key="0x45" param="refrsh"/>
+  <hotkey pass="True" action="macro.play" key="0xdb" param="potions"/>
+  <hotkey pass="True" action="hotkeys" key="0x39"/>
+  <hotkey pass="True" action="targeting.target.cancel" key="0x5a"/>
+  <hotkey pass="True" action="targeting.target.last" key="0x58"/>
+  <hotkey pass="True" action="targeting.target.self" key="0x59"/>
+  <hotkey pass="True" action="actions.grabitem" key="0x42"/>
+  <hotkey pass="True" action="combat.bandage.self" key="0x47"/>
+  <hotkey pass="True" action="spells.magery.recall" key="0x44"/>
+  <hotkey pass="True" action="spells.magery.reveal" key="0x52"/>
+  <hotkey pass="True" action="spells.magery.invisibility" key="0x48"/>
+  <hotkey pass="True" action="spells.magery.explosion" key="0x34"/>
+  <hotkey pass="True" action="spells.magery.energybolt" key="0x35"/>
+  <hotkey pass="True" action="spells.magery.greaterheal" key="0x54"/>
+  <hotkey pass="True" action="spells.magery.bless" key="0x49"/>
+  <hotkey pass="True" action="spells.magery.magicreflection" key="0x4f"/>
+  <hotkey pass="True" action="spells.magery.poison" key="0x50"/>
+  <hotkey pass="True" action="spells.bigheal.self" key="0x32"/>
+  <hotkey pass="True" action="spells.miniheal.self" key="0x31"/>
+  <hotkey pass="True" action="agents.dress.dress-1" key="0x51"/>
+  <hotkey pass="True" action="actions.use.righthand" key="0xbf"/>
+  <hotkey pass="True" action="skills.hiding" key="0x53"/>
+ </hotkeys>
+ <macros>
+  <macro interrupt="False" loop="True" name="Skill Music">if not @findtype 0xeb2 0x0 'backpack';headmsg 'Get more lap harps!';stop;endif;if skill 'musicianship' &lt; 100;usetype 0xeb2 0x0 'backpack';pause 11000;else;headmsg 'Musicianship complete!';stop;endif;</macro>
+  <macro interrupt="True" loop="True" name="Skill Provo">if not findalias 'npc';sysmsg 'Target an NPC';promptalias 'npc';endif;useskill 'Provocation';waitfortarget 3000;target!  'Npc';waitfortarget 3000;target!  'Self';</macro>
+  <macro interrupt="False" loop="False" name="Auto Provoke">//Clear Mobs;unsetalias 'provoke1';unsetalias 'provoke2';//Get first mob;if getenemy 'gray' 'criminal' 'enemy' 'nearest';@setalias 'provoke1' 'enemy';else;sysmsg 'No Mobs within range to provoke';stop;endif;//Get Second mob - because 'nearest' is used, it will not select the same mob as above as nearest cycles through the two closest mobs;if getenemy 'gray' 'criminal' 'enemy' 'nearest';@setalias 'provoke2' 'enemy';else;sysmsg 'No Mobs within range to provoke';stop;endif;useskill 'Provocation';pause 600;waitfortarget 1500;target! 'provoke1';waitfortarget 1500;target! 'provoke2';//Clear Mobs;unsetalias 'provoke1';unsetalias 'provoke2';</macro>
+  <macro interrupt="False" loop="False" name="Purple Pot Toggle">//if @injournal 'Target cancelled' 'system';//@clearjournal;//endif;//!! Right now if the pot blows up in hand;//!! the next pot will be thrown at last target emediatly;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!;if @injournal 'You should throw it now' 'system';//?? Phase 2 toss the pot at last target;usetype '0xf0d' 'any' 'backpack' '2';waitfortarget 35000;pause 100;attack 'enemy';target! 'last';@clearjournal;else;//?? Phase 1 start pot countdown and clear cursor;usetype '0xf0d' 'any' 'backpack' '2';pause 100;@canceltarget;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!;//!! Could add functionality to obtain target here;//!! I left out as;endif;© 2017 GitHub, Inc.;</macro>
+  <macro interrupt="False" loop="False" name="Attack Script">@getenemy 'murderer' 'Enemy' 'criminal' 'gray' 'closest';if @findobject 'enemy';// Set the next line to the distance you want to be at for the macro to insist on turning on war mode.;if distance 'enemy' &lt;= 8;warmode 'on';endif;// Set the next line to the distance you want to be at for the macro to insist you needn't be in war mode any longer.;if distance 'enemy' > 12;warmode 'off';endif;autotargetobject! 'enemy';attack! 'enemy';endif;if not @findobject 'enemy';warmode 'off';endif;@clearusequeue;@cancelautotarget;</macro>
+  <macro interrupt="False" loop="False" name="Improved Provoke">//Name: Halygon's Dual Mob Provoke Macro;//Description: This macro selects the two nearest mobs and;//provokes them upon one another. No selection is required,;//only set this macro to a hotkey. Be aware that you do not;//have control over who it targets if multiple mobs are equally in range.;//Create Instrument List if it does not exist;if not listexists 'instrumentlist';@createlist 'instrumentlist';endif;//Clear list -- in case you have added additional instrument types;@clearlist 'instrumentlist';//Add below different types of instruments to use -- Common Ones are Added already;//Standing Harp;@pushlist 'instrumentlist' 0xeb1;//Lap Harp;@pushlist 'instrumentlist' 0xeb2;//Lute;@pushlist 'instrumentlist' 0xeb3;//Drum;@pushlist 'instrumentlist' 0xe9c;//Tambourine;@pushlist 'instrumentlist' 0xe9d;//Tambourine with red tassle;@pushlist 'instrumentlist' 0xe9e;//Select an instrument automatically to use;for 0 to 'instrumentlist';@findtype instrumentlist[];@setalias 'instrument' 'found';endfor;//Clear Mobs;unsetalias 'provoke1';unsetalias 'provoke2';//Get first mob;if getenemy 'gray' 'enemy' 'nearest';@setalias 'provoke1' 'enemy';else;sysmsg 'No Mobs within range to provoke';endif;//Get Second mob - because 'nearest' is used, it will not select the same mob as above as nearest cycles through the two closest mobs;if getenemy 'gray' 'enemy' 'nearest';@setalias 'provoke2' 'enemy';else;sysmsg 'No Mobs within range to provoke';endif;//Clear journal to prepare for instrument check;clearjournal;useskill 'Provocation';pause 1000;//If instrument has not been used since login, this will find the message asking to select an instrument and target the pre-selected instrument from above;if @injournal 'What instrument shall' 'system';target! 'instrument';endif;waitfortarget 1500;target! 'provoke1';waitfortarget 1500;target! 'provoke2';</macro>
+  <macro interrupt="False" loop="False" name="anatmoy">useskill 'Anatomy';waitfortarget 15000;target! 0x1a917c;pause 3000;</macro>
+  <macro interrupt="True" loop="False" name="lockpicking">//Experience;//Train Lockpicking with 2 boxes;if not findalias 'Lockpicks';headmsg 'Select Lockpicks';promptalias 'Lockpicks';endif;if not findalias 'First Box';headmsg 'Select First Box';promptalias 'First Box';endif;if not findalias 'GM Box';headmsg 'Select GM Box';promptalias 'GM Box';endif;if not findalias 'Key Ring';headmsg 'Select Key Ring';promptalias 'Key Ring';endif;if not hidden 'self';useskill 'Hiding';pause 4000;endif;if skill 'Lockpicking' &lt;= 74.9;useobject 'Lockpicks';autotargetobject 'First Box';pause 4000;useobject 'Key Ring';autotargetobject 'First Box';pause 2000;endif;if skill 'Lockpicking' > '74.9';useobject 'Lockpicks';autotargetobject 'GM Box';pause 4000;useobject 'Key Ring';autotargetobject 'GM Box';pause 1000;endif;replay;</macro>
+  <macro interrupt="False" loop="False" name="refrsh">togglemounted;pause 1;msg 'All follow me';pause 700;togglemounted;</macro>
+  <macro interrupt="False" loop="False" name="potions">// $$$$$$$$ Cure Heal Pot Chugger $$$$$$$$;// $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$;// ?? By Amonseti;// ?? V2.1;// ???????????????????????????????????????;// ?? This macro only requires that there;// ?? be Cure and / or Heal pots in the;// ?? Main pack or any bag in the main.;// ??;// ?? Macro will first check if you are;// ?? holding a weapon and clear your hands;// ?? to allow for pot chuggins. It will;// ?? then do a check to see if you are;// ?? Poisoned and attempt to cure it.;// ?? with a cure pot. other wise it will;// ?? chug a heal pot.;// ??;// ?? When done the macro will automatically;// ?? re-equip the weapon you were using..;// ??;// ???????????????????????????????????????;// !! Check if holding a weapon !!;if @findlayer 'self' 2;// !! Unequip wep;togglehands 'left';pause 600;//;// !! Check poison state;if poisoned 'self';// !! Player is poisoned: Cure it;if @findtype 0xf07 0 'backpack';@setalias 'Potion' 'found';useobject! 'Potion';else;headmsg 'OUT!!! of Cure potions';endif;else;// !! Not poisoned: Heal wounds;if @findtype 0xf0c 0 'backpack';@setalias 'Potion' 'found';useobject! 'Potion';else;headmsg 'OUT!!! of Heal potions';endif;endif;//;pause 600;// !! Re-Equip Weapon player was holding;togglehands 'left';else;// !! Check poison state;if poisoned 'self';// !! Player is poisoned: Cure it;if @findtype 0xf07 0 'backpack';@setalias 'Potion' 'found';useobject! 'Potion';else;headmsg 'OUT!!! of Cure potions';endif;else;// !! Not poisoned: Heal wounds;if @findtype 0xf0c 0 'backpack';@setalias 'Potion' 'found';useobject! 'Potion';else;headmsg 'OUT!!! of Heal potions';endif;endif;endif;// !! Enjoy !!;</macro>
+ </macros>
+ <autoloot>
+  <enabled>False</enabled>
+  <container>0xffffffff</container>
+  <guards>False</guards>
+ </autoloot>
+ <spellgrid/>
+ <organizer/>
+ <dresslist name="Dress-1">
+  <item layer="2">0x4101b64d</item>
+ </dresslist>
+</profile>

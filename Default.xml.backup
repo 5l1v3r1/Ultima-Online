@@ -1,0 +1,225 @@
+<!DOCTYPE profile>
+<profile>
+ <data name="CommandPrefix">0x0</data>
+ <data name="UseObjectsQueue">True</data>
+ <data name="ShowCorpseNames">True</data>
+ <data name="ShowCreatureNames">False</data>
+ <data name="OpenCorpses">True</data>
+ <data name="OpenCorpsesRange">0x3</data>
+ <data name="ShowMobileHits">True</data>
+ <data name="PositionInTitle">True</data>
+ <data name="ForceResolution">False</data>
+ <data name="GameWindowWidth">0x320</data>
+ <data name="GameWindowHeight">0x258</data>
+ <data name="FilterLight">True</data>
+ <data name="FilterMusic">True</data>
+ <data name="FilterBardsMusic">True</data>
+ <data name="FilterSound">False</data>
+ <data name="FilterWeather">False</data>
+ <data name="FilterSeason">False</data>
+ <data name="FixedSeason">0x0</data>
+ <data name="FilterDeath">False</data>
+ <data name="FilterRepeatedMessages">False</data>
+ <data name="FilterOthersSpeechColor">False</data>
+ <data name="FilterSnoopingMessages">False</data>
+ <data name="FilterTradeWindow">False</data>
+ <data name="FilterRewardGump">False</data>
+ <data name="HandsBeforePotions">True</data>
+ <data name="HandsBeforeCasting">False</data>
+ <data name="SmartTarget">0x3</data>
+ <data name="SmartTargetRange">False</data>
+ <data name="SmartTargetRangeValue">0xc</data>
+ <data name="HighlightCurrentTarget">False</data>
+ <data name="BlockInvalidHeal">False</data>
+ <data name="ActionDelay">0x258</data>
+ <data name="UseObjectsLimit">0x5</data>
+ <data name="TargetShare">0x1</data>
+ <data name="MountSerial">0xbe491</data>
+ <data name="BladeSerial">0xffffffff</data>
+ <data name="BoneCutter">False</data>
+ <data name="AutoMount">False</data>
+ <data name="AutoBandage">True</data>
+ <data name="AutoBandageTarget">0x0</data>
+ <data name="AutoBandageScale">False</data>
+ <data name="AutoBandageCount">True</data>
+ <data name="AutoBandageStart">False</data>
+ <data name="AutoBandageStartValue">0x5f</data>
+ <data name="AutoBandageDelay">0x1d1a</data>
+ <data name="AutoBandageFormula">True</data>
+ <data name="AutoBandageHidden">False</data>
+ <data name="OpenDoors">True</data>
+ <data name="UseDoors">False</data>
+ <data name="SpellsColor">False</data>
+ <data name="SpellsMode">0x2</data>
+ <data name="SpellsTargetShare">0x0</data>
+ <data name="OpenDoorsMode">0x3</data>
+ <data name="OpenCorpsesMode">0x2</data>
+ <data name="ShowMobileFlags">False</data>
+ <data name="StateHighlightMode">0x0</data>
+ <data name="StaticFields">False</data>
+ <data name="CountStealthSteps">True</data>
+ <data name="FriendsListOnly">False</data>
+ <data name="FriendsParty">False</data>
+ <data name="MoveConflictingItems">False</data>
+ <data name="CustomCaption">True</data>
+ <data name="CustomCaptionMode">0x1</data>
+ <data name="CustomCaptionText">UO - $name $statusbar - $hits/$mana/$stam</data>
+ <data name="WarnCounters">True</data>
+ <data name="WarnCountersValue">0x5</data>
+ <data name="HighlightReagents">True</data>
+ <data name="DisplayCountersName">False</data>
+ <data name="CaptionUseNotoHue">True</data>
+ <data name="CaptionUseNotoHue">True</data>
+ <data name="DisplayCountersImage">True</data>
+ <data name="FilterKarmaMessages">False</data>
+ <data name="FilterFameMessages">False</data>
+ <data name="PreventDismount">False</data>
+ <data name="PreventAttackFriends">False</data>
+ <data name="AutoSearchContainers">False</data>
+ <data name="AutoAcceptParty">True</data>
+ <data name="StaticFieldsMode">0x0</data>
+ <friends>
+  <friend name="Mayor">0xb5679</friend>
+ </friends>
+ <counters/>
+ <vendors>
+  <buystate enabled="True" list="Regs"/>
+  <sellstate enabled="False" list=""/>
+  <shoppinglist type="Buy" limit="999" name="Regs" complete="False">
+   <item graphic="0xf84" amount="100"/>
+   <item graphic="0xf7a" amount="100"/>
+   <item graphic="0xf88" amount="100"/>
+   <item graphic="0xf85" amount="100"/>
+   <item graphic="0xf86" amount="100"/>
+   <item graphic="0xf8d" amount="100"/>
+   <item graphic="0xf7b" amount="100"/>
+   <item graphic="0xf8c" amount="100"/>
+  </shoppinglist>
+ </vendors>
+ <scavenger enabled="True">
+  <scavenge color="0x0" graphic="0xeef" enabled="True"/>
+  <scavenge color="0x0" graphic="0xeed" enabled="True"/>
+ </scavenger>
+ <autosearchexemptions/>
+ <objects>
+  <obj name="found">0x2d0bb</obj>
+  <obj name="potion">0x413698ec</obj>
+  <obj name="wep1">0x407f9e05</obj>
+  <obj name="wep2">0x40d93f2e</obj>
+ </objects>
+ <hotkeys>
+  <hotkey pass="True" key="0x20" param="auto attack" action="macro.play"/>
+  <hotkey pass="True" key="0x71" param="dress" action="macro.play"/>
+  <hotkey pass="True" key="0x42" param="gate travel" action="macro.play"/>
+  <hotkey pass="True" key="0xdb" param="cure and heal pot" action="macro.play"/>
+  <hotkey pass="True" key="0x33" param="harm fireball ma" action="macro.play"/>
+  <hotkey pass="True" key="0x51" param="swap weapons" action="macro.play"/>
+  <hotkey pass="True" key="0x57" param="refresh pet" action="macro.play"/>
+  <hotkey pass="True" key="0xc0" param="tailsman" action="macro.play"/>
+  <hotkey pass="True" key="0x56" param="whirlwind" action="macro.play"/>
+  <hotkey pass="True" key="0x247" param="gather gold" action="macro.play"/>
+  <hotkey pass="True" key="0x47" param="grab" action="macro.play"/>
+  <hotkey pass="True" key="0x39" action="hotkeys"/>
+  <hotkey pass="True" key="0x32" action="spells.bigheal.self"/>
+  <hotkey pass="True" key="0x31" action="spells.miniheal.self"/>
+  <hotkey pass="True" key="0x50" action="spells.magery.poison"/>
+  <hotkey pass="True" key="0x37" action="spells.magery.lightning"/>
+  <hotkey pass="True" key="0x49" action="spells.magery.magicreflection"/>
+  <hotkey pass="True" key="0x35" action="spells.magery.energybolt"/>
+  <hotkey pass="True" key="0x34" action="spells.magery.explosion"/>
+  <hotkey pass="True" key="0x48" action="spells.magery.invisibility"/>
+  <hotkey pass="True" key="0x52" action="spells.magery.reveal"/>
+  <hotkey pass="True" key="0x58" action="targeting.target.last"/>
+  <hotkey pass="True" key="0x36" action="spells.magery.flamestrike"/>
+  <hotkey pass="True" key="0x241" action="skills.animallore"/>
+  <hotkey pass="True" key="0x41" action="skills.animaltaming"/>
+  <hotkey pass="True" key="0x53" action="skills.hiding"/>
+  <hotkey pass="True" key="0x45" action="actions.togglemounted"/>
+  <hotkey pass="True" key="0x44" action="spells.magery.recall"/>
+  <hotkey pass="True" key="0x4d" action="skills.meditation"/>
+  <hotkey pass="True" key="0x4" action="agents.vendors.buy.regs"/>
+  <hotkey pass="True" key="0x5a" action="combat.abilities.primary"/>
+  <hotkey pass="True" key="0x43" action="combat.abilities.secondary"/>
+  <hotkey pass="True" key="0x59" action="targeting.target.self"/>
+  <hotkey pass="True" key="0x104" action="spells.chivalry.consecrateweapon"/>
+  <hotkey pass="True" key="0x102" action="spells.chivalry.divinefury"/>
+  <hotkey pass="True" key="0x101" action="spells.chivalry.removecurse"/>
+  <hotkey pass="True" key="0x54" action="spells.chivalryheal.self"/>
+  <hotkey pass="True" key="0x55" action="spells.necromancy.wither"/>
+  <hotkey pass="True" key="0x4a" action="spells.magery.curse"/>
+ </hotkeys>
+ <macros>
+  <macro loop="False" name="auto attack" interrupt="False">@getenemy 'murderer' 'Enemy' 'criminal' 'gray' 'closest';if @findobject 'enemy';// Set the next line to the distance you want to be at for the macro to insist on turning on war mode.;if distance 'enemy' &lt;= 8;warmode 'on';endif;// Set the next line to the distance you want to be at for the macro to insist you needn't be in war mode any longer.;if distance 'enemy' > 12;warmode 'off';endif;autotargetobject! 'enemy';attack! 'enemy';endif;if not @findobject 'enemy';warmode 'off';endif;@clearusequeue;@cancelautotarget;</macro>
+  <macro loop="False" name="dress" interrupt="False">dress 'Dress-1';</macro>
+  <macro loop="False" name="gate travel" interrupt="True">if @findtype 0xf6c 'any' 'ground' 1 2;sysmsg 'Moongate found, lets go!' 80;useobject! 'found';endif;</macro>
+  <macro loop="False" name="cure and heal pot" interrupt="False">// !! Check if holding a weapon !!;if @findlayer 'self' 2;// !! Unequip wep;togglehands 'left';pause 600;//;// !! Check poison state;if poisoned 'self';// !! Player is poisoned: Cure it;if @findtype 0xf07 0 'backpack';@setalias 'Potion' 'found';useobject! 'Potion';else;headmsg 'OUT!!! of Cure potions';endif;else;// !! Not poisoned: Heal wounds;if @findtype 0xf0c 0 'backpack';@setalias 'Potion' 'found';useobject! 'Potion';else;headmsg 'OUT!!! of Heal potions';endif;endif;//;pause 600;// !! Re-Equip Weapon player was holding;togglehands 'left';else;// !! Check poison state;if poisoned 'self';// !! Player is poisoned: Cure it;if @findtype 0xf07 0 'backpack';@setalias 'Potion' 'found';useobject! 'Potion';else;headmsg 'OUT!!! of Cure potions';endif;else;// !! Not poisoned: Heal wounds;if @findtype 0xf0c 0 'backpack';@setalias 'Potion' 'found';useobject! 'Potion';else;headmsg 'OUT!!! of Heal potions';endif;endif;endif;</macro>
+  <macro loop="False" name="lumberjack assistant" interrupt="True">// !! Find and equip any axe in backpack ***;if not listexists 'AxeList';createlist 'AxeList';endif;// !! axe data;@clearlist 'AxeList';@pushlist 'AxeList' 0xf43 //Hatchet;@pushlist 'AxeList' 0xf45 //Executioner's Axe;@pushlist 'AxeList' 0xf4d //Bardiche;@pushlist 'AxeList' 0xf4b //Double Axe;@pushlist 'AxeList' 0x143e //Halberd;@pushlist 'AxeList' 0x13fb //Large Battle Axe;@pushlist 'AxeList' 0x1443 //Two Handed Axe;@pushlist 'AxeList' 0xf47 //Battle Axe;@pushlist 'AxeList' 0xf49 //Axe;//;// !! Equip Axe;for 0 to 'AxeList';if @findtype 'AxeList[]' 'any' 'backpack';unsetalias 'AXE';setalias 'AXE' 'found';endif;endfor;//******************************************;//;// !! Main chopping routine;while weight &lt; 380;clearjournal;if not @findlayer 'self' 2;equipitem 'AXE' 2;pause 600;endif;//;useobject 'LeftHand';waitfortarget 1000;targettileoffset -1 0 0;pause 500;//;//;//****** Wait for it **********************;// !! System hickup insurance loop;for 60;if @injournal 'enough wood here' 'system';break;elseif @injournal 'You chop' 'system';break;elseif @injournal "fail to" "system";break;elseif @injournal "You can't" "system";break;elseif @injournal "You can" "system";break;elseif not @findlayer 'self' 2;break;else;pause 100;endif;endfor;//;//******************************************;//;//*** Display proper feedback;if @injournal "You can't" "system";pause 500;endif;if @injournal 'enough wood here' 'system';headmsg 'NO MORE WOOD' '2124';headmsg 'go to next tree' '2124';msg '[e whistle';pause 2000;endif;if @injournal 'some ordinary' 'system';headmsg '--Ordinary wood--' '1150';clearjournal;endif;if @injournal 'some oak' 'system';headmsg '--OAK--' '2010';clearjournal;endif;if @injournal 'some ash' 'system';headmsg '--ASH--' '1191';clearjournal;endif;if @injournal 'some yew' 'system';headmsg '--YEW--' '1192';msg '[e ah';clearjournal;endif;if @injournal 'some heartwood' 'system';headmsg '>!!!--HEARTWOOD--!!!&lt;' '1193';msg '[e yea';clearjournal;endif;if @injournal 'some bloodwood' 'system';headmsg '>!!!--BLOODWOOD--!!!&lt;' '1194';msg '[e woohoo';clearjournal;endif;if @injournal 'some frostwood' 'system';headmsg '>!!!--FROSTWOOD--!!!&lt;' '1151';msg '[e woohoo';clearjournal;endif;//******************************************;//;//;endwhile;headmsg 'Over Weight Fatty !' '89';headmsg 'go home and unload!' '89';</macro>
+  <macro loop="False" name="beetle mining" interrupt="False">if not @findalias 'Beetle';promptalias 'Beetle';endif;if counttype 0x19b9 'any' 'backpack' &lt; 188;movetype 0x19b9 'backpack' 'Beetle';endif;if not listexists 'miningerrormessages';createlist 'miningerrormessages';pushlist 'miningerrormessages' 'no metal here';pushlist 'miningerrormessages' "You can't mine there";pushlist 'miningerrormessages' "Target cannot be seen";pushlist 'miningerrormessages' "You can't mine that";endif;if @findtype 0xe86 'any' 'backpack' or @findtype 0xf39 'any' 'backpack';useobject 'found';else;sysmsg "You do not have any digging tools!";stop;endif;waitfortarget 500;if direction == 0;targettileoffset 0 -1 0;elseif direction == 1;targettileoffset 1 -1 0;elseif direction == 2;targettileoffset 1 0 0;elseif direction == 3;targettileoffset 1 1 0;elseif direction == 4;targettileoffset 0 1 0;elseif direction == 5;targettileoffset -1 1 0;elseif direction == 6;targettileoffset -1 0 0;elseif direction == 7;targettileoffset -1 -1 0;endif;pause 200;if @findtype 0xe86 'any' 'backpack' or @findtype 0xf39 'any' 'backpack';useobject 'found';else;sysmsg "You do not have any digging tools!";stop;endif;waitfortarget 500;if direction == 1;targettileoffset 0 -1 0;elseif direction == 2;targettileoffset 1 -1 0;elseif direction == 3;targettileoffset 1 0 0;elseif direction == 4;targettileoffset 1 1 0;elseif direction == 5;targettileoffset 0 1 0;elseif direction == 6;targettileoffset -1 1 0;elseif direction == 7;targettileoffset -1 0 0;elseif direction == 0;targettileoffset -1 -1 0;endif;pause 200;if @findtype 0xe86 'any' 'backpack' or @findtype 0xf39 'any' 'backpack';useobject 'found';else;sysmsg "You do not have any digging tools!";stop;endif;waitfortarget 500;if direction == 7;targettileoffset 0 -1 0;elseif direction == 0;targettileoffset 1 -1 0;elseif direction == 1;targettileoffset 1 0 0;elseif direction == 2;targettileoffset 1 1 0;elseif direction == 3;targettileoffset 0 1 0;elseif direction == 4;targettileoffset -1 1 0;elseif direction == 5;targettileoffset -1 0 0;elseif direction == 6;targettileoffset -1 -1 0;endif;pause 10;</macro>
+  <macro loop="False" name="fishing assistant" interrupt="False">usetype 0xdbf;waitfortarget 15000;targettile 5210 787 -5;pause 1000;usetype 0xf52;waitingfortarget 15000;targettype 0x9cc;pause 1000;usetype 0xf52;waitingfortarget 15000;targettype 0x9cc;pause 1000;usetype 0xf52;waitingfortarget 15000;targettype 0x9cf;pause 1000;usetype 0xf52;waitingfortarget 15000;targettype 0x9ce;pause 1000;usetype 0xf52;waitingfortarget 15000;targettype 0x9cd;pause 1000;usetype 0xf52;waitingfortarget 15000;targettype 0x170d;pause 1000;msg '[organizeme';canceltarget;</macro>
+  <macro loop="False" name="animal taming" interrupt="True">// Configure skill limit      ▼;if skill! 'animal taming' >= 100;setskill 'animal taming' 'locked';stop;endif;@createlist 'pets';@clearlist 'pets';if skill 'animal taming' &lt; 60;// Eagle;pushlist 'pets' 0x5;// Goat;pushlist 'pets' 0xd1;// Pig;pushlist 'pets' 0xcb;pushlist 'pets' 0x122;// Hind;pushlist 'pets' 0xed;// Timber wolf;pushlist 'pets' 0xe1;// Llama;pushlist 'pets' 0xdc;// Horse;pushlist 'pets' 0xcc;pushlist 'pets' 0xe2;pushlist 'pets' 0xe4;pushlist 'pets' 0xc8;pushlist 'pets' 0x3e9f;pushlist 'pets' 0x3ea0;pushlist 'pets' 0x3ea1;pushlist 'pets' 0x3ea2;// Cow;pushlist 'pets' 0xe7;pushlist 'pets' 0xd8;// Bear;pushlist 'pets' 0xa7;pushlist 'pets' 0xd3;// Cougar;pushlist 'pets' 0x3f;elseif skill 'animal taming' &lt; 75;// Grizzly Bear;pushlist 'pets' 0xd4;// Grey Wolf;pushlist 'pets' 0x1b;pushlist 'pets' 0x19;// Snow Leopard;pushlist 'pets' 0x41;pushlist 'pets' 0x40;// Walrus;pushlist 'pets' 0xdd;// Polar Bear;pushlist 'pets' 0xd5;// Great Hart;pushlist 'pets' 0xea;elseif skill 'animal taming' &lt; 95.1;// Gaman;pushlist 'pets' 0xf8;// Bull;pushlist 'pets' 0xe8;pushlist 'pets' 0xe9;// Great Hart;pushlist 'pets' 0xea;// White Wolf;pushlist 'pets' 0x25;pushlist 'pets' 0x22;// Snow Leopard;pushlist 'pets' 0x41;pushlist 'pets' 0x40;else;// Bull;pushlist 'pets' 0xe8;pushlist 'pets' 0xe9;// Unicorn;pushlist 'pets' 0x7a;// Ki-rin;pushlist 'pets' 0x84;endif;if not listexists 'errors';createlist 'errors';pushlist 'errors' 'too many owners';pushlist 'errors' 'only be tamed by';pushlist 'errors' 'no chance of taming';pushlist 'errors' 'looks tame already';//pushlist 'errors' 'clear path to the animal';pushlist 'errors' 'cannot be seen';endif;@createlist 'unstuck';if list 'unstuck' == 0;pushlist 'unstuck' 'east';pushlist 'unstuck' 'west';pushlist 'unstuck' 'south';pushlist 'unstuck' 'north';endif;// Search;if not @findobject 'pet';for 0 to 'pets';if @findtype 'pets[]' 'any' 'ground';@settimer 'stuck' 0;@setalias 'pet' 'found';break;endif;endfor;else;// Pathfind;@settimer 'pathfind' 0;while @findobject 'pet' and not @inrange 'pet' 2;if dead;break;elseif @timer 'pathfind' >= 5000;// Diverge;if direction == 0;@poplist 'unstuck' 'north';elseif direction == 2;@poplist 'unstuck' 'east';elseif direction == 4;@poplist 'unstuck' 'south';elseif direction == 6;@poplist 'unstuck' 'west';endif;// Unstuck;if list 'unstuck' != 0;for 5;run 'unstuck[0]';pause 100;endfor;poplist 'unstuck' 'front';endif;break;elseif @x 'pet' > x 'self' and @y 'pet' > y 'self';run 'southeast';elseif @x 'pet' &lt; x 'self' and @y 'pet' > y 'self';run 'southwest';elseif @x 'pet' > x 'self' and @y 'pet' &lt; y 'self';run 'northeast';elseif @x 'pet' &lt; x 'self' and @y 'pet' &lt; y 'self';run 'northwest';elseif @x 'pet' > x 'self' and @y 'pet' == y 'self';run 'east';elseif @x 'pet' &lt; x 'self' and @y 'pet' == y 'self';run 'west';elseif @x 'pet' == x 'self' and @y 'pet' > y 'self';run 'south';elseif @x 'pet' == x 'self' and @y 'pet' &lt; y 'self';run 'north';endif;pause 100;endwhile;if @inrange 'pet' 2;// Tame;clearjournal;useskill 'animal taming';waitfortarget 1000;target! 'pet';// Handle;if @property '(tame)' 'pet';for 5;if @gumpexists 0x909cc741 or not @findobject 'pet';break;elseif dead or followers == 0;break;elseif @name 'pet' != 'trashpet';rename 'pet' 'trashpet';else;msg 'trashpet release';endif;pause 500;endfor;replygump 0x909cc741 2;sysmsg 'Success: tamed and released!' 88;ignoreobject 'pet';@unsetalias 'pet';else;@settimer 'stuck' 0;for 0 to 'errors';if @injournal 'errors[]';sysmsg 'Ignore: error message!' 25;ignoreobject 'pet';@unsetalias 'pet';break;endif;endfor;endif;elseif @timer 'stuck' >= 20000;sysmsg 'Ignore: stuck timeout!' 25;ignoreobject 'pet';@unsetalias 'pet';endif;endif;</macro>
+  <macro loop="False" name="crossheal" interrupt="True">// Description: seek low hp friend, miniheal, disrupt paralyze and invisibility if mortaled;@unsetalias 'target';for 15;@getfriend 'humanoid' 'transformation' 'friend';if not @findobject 'friend';break;elseif @inrange 'friend' 10 and not dead 'friend';if criminal 'friend' or murderer 'friend';if @inregion 'guards' 'friend';continue;endif;endif;if not @findobject 'target' or hits 'target' > hits 'friend';@setalias 'target' 'friend';endif;endif;endfor;@setalias 'friend' 'target';// Help;if @findobject 'friend' and not dead 'friend';if targetexists 'beneficial';target! 'friend';endif;if paralyzed 'friend';cast 'clumsy' 'friend';elseif yellowhits 'friend';cast 'invisibility' 'friend';else;miniheal 'friend';endif;while waitingfortarget;if criminal 'friend' or murderer 'friend';if @inregion 'guards' 'friend';sysmsg 'Target cancelled, guards zone!' 55;cancelautotarget;break;endif;endif;endwhile;else;headmsg '* No friend *' 25;endif;</macro>
+  <macro loop="False" name="harm fireball ma" interrupt="False">@canceltarget;while  @findobject! 'enemy' 'any' 'ground' 'any' 9;if distance 'enemy' &lt;= 1;cast 'harm';waitfortarget 600;target! 'found';break;endif;canceltarget;if  @findobject! 'enemy' 'any' 'ground' 'any' 9;if not @buffexists 'protection';cast! 'magic arrow';waitfortarget 500;target! 'found';endif;cast! 'fireball';waitfortarget 1300;target! 'found';break;endif;endwhile;</macro>
+  <macro loop="True" name="hiding trainer" interrupt="False">if skill 'Hiding' &lt; 100;useskill 'Hiding';pause 12000;else;if skill 'Hiding' = 100;msg 'Reached Max skill for hiding!' 'red';endif;endif;</macro>
+  <macro loop="False" name="swap weapons" interrupt="False">if not @findobject 'Wep1' and not @inrange 'Wep1' 2;promptalias 'Wep1';endif;if not @findobject 'Wep2' and not @inrange 'Wep2' 2;promptalias 'Wep2';endif;if not listexists 'swapweapons';createlist 'swapweapons';endif;if list 'swapweapons' &lt; 1;pushlist 'swapweapons' 'Wep1';pushlist 'swapweapons' 'Wep2';endif;if findobject 'lefthand';clearhands 'both';pause 500;endif;equipitem swapweapons[0] 1;sysmsg 'swapweapons' 33;sysmsg swapweapons[] 33;poplist 'swapweapons' 'front';</macro>
+  <macro loop="False" name="Drink Potion" interrupt="True">//;//It checks to see if you have something equipped in your left;//hand (like a 2-handed weapon) and if you do, it un-equips;//it, uses a potion (cure in this example), then requips. else;//if you don't have anything in your left hand then it just;//uses the potion.;//;if @findlayer 'self' 2;togglehands 'left';pause 600;usetype! 0xf07;pause 600;togglehands 'left';else;usetype! 0xf07;endif;</macro>
+  <macro loop="False" name="tame animals" interrupt="True">//TamerHelpervUOF By Vlek, Grunt of the Bloodclan (Bloodclan.org);//Get close to your target, press your associated key.;//CAUTION: Must watch this script. It's not as intelligent as the regular one.;if not listexists 'NameTheTamed';//Set this name to whatever you want.;createlist 'NameTheTamed';pushlist 'NameTheTamed' 'petname';endif;if not listexists 'tameables';createlist 'tameables';pushlist 'tameables' 0x7t //Hellcat (Large);pushlist 'tameables' 0x62 //Hellhound;pushlist 'tameables' 0xbc //Savage Ridgeback;pushlist 'tameables' 0xbb //Ridgeback;pushlist 'tameables' 0x17 //Dire Wolf;pushlist 'tameables' 0xce //Lava Lizard;pushlist 'tameables' 0x14 //Frost spider;pushlist 'tameables' 0xc9 //Hellcat (Small);pushlist 'tameables' 0xda //Frenzied Ostard;pushlist 'tameables' 0x50 //Giant Toad;pushlist 'tameables' 0xe8 //Bull;pushlist 'tameables' 0xe9 //Bull2;pushlist 'tameables' 0x22 //White Wolf;pushlist 'tameables' 0x25 //White Wolf2;pushlist 'tameables' 0x1c //Giant Spider;pushlist 'tameables' 0xd4 //Grizzly Bear;pushlist 'tameables' 0xea //Great Hart;pushlist 'tameables' 0x41 //Snow leopard;pushlist 'tameables' 0x40 //Snow leopard;pushlist 'tameables' 0x19 //Gray wolf;pushlist 'tameables' 0x1b //Gray wolf2;pushlist 'tameables' 0x30 //Scorpion;pushlist 'tameables' 0xca //Alligator;pushlist 'tameables' 0x3f //Cougar;pushlist 'tameables' 0xd6 //Panther;pushlist 'tameables' 0xa7 //Brown Bear;pushlist 'tameables' 0xdd //Walrus;pushlist 'tameables' 0xd5 //Polar Bear;pushlist 'tameables' 0xd3 //Black Bear;pushlist 'tameables' 0xdc //Llama;pushlist 'tameables' 0x124 //Pack Llama;pushlist 'tameables' 0x123 //Pack Horse;pushlist 'tameables' 0xc8 //Horse;pushlist 'tameables' 0xe2 //Horse2;pushlist 'tameables' 0xcc //Horse3;pushlist 'tameables' 0xed //Giant Rat;pushlist 'tameables' 0xdb //Forest Ostard;pushlist 'tameables' 0xd2 //Desert Ostard;pushlist 'tameables' 0x122 //Boar;pushlist 'tameables' 0xe1 //Timber Wolf;pushlist 'tameables' 0xed //Hind;pushlist 'tameables' 0x51 //Bullfrog;endif;if not @inrange 'tobetamed' 2;@unsetalias 'tobetamed';for 0 in 'tameables';if @findtype tameables[] 'any' 'ground' 1 2;@setalias 'tobetamed' 'found';break;endif;endfor;endif;if not @inrange 'tobetamed' 2;headmsg 'No new creatures near you!';replay;endif;clearjournal;while name 'tobetamed' != NameTheTamed[0];autotargetobject 'tobetamed';useskill 'animal taming';pause 6000;@rename 'tobetamed' NameTheTamed[0];pause 1000;if not @inrange 'tobetamed' 1;if @x 'tobetamed' > x 'self' and @y 'tobetamed' > y 'self';walk 'Southeast';elseif @x 'tobetamed' &lt; x 'self' and @y 'tobetamed' > y 'self';walk 'Southwest';elseif @x 'tobetamed' > x 'self' and @y 'tobetamed' &lt; y 'self';walk 'Northeast';elseif @x 'tobetamed' &lt; x 'self' and @y 'tobetamed' &lt; y 'self';walk 'Northwest';elseif @x 'tobetamed' > x 'self' and @y 'tobetamed' == y 'self';walk 'East';elseif @x 'tobetamed' &lt; x 'self' and @y 'tobetamed' == y 'self';walk 'West';elseif @x 'tobetamed' == x 'self' and @y 'tobetamed' > y 'self';walk 'South';elseif @x 'tobetamed' == x 'self' and @y 'tobetamed' &lt; y 'self';walk 'North';endif;endif;endwhile;waitforcontext 'tobetamed' 8 20000;waitforgump 0x909cc741 15000;@replygump 0x909cc741 2;@ignoreobject 'tobetamed';@unsetalias 'tobetamed';replay;</macro>
+  <macro loop="False" name="all kill" interrupt="False">msg 'all kill';</macro>
+  <macro loop="False" name="all follow me" interrupt="True">msg 'all follow me';</macro>
+  <macro loop="False" name="refresh pet" interrupt="True">useobject 0xea959;pause 1;msg 'all follow me';pause 749;useobject 0xbe491;</macro>
+  <macro loop="False" name="tailsman" interrupt="True">useobject 0x410e4822;</macro>
+  <macro loop="True" name="whirlwind" interrupt="True">setability 'secondary' 'on';getenemy 'closest' 'nearest' 'murderer' 'enemy' 'criminal' 'gray';pause 300;attack 'enemy';</macro>
+  <macro loop="False" name="gather gold" interrupt="True">clearignorelist;while @findtype 0xeed 'any' 'ground';useobject! 'found';ignoreobject 'found';endwhile;</macro>
+  <macro loop="False" name="grab" interrupt="True">msg '[grab';</macro>
+  <macro loop="False" name="attack script v1" interrupt="True">if mana > 50;cast "Consecrate Weapon";elseif mana &lt; 50;endif;@setability 'primary' 'on';getenemy 'murderer' 'enemy' 'criminal' 'grey' 'closest';@target 'enemy';@attack 'enemy';canceltarget;pause 1500;if stam &lt; 100;cast "Divine Fury";elseif stam >= maxstam;endif;</macro>
+ </macros>
+ <autoloot>
+  <enabled>True</enabled>
+  <container>0x408e1833</container>
+  <guards>True</guards>
+ </autoloot>
+ <spellgrid/>
+ <organizer>
+  <group target="0x41125874" stack="False" loop="False" name="regs to bank" source="0x41a41be6" complete="True">
+   <item graphic="0xf8c" amount="0x0"/>
+   <item graphic="0xf84" amount="0x0"/>
+   <item graphic="0xf86" amount="0x0"/>
+   <item graphic="0xf7b" amount="0x0"/>
+   <item graphic="0xf85" amount="0x0"/>
+   <item graphic="0xf8d" amount="0x0"/>
+   <item graphic="0xf88" amount="0x0"/>
+   <item graphic="0xf7a" amount="0x0"/>
+  </group>
+ </organizer>
+ <dresslist name="Dress-1">
+  <item layer="4">0x4578d7c9</item>
+  <item layer="1">0x4578d7c6</item>
+  <item layer="22">0x4578d7bc</item>
+  <item layer="17">0x4578d7c8</item>
+  <item layer="13">0x4578d7c1</item>
+  <item layer="3">0x4578d7ca</item>
+ </dresslist>
+ <dresslist name="Dress-2">
+  <item layer="1">0x4020d07f</item>
+ </dresslist>
+ <dresslist name="Dress-3">
+  <item layer="2">0x402227d8</item>
+ </dresslist>
+ <dresslist name="Dress-4">
+  <item layer="8">0x425c08ee</item>
+  <item layer="14">0x40f571da</item>
+  <item layer="6">0x41f34431</item>
+  <item layer="19">0x440c59a8</item>
+  <item layer="7">0x44009d38</item>
+  <item layer="10">0x40a37bcd</item>
+  <item layer="4">0x475056a2</item>
+  <item layer="9">0x41b824c0</item>
+  <item layer="22">0x4367a7ec</item>
+  <item layer="23">0x406ff2b9</item>
+  <item layer="17">0x4399b2b3</item>
+  <item layer="13">0x4205590a</item>
+  <item layer="3">0x428371b4</item>
+  <item layer="12">0x43c42cf0</item>
+  <item layer="20">0x4074aa17</item>
+  <item layer="18">0x41ff06fc</item>
+ </dresslist>
+</profile>

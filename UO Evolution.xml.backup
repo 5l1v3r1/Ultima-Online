@@ -1,0 +1,608 @@
+<!DOCTYPE profile>
+<profile>
+ <data name="CommandPrefix">0x0</data>
+ <data name="UseObjectsQueue">True</data>
+ <data name="ShowCorpseNames">False</data>
+ <data name="ShowCreatureNames">False</data>
+ <data name="OpenCorpses">True</data>
+ <data name="OpenCorpsesRange">0x2</data>
+ <data name="ShowMobileHits">False</data>
+ <data name="PositionInTitle">True</data>
+ <data name="ForceResolution">False</data>
+ <data name="GameWindowWidth">0x320</data>
+ <data name="GameWindowHeight">0x258</data>
+ <data name="FilterLight">True</data>
+ <data name="FilterMusic">True</data>
+ <data name="FilterBardsMusic">False</data>
+ <data name="FilterSound">False</data>
+ <data name="FilterWeather">False</data>
+ <data name="FilterSeason">False</data>
+ <data name="FixedSeason">0x0</data>
+ <data name="FilterDeath">False</data>
+ <data name="FilterRepeatedMessages">False</data>
+ <data name="FilterOthersSpeechColor">False</data>
+ <data name="FilterSnoopingMessages">False</data>
+ <data name="FilterTradeWindow">False</data>
+ <data name="FilterRewardGump">False</data>
+ <data name="HandsBeforePotions">False</data>
+ <data name="HandsBeforeCasting">False</data>
+ <data name="SmartTarget">0x3</data>
+ <data name="SmartTargetRange">True</data>
+ <data name="SmartTargetRangeValue">0xc</data>
+ <data name="HighlightCurrentTarget">False</data>
+ <data name="BlockInvalidHeal">True</data>
+ <data name="ActionDelay">0x258</data>
+ <data name="UseObjectsLimit">0x5</data>
+ <data name="TargetShare">0x0</data>
+ <data name="MountSerial">0xbe491</data>
+ <data name="BladeSerial">0xffffffff</data>
+ <data name="BoneCutter">False</data>
+ <data name="AutoMount">False</data>
+ <data name="AutoBandage">False</data>
+ <data name="AutoBandageTarget">0x0</data>
+ <data name="AutoBandageScale">False</data>
+ <data name="AutoBandageCount">True</data>
+ <data name="AutoBandageStart">True</data>
+ <data name="AutoBandageStartValue">0x64</data>
+ <data name="AutoBandageDelay">0x1b5d</data>
+ <data name="AutoBandageFormula">True</data>
+ <data name="AutoBandageHidden">False</data>
+ <data name="OpenDoors">True</data>
+ <data name="UseDoors">False</data>
+ <data name="SpellsColor">False</data>
+ <data name="SpellsMode">0x2</data>
+ <data name="SpellsTargetShare">0x0</data>
+ <data name="OpenDoorsMode">0x3</data>
+ <data name="OpenCorpsesMode">0x3</data>
+ <data name="ShowMobileFlags">False</data>
+ <data name="StateHighlightMode">0x3</data>
+ <data name="StaticFields">False</data>
+ <data name="CountStealthSteps">True</data>
+ <data name="FriendsListOnly">True</data>
+ <data name="FriendsParty">True</data>
+ <data name="MoveConflictingItems">False</data>
+ <data name="CustomCaption">True</data>
+ <data name="CustomCaptionMode">0x1</data>
+ <data name="CustomCaptionText">UO - $name $statusbar - $hits/$mana/$stam</data>
+ <data name="WarnCounters">True</data>
+ <data name="WarnCountersValue">0x5</data>
+ <data name="HighlightReagents">True</data>
+ <data name="DisplayCountersName">False</data>
+ <data name="CaptionUseNotoHue">True</data>
+ <data name="CaptionUseNotoHue">True</data>
+ <data name="DisplayCountersImage">True</data>
+ <data name="FilterKarmaMessages">False</data>
+ <data name="FilterFameMessages">False</data>
+ <data name="PreventDismount">False</data>
+ <data name="PreventAttackFriends">True</data>
+ <data name="AutoSearchContainers">False</data>
+ <data name="AutoAcceptParty">True</data>
+ <data name="StaticFieldsMode">0x0</data>
+ <friends>
+  <friend name="Lush">0x41ad29</friend>
+  <friend name="Alexis Bloodlust">0xd1e92</friend>
+  <friend name="pharoh">0xb89df</friend>
+  <friend name="Mariner">0xf1e49</friend>
+  <friend name="Draximus">0x1af078</friend>
+  <friend name="Tabatha Blaze">0xda8ea</friend>
+  <friend name="katiusha">0x33207a</friend>
+  <friend name="a nightmare">0x16e8d7</friend>
+  <friend name="Luna Glow">0xa2a21</friend>
+  <friend name="Eclipse">0x1437aa</friend>
+  <friend name="Silent Echo">0x6e5c2</friend>
+  <friend name="Mayor">0xb5679</friend>
+  <friend name="Al Bundy">0x3d21d0</friend>
+ </friends>
+ <counters/>
+ <scavenger enabled="True">
+  <scavenge color="0x0" enabled="True" graphic="0xeef"/>
+  <scavenge color="0x0" enabled="True" graphic="0xeed"/>
+  <scavenge color="0x47e" enabled="True" graphic="0x14f0"/>
+  <scavenge color="0x481" enabled="True" graphic="0x14f0"/>
+  <scavenge color="0x45" enabled="True" graphic="0xeef"/>
+ </scavenger>
+ <vendors>
+  <buystate enabled="False" list=""/>
+  <sellstate enabled="True" list="gems"/>
+  <shoppinglist name="Regs" limit="999" complete="False" type="Buy">
+   <item graphic="0xf84" amount="100"/>
+   <item graphic="0xf7a" amount="100"/>
+   <item graphic="0xf88" amount="100"/>
+   <item graphic="0xf85" amount="100"/>
+   <item graphic="0xf86" amount="100"/>
+   <item graphic="0xf8d" amount="100"/>
+   <item graphic="0xf7b" amount="100"/>
+   <item graphic="0xf8c" amount="100"/>
+  </shoppinglist>
+  <shoppinglist name="gems" limit="999" complete="False" type="Sell">
+   <item graphic="0xf13" amount="999"/>
+   <item graphic="0xf26" amount="999"/>
+   <item graphic="0xf10" amount="999"/>
+   <item graphic="0xf25" amount="999"/>
+   <item graphic="0xf15" amount="999"/>
+   <item graphic="0xf19" amount="999"/>
+   <item graphic="0xf16" amount="999"/>
+   <item graphic="0xf21" amount="999"/>
+   <item graphic="0xf2d" amount="999"/>
+  </shoppinglist>
+ </vendors>
+ <autosearchexemptions/>
+ <objects>
+  <obj name="0">0x47c77151</obj>
+  <obj name="2hand">0x429ddc2c</obj>
+  <obj name="anat">0x9c4f6</obj>
+  <obj name="bow">0x40d93f2e</obj>
+  <obj name="buddy">0xda8ea</obj>
+  <obj name="found">0x9c4f6</obj>
+  <obj name="foundfield">0x411105f4</obj>
+  <obj name="ringbag">0x4136e971</obj>
+  <obj name="sheild">0x418122ad</obj>
+  <obj name="skills">0x47c77147</obj>
+  <obj name="target">0x1af078</obj>
+  <obj name="weapon">0x4287243b</obj>
+  <obj name="wep1">0x40d93f2e</obj>
+  <obj name="wep2">0x429ddc2c</obj>
+ </objects>
+ <hotkeys>
+  <hotkey action="macro.play" param="auto attack" pass="True" key="0x20"/>
+  <hotkey action="macro.play" param="gate travel" pass="True" key="0x42"/>
+  <hotkey action="macro.play" param="crossheal" pass="True" key="0x254"/>
+  <hotkey action="macro.play" param="harm fireball ma" pass="True" key="0x33"/>
+  <hotkey action="macro.play" param="swap weapons" pass="True" key="0x51"/>
+  <hotkey action="macro.play" param="gather gold" pass="True" key="0x247"/>
+  <hotkey action="macro.play" param="grab" pass="True" key="0x47"/>
+  <hotkey action="macro.play" param="remove curse" pass="True" key="0xbe"/>
+  <hotkey action="macro.play" param="jewelry" pass="True" key="0x46"/>
+  <hotkey action="macro.play" param="jewlery only" pass="True" key="0x246"/>
+  <hotkey action="macro.play" param="bandage self" pass="True" key="0x4e"/>
+  <hotkey action="macro.play" param="debuff" pass="True" key="0x30"/>
+  <hotkey action="macro.play" param="eoo" pass="True" key="0x45"/>
+  <hotkey action="macro.play" param="mining" pass="True" key="0x24d"/>
+  <hotkey action="macro.play" param="septor" pass="True" key="0x24e"/>
+  <hotkey action="macro.play" param="tele hide" pass="True" key="0x54"/>
+  <hotkey action="macro.play" param="honorslef" pass="True" key="0x248"/>
+  <hotkey action="macro.play" param="heal pet" pass="True" key="0x4b"/>
+  <hotkey action="macro.play" param="dispel field" pass="True" key="0xbc"/>
+  <hotkey action="macro.play" param="wep and shield eq" pass="True" key="0x57"/>
+  <hotkey action="macro.play" param="fire tails" pass="True" key="0x2c0"/>
+  <hotkey action="macro.play" param="potions" pass="True" key="0xdb"/>
+  <hotkey action="macro.play" param="triple slash" pass="True" key="0x56"/>
+  <hotkey action="macro.play" param="snoop enemy" pass="True" key="0x41"/>
+  <hotkey action="hotkeys" pass="True" key="0x39"/>
+  <hotkey action="spells.magery.poison" pass="True" key="0x50"/>
+  <hotkey action="spells.magery.lightning" pass="True" key="0x37"/>
+  <hotkey action="spells.magery.energybolt" pass="True" key="0x35"/>
+  <hotkey action="spells.magery.explosion" pass="True" key="0x34"/>
+  <hotkey action="spells.magery.invisibility" pass="True" key="0x48"/>
+  <hotkey action="spells.magery.reveal" pass="True" key="0x52"/>
+  <hotkey action="spells.magery.flamestrike" pass="True" key="0x36"/>
+  <hotkey action="skills.hiding" pass="True" key="0x53"/>
+  <hotkey action="spells.magery.recall" pass="True" key="0x44"/>
+  <hotkey action="combat.abilities.primary" pass="True" key="0x5a"/>
+  <hotkey action="combat.abilities.secondary" pass="True" key="0x43"/>
+  <hotkey action="skills.stealing" pass="True" key="0x241"/>
+  <hotkey action="spells.magery.mark" pass="True" key="0x252"/>
+  <hotkey action="spells.chivalry.divinefury" pass="True" key="0x102"/>
+  <hotkey action="spells.magery.bless" pass="True" key="0x49"/>
+  <hotkey action="targeting.target.self" pass="True" key="0x59"/>
+  <hotkey action="targeting.target.last" pass="True" key="0x58"/>
+  <hotkey action="spells.spellweaving.immolatingweapon" pass="True" key="0x101"/>
+  <hotkey action="spells.spellweaving.attunement" pass="True" key="0x103"/>
+  <hotkey action="targeting.set.enemy" pass="True" key="0x4"/>
+  <hotkey action="spells.chivalry.consecrateweapon" pass="True" key="0x104"/>
+  <hotkey action="combat.consume.potions.explosion" pass="True" key="0xc0"/>
+  <hotkey action="spells.miniheal.self" pass="True" key="0x31"/>
+  <hotkey action="spells.bigheal.self" pass="True" key="0x32"/>
+  <hotkey action="main.snapshot" pass="True" key="0xbd"/>
+  <hotkey action="spells.bushido.counterattack" pass="False" key="0x4a"/>
+  <hotkey action="spells.necromancy.corpseskin" pass="True" key="0x250"/>
+  <hotkey action="actions.grabitem" pass="True" key="0x85a"/>
+  <hotkey action="skills.meditation" pass="True" key="0x4d"/>
+  <hotkey action="spells.magery.mindblast" pass="True" key="0x38"/>
+  <hotkey action="spells.necromancy.curseweapon" pass="True" key="0xbf"/>
+  <hotkey action="spells.magery.paralyze" pass="True" key="0x4f"/>
+  <hotkey action="spells.spellweaving.wildfire" pass="True" key="0x71"/>
+  <hotkey action="spells.spellweaving.giftoflife" pass="True" key="0x72"/>
+  <hotkey action="spells.necromancy.wither" pass="True" key="0x55"/>
+  <hotkey action="mapuo" pass="True" key="0x84d"/>
+ </hotkeys>
+ <macros>
+  <macro name="auto attack" interrupt="False" loop="False">@getenemy 'murderer' 'Enemy' 'criminal' 'gray' 'closest';if @findobject 'enemy';// Set the next line to the distance you want to be at for the macro to insist on turning on war mode.;if distance 'enemy' &lt;= 8;warmode 'on';endif;// Set the next line to the distance you want to be at for the macro to insist you needn't be in war mode any longer.;if distance 'enemy' > 12;warmode 'off';endif;autotargetobject! 'enemy';attack! 'enemy';endif;if not @findobject 'enemy';warmode 'off';endif;@clearusequeue;@cancelautotarget;</macro>
+  <macro name="dress" interrupt="False" loop="False">dress 'Dress-1';</macro>
+  <macro name="gate travel" interrupt="True" loop="False">if @findtype 0xf6c 'any' 'ground' 1 2 or @findtype 0xdda 'any' 'ground' 1 2;sysmsg 'Moongate found, lets go!' 80;useobject! 'found';endif;</macro>
+  <macro name="cure and heal pot" interrupt="False" loop="False">// !! Check if holding a weapon !!;if @findlayer 'self' 2;// !! Unequip wep;togglehands 'left';pause 600;//;// !! Check poison state;if poisoned 'self';// !! Player is poisoned: Cure it;if @findtype 0xf07 0 'backpack';@setalias 'Potion' 'found';useobject! 'Potion';else;headmsg 'OUT!!! of Cure potions';endif;else;// !! Not poisoned: Heal wounds;if @findtype 0xf0c 0 'backpack';@setalias 'Potion' 'found';useobject! 'Potion';else;headmsg 'OUT!!! of Heal potions';endif;endif;//;pause 600;// !! Re-Equip Weapon player was holding;togglehands 'left';else;// !! Check poison state;if poisoned 'self';// !! Player is poisoned: Cure it;if @findtype 0xf07 0 'backpack';@setalias 'Potion' 'found';useobject! 'Potion';else;headmsg 'OUT!!! of Cure potions';endif;else;// !! Not poisoned: Heal wounds;if @findtype 0xf0c 0 'backpack';@setalias 'Potion' 'found';useobject! 'Potion';else;headmsg 'OUT!!! of Heal potions';endif;endif;endif;</macro>
+  <macro name="lumberjack assistant" interrupt="True" loop="False">// !! Find and equip any axe in backpack ***;if not listexists 'AxeList';createlist 'AxeList';endif;// !! axe data;@clearlist 'AxeList';@pushlist 'AxeList' 0xf43 //Hatchet;@pushlist 'AxeList' 0xf45 //Executioner's Axe;@pushlist 'AxeList' 0xf4d //Bardiche;@pushlist 'AxeList' 0xf4b //Double Axe;@pushlist 'AxeList' 0x143e //Halberd;@pushlist 'AxeList' 0x13fb //Large Battle Axe;@pushlist 'AxeList' 0x1443 //Two Handed Axe;@pushlist 'AxeList' 0xf47 //Battle Axe;@pushlist 'AxeList' 0xf49 //Axe;//;// !! Equip Axe;for 0 to 'AxeList';if @findtype 'AxeList[]' 'any' 'backpack';unsetalias 'AXE';setalias 'AXE' 'found';endif;endfor;//******************************************;//;// !! Main chopping routine;while weight &lt; 380;clearjournal;if not @findlayer 'self' 2;equipitem 'AXE' 2;pause 600;endif;//;useobject 'LeftHand';waitfortarget 1000;targettileoffset -1 0 0;pause 500;//;//;//****** Wait for it **********************;// !! System hickup insurance loop;for 60;if @injournal 'enough wood here' 'system';break;elseif @injournal 'You chop' 'system';break;elseif @injournal "fail to" "system";break;elseif @injournal "You can't" "system";break;elseif @injournal "You can" "system";break;elseif not @findlayer 'self' 2;break;else;pause 100;endif;endfor;//;//******************************************;//;//*** Display proper feedback;if @injournal "You can't" "system";pause 500;endif;if @injournal 'enough wood here' 'system';headmsg 'NO MORE WOOD' '2124';headmsg 'go to next tree' '2124';msg '[e whistle';pause 2000;endif;if @injournal 'some ordinary' 'system';headmsg '--Ordinary wood--' '1150';clearjournal;endif;if @injournal 'some oak' 'system';headmsg '--OAK--' '2010';clearjournal;endif;if @injournal 'some ash' 'system';headmsg '--ASH--' '1191';clearjournal;endif;if @injournal 'some yew' 'system';headmsg '--YEW--' '1192';msg '[e ah';clearjournal;endif;if @injournal 'some heartwood' 'system';headmsg '>!!!--HEARTWOOD--!!!&lt;' '1193';msg '[e yea';clearjournal;endif;if @injournal 'some bloodwood' 'system';headmsg '>!!!--BLOODWOOD--!!!&lt;' '1194';msg '[e woohoo';clearjournal;endif;if @injournal 'some frostwood' 'system';headmsg '>!!!--FROSTWOOD--!!!&lt;' '1151';msg '[e woohoo';clearjournal;endif;//******************************************;//;//;endwhile;headmsg 'Over Weight Fatty !' '89';headmsg 'go home and unload!' '89';</macro>
+  <macro name="beetle mining" interrupt="False" loop="False">if not @findalias 'Beetle';promptalias 'Beetle';endif;if counttype 0x19b9 'any' 'backpack' &lt; 188;movetype 0x19b9 'backpack' 'Beetle';endif;if not listexists 'miningerrormessages';createlist 'miningerrormessages';pushlist 'miningerrormessages' 'no metal here';pushlist 'miningerrormessages' "You can't mine there";pushlist 'miningerrormessages' "Target cannot be seen";pushlist 'miningerrormessages' "You can't mine that";endif;if @findtype 0xe86 'any' 'backpack' or @findtype 0xf39 'any' 'backpack';useobject 'found';else;sysmsg "You do not have any digging tools!";stop;endif;waitfortarget 500;if direction == 0;targettileoffset 0 -1 0;elseif direction == 1;targettileoffset 1 -1 0;elseif direction == 2;targettileoffset 1 0 0;elseif direction == 3;targettileoffset 1 1 0;elseif direction == 4;targettileoffset 0 1 0;elseif direction == 5;targettileoffset -1 1 0;elseif direction == 6;targettileoffset -1 0 0;elseif direction == 7;targettileoffset -1 -1 0;endif;pause 200;if @findtype 0xe86 'any' 'backpack' or @findtype 0xf39 'any' 'backpack';useobject 'found';else;sysmsg "You do not have any digging tools!";stop;endif;waitfortarget 500;if direction == 1;targettileoffset 0 -1 0;elseif direction == 2;targettileoffset 1 -1 0;elseif direction == 3;targettileoffset 1 0 0;elseif direction == 4;targettileoffset 1 1 0;elseif direction == 5;targettileoffset 0 1 0;elseif direction == 6;targettileoffset -1 1 0;elseif direction == 7;targettileoffset -1 0 0;elseif direction == 0;targettileoffset -1 -1 0;endif;pause 200;if @findtype 0xe86 'any' 'backpack' or @findtype 0xf39 'any' 'backpack';useobject 'found';else;sysmsg "You do not have any digging tools!";stop;endif;waitfortarget 500;if direction == 7;targettileoffset 0 -1 0;elseif direction == 0;targettileoffset 1 -1 0;elseif direction == 1;targettileoffset 1 0 0;elseif direction == 2;targettileoffset 1 1 0;elseif direction == 3;targettileoffset 0 1 0;elseif direction == 4;targettileoffset -1 1 0;elseif direction == 5;targettileoffset -1 0 0;elseif direction == 6;targettileoffset -1 -1 0;endif;pause 10;</macro>
+  <macro name="fishing assistant" interrupt="False" loop="False">usetype 0xdbf;waitfortarget 15000;targettile 5210 787 -5;pause 1000;usetype 0xf52;waitingfortarget 15000;targettype 0x9cc;pause 1000;usetype 0xf52;waitingfortarget 15000;targettype 0x9cc;pause 1000;usetype 0xf52;waitingfortarget 15000;targettype 0x9cf;pause 1000;usetype 0xf52;waitingfortarget 15000;targettype 0x9ce;pause 1000;usetype 0xf52;waitingfortarget 15000;targettype 0x9cd;pause 1000;usetype 0xf52;waitingfortarget 15000;targettype 0x170d;pause 1000;msg '[organizeme';canceltarget;</macro>
+  <macro name="animal taming" interrupt="True" loop="False">// Configure skill limit      ▼;if skill! 'animal taming' >= 100;setskill 'animal taming' 'locked';stop;endif;@createlist 'pets';@clearlist 'pets';if skill 'animal taming' &lt; 60;// Eagle;pushlist 'pets' 0x5;// Goat;pushlist 'pets' 0xd1;// Pig;pushlist 'pets' 0xcb;pushlist 'pets' 0x122;// Hind;pushlist 'pets' 0xed;// Timber wolf;pushlist 'pets' 0xe1;// Llama;pushlist 'pets' 0xdc;// Horse;pushlist 'pets' 0xcc;pushlist 'pets' 0xe2;pushlist 'pets' 0xe4;pushlist 'pets' 0xc8;pushlist 'pets' 0x3e9f;pushlist 'pets' 0x3ea0;pushlist 'pets' 0x3ea1;pushlist 'pets' 0x3ea2;// Cow;pushlist 'pets' 0xe7;pushlist 'pets' 0xd8;// Bear;pushlist 'pets' 0xa7;pushlist 'pets' 0xd3;// Cougar;pushlist 'pets' 0x3f;elseif skill 'animal taming' &lt; 75;// Grizzly Bear;pushlist 'pets' 0xd4;// Grey Wolf;pushlist 'pets' 0x1b;pushlist 'pets' 0x19;// Snow Leopard;pushlist 'pets' 0x41;pushlist 'pets' 0x40;// Walrus;pushlist 'pets' 0xdd;// Polar Bear;pushlist 'pets' 0xd5;// Great Hart;pushlist 'pets' 0xea;elseif skill 'animal taming' &lt; 95.1;// Gaman;pushlist 'pets' 0xf8;// Bull;pushlist 'pets' 0xe8;pushlist 'pets' 0xe9;// Great Hart;pushlist 'pets' 0xea;// White Wolf;pushlist 'pets' 0x25;pushlist 'pets' 0x22;// Snow Leopard;pushlist 'pets' 0x41;pushlist 'pets' 0x40;else;// Bull;pushlist 'pets' 0xe8;pushlist 'pets' 0xe9;// Unicorn;pushlist 'pets' 0x7a;// Ki-rin;pushlist 'pets' 0x84;endif;if not listexists 'errors';createlist 'errors';pushlist 'errors' 'too many owners';pushlist 'errors' 'only be tamed by';pushlist 'errors' 'no chance of taming';pushlist 'errors' 'looks tame already';//pushlist 'errors' 'clear path to the animal';pushlist 'errors' 'cannot be seen';endif;@createlist 'unstuck';if list 'unstuck' == 0;pushlist 'unstuck' 'east';pushlist 'unstuck' 'west';pushlist 'unstuck' 'south';pushlist 'unstuck' 'north';endif;// Search;if not @findobject 'pet';for 0 to 'pets';if @findtype 'pets[]' 'any' 'ground';@settimer 'stuck' 0;@setalias 'pet' 'found';break;endif;endfor;else;// Pathfind;@settimer 'pathfind' 0;while @findobject 'pet' and not @inrange 'pet' 2;if dead;break;elseif @timer 'pathfind' >= 5000;// Diverge;if direction == 0;@poplist 'unstuck' 'north';elseif direction == 2;@poplist 'unstuck' 'east';elseif direction == 4;@poplist 'unstuck' 'south';elseif direction == 6;@poplist 'unstuck' 'west';endif;// Unstuck;if list 'unstuck' != 0;for 5;run 'unstuck[0]';pause 100;endfor;poplist 'unstuck' 'front';endif;break;elseif @x 'pet' > x 'self' and @y 'pet' > y 'self';run 'southeast';elseif @x 'pet' &lt; x 'self' and @y 'pet' > y 'self';run 'southwest';elseif @x 'pet' > x 'self' and @y 'pet' &lt; y 'self';run 'northeast';elseif @x 'pet' &lt; x 'self' and @y 'pet' &lt; y 'self';run 'northwest';elseif @x 'pet' > x 'self' and @y 'pet' == y 'self';run 'east';elseif @x 'pet' &lt; x 'self' and @y 'pet' == y 'self';run 'west';elseif @x 'pet' == x 'self' and @y 'pet' > y 'self';run 'south';elseif @x 'pet' == x 'self' and @y 'pet' &lt; y 'self';run 'north';endif;pause 100;endwhile;if @inrange 'pet' 2;// Tame;clearjournal;useskill 'animal taming';waitfortarget 1000;target! 'pet';// Handle;if @property '(tame)' 'pet';for 5;if @gumpexists 0x909cc741 or not @findobject 'pet';break;elseif dead or followers == 0;break;elseif @name 'pet' != 'trashpet';rename 'pet' 'trashpet';else;msg 'trashpet release';endif;pause 500;endfor;replygump 0x909cc741 2;sysmsg 'Success: tamed and released!' 88;ignoreobject 'pet';@unsetalias 'pet';else;@settimer 'stuck' 0;for 0 to 'errors';if @injournal 'errors[]';sysmsg 'Ignore: error message!' 25;ignoreobject 'pet';@unsetalias 'pet';break;endif;endfor;endif;elseif @timer 'stuck' >= 20000;sysmsg 'Ignore: stuck timeout!' 25;ignoreobject 'pet';@unsetalias 'pet';endif;endif;</macro>
+  <macro name="crossheal" interrupt="False" loop="False">@unsetalias 'target';for 15;@getfriend 'any' 'humanoid' 'transformation' 'friend';if not @findobject 'friend';break;elseif @inrange 'friend' 10 and not dead 'friend';if criminal 'friend' or murderer 'friend';if @inregion 'guards' 'friend';continue;endif;endif;if not @findobject 'target' or hits 'target' > hits 'friend';@setalias 'target' 'friend';endif;endif;endfor;@setalias 'friend' 'target';// Help;if @findobject 'friend' and not dead 'friend';if targetexists 'beneficial';target! 'friend';endif;if paralyzed 'friend';cast 'Magic Arrow' 'friend';elseif yellowhits 'friend';cast 'Remove Curse' 'friend';else;miniheal 'friend';endif;while waitingfortarget;if criminal 'friend' or murderer 'friend';if @inregion 'guards' 'friend';sysmsg 'Target cancelled, guards zone!' 55;cancelautotarget;break;endif;endif;endwhile;else;headmsg '* No friend *' 25;endif;</macro>
+  <macro name="harm fireball ma" interrupt="False" loop="False">@canceltarget;while  @findobject! 'enemy' 'any' 'ground' 'any' 9;if distance 'enemy' &lt;= 1;cast 'harm';waitfortarget 600;target! 'found';break;endif;canceltarget;if  @findobject! 'enemy' 'any' 'ground' 'any' 9;if not @buffexists 'protection';cast! 'magic arrow';waitfortarget 500;target! 'found';endif;cast! 'fireball';waitfortarget 1300;target! 'found';break;endif;endwhile;if not @findobject! 'enemy' 'any' 'ground' 'any' 9;sysmsg 'No enemy in the area, or need to set an enemy!';endif;</macro>
+  <macro name="hiding trainer" interrupt="False" loop="True">if skill 'Hiding' &lt; 100;useskill 'Hiding';pause 12000;else;if skill 'Hiding' = 100;msg 'Reached Max skill for hiding!' 'red';endif;endif;</macro>
+  <macro name="swap weapons" interrupt="False" loop="False">togglehands 'left';if not @findobject 'Wep1' and not @inrange 'Wep1' 2;promptalias 'Wep1';endif;if not @findobject 'Wep2' and not @inrange 'Wep2' 2;promptalias 'Wep2';endif;if not listexists 'swapweapons';createlist 'swapweapons';endif;if list 'swapweapons' &lt; 1;pushlist 'swapweapons' 'Wep1';pushlist 'swapweapons' 'Wep2';endif;if findobject 'lefthand';clearhands 'both';pause 500;endif;equipitem swapweapons[0] 1;sysmsg 'swapweapons' 33;sysmsg swapweapons[] 33;poplist 'swapweapons' 'front';</macro>
+  <macro name="Drink Potion" interrupt="True" loop="False">//;//It checks to see if you have something equipped in your left;//hand (like a 2-handed weapon) and if you do, it un-equips;//it, uses a potion (cure in this example), then requips. else;//if you don't have anything in your left hand then it just;//uses the potion.;//;if @findlayer 'self' 2;togglehands 'left';pause 600;usetype! 0xf07;pause 600;togglehands 'left';else;usetype! 0xf07;endif;</macro>
+  <macro name="tame animals" interrupt="True" loop="False">//TamerHelpervUOF By Vlek, Grunt of the Bloodclan (Bloodclan.org);//Get close to your target, press your associated key.;//CAUTION: Must watch this script. It's not as intelligent as the regular one.;if not listexists 'NameTheTamed';//Set this name to whatever you want.;createlist 'NameTheTamed';pushlist 'NameTheTamed' 'petname';endif;if not listexists 'tameables';createlist 'tameables';pushlist 'tameables' 0x7t //Hellcat (Large);pushlist 'tameables' 0x62 //Hellhound;pushlist 'tameables' 0xbc //Savage Ridgeback;pushlist 'tameables' 0xbb //Ridgeback;pushlist 'tameables' 0x17 //Dire Wolf;pushlist 'tameables' 0xce //Lava Lizard;pushlist 'tameables' 0x14 //Frost spider;pushlist 'tameables' 0xc9 //Hellcat (Small);pushlist 'tameables' 0xda //Frenzied Ostard;pushlist 'tameables' 0x50 //Giant Toad;pushlist 'tameables' 0xe8 //Bull;pushlist 'tameables' 0xe9 //Bull2;pushlist 'tameables' 0x22 //White Wolf;pushlist 'tameables' 0x25 //White Wolf2;pushlist 'tameables' 0x1c //Giant Spider;pushlist 'tameables' 0xd4 //Grizzly Bear;pushlist 'tameables' 0xea //Great Hart;pushlist 'tameables' 0x41 //Snow leopard;pushlist 'tameables' 0x40 //Snow leopard;pushlist 'tameables' 0x19 //Gray wolf;pushlist 'tameables' 0x1b //Gray wolf2;pushlist 'tameables' 0x30 //Scorpion;pushlist 'tameables' 0xca //Alligator;pushlist 'tameables' 0x3f //Cougar;pushlist 'tameables' 0xd6 //Panther;pushlist 'tameables' 0xa7 //Brown Bear;pushlist 'tameables' 0xdd //Walrus;pushlist 'tameables' 0xd5 //Polar Bear;pushlist 'tameables' 0xd3 //Black Bear;pushlist 'tameables' 0xdc //Llama;pushlist 'tameables' 0x124 //Pack Llama;pushlist 'tameables' 0x123 //Pack Horse;pushlist 'tameables' 0xc8 //Horse;pushlist 'tameables' 0xe2 //Horse2;pushlist 'tameables' 0xcc //Horse3;pushlist 'tameables' 0xed //Giant Rat;pushlist 'tameables' 0xdb //Forest Ostard;pushlist 'tameables' 0xd2 //Desert Ostard;pushlist 'tameables' 0x122 //Boar;pushlist 'tameables' 0xe1 //Timber Wolf;pushlist 'tameables' 0xed //Hind;pushlist 'tameables' 0x51 //Bullfrog;endif;if not @inrange 'tobetamed' 2;@unsetalias 'tobetamed';for 0 in 'tameables';if @findtype tameables[] 'any' 'ground' 1 2;@setalias 'tobetamed' 'found';break;endif;endfor;endif;if not @inrange 'tobetamed' 2;headmsg 'No new creatures near you!';replay;endif;clearjournal;while name 'tobetamed' != NameTheTamed[0];autotargetobject 'tobetamed';useskill 'animal taming';pause 6000;@rename 'tobetamed' NameTheTamed[0];pause 1000;if not @inrange 'tobetamed' 1;if @x 'tobetamed' > x 'self' and @y 'tobetamed' > y 'self';walk 'Southeast';elseif @x 'tobetamed' &lt; x 'self' and @y 'tobetamed' > y 'self';walk 'Southwest';elseif @x 'tobetamed' > x 'self' and @y 'tobetamed' &lt; y 'self';walk 'Northeast';elseif @x 'tobetamed' &lt; x 'self' and @y 'tobetamed' &lt; y 'self';walk 'Northwest';elseif @x 'tobetamed' > x 'self' and @y 'tobetamed' == y 'self';walk 'East';elseif @x 'tobetamed' &lt; x 'self' and @y 'tobetamed' == y 'self';walk 'West';elseif @x 'tobetamed' == x 'self' and @y 'tobetamed' > y 'self';walk 'South';elseif @x 'tobetamed' == x 'self' and @y 'tobetamed' &lt; y 'self';walk 'North';endif;endif;endwhile;waitforcontext 'tobetamed' 8 20000;waitforgump 0x909cc741 15000;@replygump 0x909cc741 2;@ignoreobject 'tobetamed';@unsetalias 'tobetamed';replay;</macro>
+  <macro name="all kill" interrupt="False" loop="False">msg 'all kill';</macro>
+  <macro name="all follow me" interrupt="True" loop="False">msg 'all follow me';</macro>
+  <macro name="refresh pet" interrupt="True" loop="False">useobject 0xea959;pause 1;msg 'all follow me';pause 749;useobject 0xbe491;</macro>
+  <macro name="tailsman" interrupt="True" loop="False">useobject 0x410e4822;</macro>
+  <macro name="whirlwind" interrupt="True" loop="True">setability 'secondary' 'on';getenemy 'closest' 'nearest' 'murderer' 'enemy' 'criminal' 'gray';pause 300;attack 'enemy';pause 1;msg '[grab';</macro>
+  <macro name="gather gold" interrupt="False" loop="False">clearignorelist;while @findtype 0xeed 'any' 'ground';useobject! 'found';ignoreobject 'found';endwhile;</macro>
+  <macro name="grab" interrupt="True" loop="False">msg '[grab';</macro>
+  <macro name="attack script v1" interrupt="True" loop="False">if mana > 50;cast "Consecrate Weapon";elseif mana &lt; 50;endif;@setability 'primary' 'on';getenemy 'murderer' 'enemy' 'criminal' 'grey' 'closest';@target 'enemy';@attack 'enemy';canceltarget;pause 1500;if stam &lt; 100;cast "Divine Fury";elseif stam >= maxstam;endif;</macro>
+  <macro name="attack auto" interrupt="False" loop="False">cast "Consecrate Weapon";</macro>
+  <macro name="remove curse" interrupt="False" loop="False">cast 'Remove Curse''self';</macro>
+  <macro name="swarm" interrupt="False" loop="False">@target! 'enemy';cast 'Meteor Swarm';</macro>
+  <macro name="jewelry" interrupt="False" loop="True">@getenemy  'enemy' 'murderer' 'criminal' 'gray' 'nearest' 'next' pause 8;@setability 'secondary' 'on';attack 'enemy';pause 64;if not @findobject 'RingBag';promptalias 'RingBag';endif;if not listexists 'Jewelry';@createlist 'Jewelry';endif;if list 'Jewelry' == 0;@pushlist 'Jewelry' 0x108a;@pushlist 'Jewelry' 0x1f09;@pushlist 'Jewelry' 0x1086;@pushlist 'Jewelry' 0x1f06;endif;if not listexists 'Skill';@createlist 'Skill';endif;if list 'Skill' == 0;@pushlist 'Skill' 'Tactics';@pushlist 'Skill' 'Swordsmanship';@pushlist 'Skill' 'Parrying';@pushlist 'Skill' 'Magery';@pushlist 'Skill' 'Evaluating Intelligence';endif;if not @findtype '0x2006' 'any' 'ground' '1' '1';endif;@setalias '0' 'found';@useobject '0';for 0 to Jewelry;for 2;if @findtype Jewelry[] 0 '0';@setalias 'Skills' 'found';waitforproperties 'Skills' 3000;for 0 to Skill;if @property Skill[] 'Skills' >= 10;msg '[e woohoo';@moveitem 'Skills' 'RingBag';pause 1000;endif;endfor;endif;endfor;endfor;ignoreobject '0';if @injournal 'Shield of Spikes!' 'system';if stam &lt; 50;cast 'divine fury';pause 500;endif;replygump 0x4239a64f 1004;waitforgump 0x4239a64f 15000;sysmsg 'SOS Rearmed' '1990';endif;if @injournal 'You failed the augment skill check' 'system';if stam &lt; 50;cast 'divine fury';pause 500;endif;replygump 0x4239a64f 1004;waitforgump 0x4239a64f 15000;sysmsg 'SOS Rearmed' '1990';endif;@clearjournal;</macro>
+  <macro name="find" interrupt="True" loop="False">useobject 0x41b67da3;</macro>
+  <macro name="detect hidden" interrupt="True" loop="True">useskill 'Detecting Hidden';waitfortarget 15000;targettile 2990 3480 16;pause 7000;</macro>
+  <macro name="hfm" interrupt="False" loop="False">@canceltarget;while  @findobject! 'enemy' 'any' 'ground' 'any' 9;if distance 'enemy' &lt;= 1;cast 'harm';waitfortarget 600;target! 'found';break;elseif poisoned 'enemy';if  @findobject! 'enemy' 'any' 'ground' 'any' 9 and @buffexists 'poison';if not @buffexists 'protection';cast! 'magic arrow';waitfortarget 500;target! 'found';endif;cast! 'fireball';waitfortarget 1300;target! 'found';break;endif;endif;canceltarget;endwhile;</macro>
+  <macro name="advanced heal" interrupt="False" loop="False">if @buffexists 'Vampiric Embrace';if @buffexists 'Curse' and hits >= 200;cast 'Remove Curse' 'self';endif;if hits 'self' &lt;= 300 and not poisoned 'self';cast 'heal' 'self';endif;if poisoned 'self';cast 'cure' 'self';endif;else;if not @buffexists 'Vampiric Embrace';if poisoned 'self';cast 'Cleanse by Fire' 'self';endif;if hits 'self' &lt;= 300;cast 'Close Wounds' 'self';endif;endif;endif;</macro>
+  <macro name="jewlery only" interrupt="False" loop="True">if not @findobject 'RingBag';promptalias 'RingBag';endif;if not listexists 'Jewelry';@createlist 'Jewelry';endif;if list 'Jewelry' == 0;@pushlist 'Jewelry' 0x108a;@pushlist 'Jewelry' 0x1f09;@pushlist 'Jewelry' 0x1086;@pushlist 'Jewelry' 0x1f06;endif;if not listexists 'Skill';@createlist 'Skill';endif;if list 'Skill' == 0;@pushlist 'Skill' 'Tactics';@pushlist 'Skill' 'Swordsmanship';@pushlist 'Skill' 'Parrying';//@pushlist 'Skill' 'add any variable that you want to search for on jewlery';endif;if not @findtype '0x2006' 'any' 'ground' '1' '1';endif;@setalias '0' 'found';@useobject '0';for 0 to Jewelry;for 2;if @findtype Jewelry[] 0 '0';@setalias 'Skills' 'found';waitforproperties 'Skills' 3000;for 0 to Skill;if @property Skill[] 'Skills' >= 10;msg '[e woohoo';@moveitem 'Skills' 'RingBag';pause 1000;endif;endfor;endif;endfor;endfor;ignoreobject '0';</macro>
+  <macro name="purple pot" interrupt="False" loop="False">clearjournal;cleartargetqueue;usetype! '0xf0d';waitfortarget 1500;canceltarget;//;waitforjournal '2' 4000;pause 750 // &lt;&lt;&lt; SET BASED ON YOUR PING;usetype! '0xf0d';waitfortarget 1500;//;if not @inrange 'last' 12;headmsg 'Range > 12' 25;targettileoffset (0 1 0);stop;endif;//;target! 'last';targettileoffset (0 3 0);</macro>
+  <macro name="bandage self" interrupt="False" loop="False">if diffhits == 0 and not poisoned;headmsg 'No heal needed';elseif not @injournal! 'You begin applying the bandages' 'system';@bandageself!;elseif @injournal! 'You finish applying the bandages' 'system';@clearjournal!;@bandageself!;elseif @injournal! 'You apply the bandages, but they barely help' 'system';@clearjournal!;@bandageself!;elseif @injournal! 'You heal what little damage your patient had' 'system';@clearjournal!;@bandageself!;elseif @injournal! 'That being is not damaged' 'system';@clearjournal!;@bandageself!;else;@headmsg! 'Prior Bandage running';endif;//@cancelautotarget;//@canceltarget;pause 250;</macro>
+  <macro name="dexxer" interrupt="False" loop="False">//create timers;if not timerexists 'healpot';createtimer 'healpot';settimer 'healpot' 11000;endif;if not timerexists 'bandage';createtimer 'bandage';settimer 'bandage' 20000;endif;if not timerexists 'trappouch';createtimer 'trappouch';settimer 'trappouch' 3000;endif;if not timerexists 'strpot';createtimer 'strpot';settimer 'strpot' 120000;endif;if not timerexists 'dexpot';createtimer 'dexpot';settimer 'dexpot' 120000;endif;//auto trap pouch if paralyzed;if paralyzed 'self';pause 200;playmacro 'trappouch';endif;//auto cure pot;if hits &lt; 25 and @findobject 'lefthand';if poisoned 'self' and @findtype '0xf07' 'any' 'backpack';clearhands 'left';pause 600;endif;endif;while poisoned 'self' and not @findobject 'lefthand';if @findtype '0xf07' 'any' 'backpack' and hits &lt; 75;pause 200;useobject! 'found';pause 250;else;break;endif;endwhile;//auto heal pot;if not poisoned 'self' and hits &lt; 25;if timer 'healpot' >= 10250 and @findtype '0xf0c' 'any' 'backpack';if @findobject 'lefthand';clearhands 'left';pause 600;endif;endif;endif;if not poisoned 'self' and hits &lt; 50;if timer 'healpot' >= 10250 and @findtype '0xf0c' 'any' 'backpack';if not @findobject 'lefthand';pause 200;usetype! '0xf0c';settimer 'healpot' 0;pause 250;endif;endif;endif;//auto strength pot;if diffhits > 10 and timer 'strpot' > 120000;if not @findobject 'lefthand' and @findtype '0xf09' 'any' 'backpack';pause 200;useobject! 'found';settimer 'strpot' 0;pause 250;endif;endif;//auto dexterity pot;if diffhits > 10 and timer 'dexpot' > 120000;if not @findobject 'lefthand' and @findtype '0xf08' 'any' 'backpack';pause 200;useobject! 'found';settimer 'dexpot' 0;pause 250;endif;endif;//auto stam pot;if diffhits > 1 and stam &lt; 2;if @findtype '0xf0b' 'any' 'backpack';if @findobject 'lefthand';clearhands 'left';pause 800;endif;usetype! '0xf0b';pause 250;endif;endif;if diffhits > 1;if stam &lt; 60 and not @findobject 'lefthand';if @findtype '0xf0b' 'any' 'backpack';useobject! 'found';pause 250;endif;endif;endif;//auto bandage;if timer 'bandage' > 16000 and skill 'healing' > 50;if diffhits > 0 or poisoned 'self';pause 200;@bandageself;if poisoned 'self';settimer 'bandage' 3000;else;settimer 'bandage' 5000;endif;endif;endif;</macro>
+  <macro name="pvp dummy" interrupt="True" loop="False">//BANDAGE, PROTECTION, STR POT, CURE POT, EARLY HEAL POT, CAST SMALL HEAL;//;//create dummy timer;@canceltarget;if not timerexists 'dummy';createtimer 'dummy';settimer 'dummy' '999999';endif;//create healpot timer;if not timerexists 'healpot';createtimer 'healpot';settimer 'healpot' '999999';endif;//create protection timer;if not timerexists 'ProtTimer';createtimer 'ProtTimer';settimer 'ProtTimer' '999999';endif;//create str pot timer;if not timerexists 'StrTimer';createtimer 'StrTimer';settimer 'StrTimer' '999999';endif;//create trap pouch timer;if not timerexists 'TrapPouchTimer';createtimer 'TrapPouchTimer';settimer 'TrapPouchTimer' '999999';endif;//create bandage timer;if not timerexists 'bandage';createtimer 'bandage';settimer 'bandage' '999999';endif;//;//;//setup stun;@setability 'stun' 'on';pause 50;//;//trap pouch if paralyzed;//if paralyzed 'self' and timer 'TrapPouchTimer' > 3000;//msg '[pouch';// pause 100;// settimer 'TrapPouchTimer' 0;//endif;//;//cure pot any time poisoned;if poisoned 'self';@usetype '0xf07' 'any' 'backpack';pause 100;endif;//;//As long as not poisoned;while not poisoned 'self' and not paralyzed 'self';//Bandage is needed;if diffhits > 0 and not poisoned;if timer 'bandage' > 14000;bandageself;settimer 'bandage' 0;endif;endif;//;//cast protection on self;if timer 'prottimer' > 250000 and diffhits &lt; 5;@clearjournal;cast 'protection' 'self';pause 100;if not @injournal 'disturbed' 'system';settimer 'ProtTimer' 0;endif;endif;//;//auto heal pot;if hits &lt; 62;if timer 'healpot' > 10500;pause 100;usetype '0xf0c';settimer 'healpot' 0;pause 100;endif;endif;//;//mini heal at high hp and low hp, big heal in middle;if diffhits > 5;if diffhits &lt; 30 or hits &lt; 67;cast 'heal' 'self';pause 100;else;cast 'greater heal' 'self';pause 100;endif;endif;//;//auto strength pot;if not targetexists and diffhits &lt; 5;if str &lt; 101;if @counttype '0xf09' 'all' 'backpack' > 0;usetype! '0xf09';pause 100;elseif mana > 70;cast 'strength' 'self';pause 150;endif;endif;endif;//;//auto dex pot;if not targetexists and diffhits &lt; 5;if dex &lt; 41;if @counttype '0xf08' 'all' 'backpack' > 0;usetype! '0xf08';pause 100;elseif mana > 70;cast 'agility' 'self';pause 150;endif;endif;endif;//;//meditate if needed;if mana &lt; 50 and diffhits &lt; 6;useskill 'meditation';pause 100;replay;endif;//;//get bandages running;if diffhits &lt; 6 and timer 'bandage' > 14000;msg '[pouch';pause 600;@bandageself;settimer 'bandage' 0;pause 100;endif;//;//pre-load GH;if diffhits &lt; 6;pause 50;cast 'greater heal';waitfortarget '2000';endif;while targetexists and diffhits &lt; 15;if timer 'dummy' > 5000;// msg 'Heal Dummy (Lvl 10) Idle';settimer 'dummy' 0;endif;if poisoned 'self';replay;endif;if str &lt; 101 or dex &lt; 41;replay;endif;if @injournal 'You successfully stun' 'system';@setability 'stun' 'off';pause 50;@setability 'stun' 'on';pause 50;@clearjournal;replay;endif;pause 100;endwhile;//;//Duplicate prior to avoid anti-autoheal code;pause 100;while targetexists and diffhits &lt; 15;if poisoned 'self';replay;endif;if str &lt; 101 or dex &lt; 41;replay;endif;if @injournal 'You successfully stun' 'system';@setability 'stun' 'off';pause 50;@setability 'stun' 'on';pause 50;@clearjournal;replay;endif;endwhile;target! 'self';pause 100;//;//keep stun on;if stam &lt; 25;@usetype '0xf0b';pause 100;endif;if @injournal 'You successfully stun' 'system';@setability 'stun' 'off';pause 50;@setability 'stun' 'on';pause 50;@clearjournal;endif;endwhile;</macro>
+  <macro name="steal goodies" interrupt="True" loop="False">// Author: Hawt;// Description: Snoop all pouches and bag types within the closest persons backpack automatically.;//====== Will not pop trapped pouches on Uoforever if Greed gave me the right hue.;//==========================================;// List of Bags/Pouches. No Chests or Crates.;if not listexists 'containers';@createlist 'containers';endif;if list 'containers' == 0;@pushlist 'containers' 0xe79;@pushlist 'containers' 0xe76;@pushlist 'containers' 0xe75;@pushlist 'containers' 0xe74;@pushlist 'containers' 0xe78;@pushlist 'containers' 0xe7d;@pushlist 'containers' 0xe77;endif;// Gets Closest Anything To SNoop.;getenemy 'friend' 'innocent' 'murderer' 'enemy' 'criminal' 'gray' 'closest' 'humanoid';if @inrange 'enemy' 1 and @findlayer 'enemy' 21;@setalias 'bag' 'found';useobject! 'bag';pause 600;if @findtype 0x14f0 1153 'bag';useskill 'Stealing';waitfortarget 3000;target! 'found';headmsg 'PS Acquired';endif;if @findtype 0x2aa4 'any' 'bag';useskill 'Stealing';waitfortarget 3000;target! 'found';headmsg 'RELIC Acquired';endif;if @findtype 0x47e6 'any' 'bag';useskill 'Stealing';waitfortarget 3000;target! 'found';headmsg 'DRAGON EGG Acquired';endif;if @findtype 0x2260 'any' 'bag';useskill 'Stealing';waitfortarget 3000;target! 'found';headmsg 'SS Acquired';endif;ignoreobject 'found';// Opens Person Main backpack and "pops" or opens all bags/POuches.;for 0 to 'containers';while @findtype containers[] 'any' 'bag';@setalias 'inside' 'found';ignoreobject 'inside';// This is going to skip any pouches that are the hue 38;if graphic 'found' == 0xe79 and color 'found' == 38;continue;endif;if graphic 'found' == 0xe79 and color 'found' == 1161;continue;endif;useobject! 'inside';pause 600;if @findtype 0x14f0 1153 'inside';useskill 'Stealing';waitfortarget 3000;target! 'found';headmsg 'PS Acquired';endif;if @findtype 0x2260 'any' 'inside';useskill 'Stealing';waitfortarget 3000;target! 'found';headmsg 'SS Acquired';endif;if @findtype 0x2aa4 'any' 'bag';useskill 'Stealing';waitfortarget 3000;target! 'found';headmsg 'RELIC Acquired';endif;ignoreobject 'found';while @findtype containers[] 'any' 'inside';ignoreobject 'found';// This is going to skip any pouches that are the hue 38;if graphic 'found' == 0xe79 and color 'found' == 38;continue;endif;useobject! 'found';pause 600;endwhile;endwhile;endfor;// If any pouches were trapped run again and it will now open the trapped pouches to see what items were in them;endif;clearignorelist;[B];</macro>
+  <macro name="sync" interrupt="True" loop="False">cast 'explosion';waitfortarget 3000;@clearjournal;if targetexists;waitforjournal 'with explosion' 99999;target 'last';pause 200;cast 'energy bolt';pause 200;usetype '0xf0d';waitfortarget 500;canceltarget;waitfortarget 3000;target 'last';waitforjournal '2' 4000;headmsg 't!' 50;pause 720 // &lt;&lt;&lt; SET BASED ON YOUR PING;usetype! '0xf0d';waitfortarget 1500;//;if not @inrange 'last' 12;headmsg 'Range > 12' 25;targettileoffset (0 3 0);stop;endif;//;target! 'last';endif;</macro>
+  <macro name="eval trainer" interrupt="True" loop="True">useskill 'Evaluating Intelligence';waitfortarget 15000;target! 0xa10de;pause 6000;</macro>
+  <macro name="leprechaun" interrupt="False" loop="False">if @findobject 0xeed 'any' 1 1;clickobject 0xeed;endif;if @findobject 0x41b4584f 'any' 1 1;clickobject 0x41b4584f;endif;</macro>
+  <macro name="eoc" interrupt="True" loop="False">@canceltarget;while  @findobject! 'enemy' 'any' 'ground' 'any' 9;if @findobject! 'enemy' 'any' 'ground' 'any' 9;if @findobject! 'enemy' 'any' 'ground' 'any' 9 and not @buffexists! 'Curse' 'enemy' and not @buffexists! 'Evil Omen' 'enemy' and not @buffexists! 'Blood Oath' 'enemy';cast 'Evil Omen' 'enemy';pause 1450;cast 'Curse' 'enemy';break;endif;if @findobject! 'enemy' 'any' 'ground' 'any' 9 and not @buffexists! 'Curse' 'enemy';cast 'Curse' 'enemy';elseif @findobject! 'enemy' 'any' 'ground' 'any' 9 and not @buffexists! 'Evil Omen' 'enemy';cast 'Evil Omen' 'enemy';elseif @findobject! 'enemy' 'any' 'ground' 'any' 9 and not @buffexists! 'Blood Oath' 'enemy';cast 'Blood Oath' 'enemy';break;endif;endwhile;</macro>
+  <macro name="1" interrupt="False" loop="True">useskill 'Peacemaking';waitfortarget 15000;target! 0x100f5d;pause 40000;</macro>
+  <macro name="sin" interrupt="False" loop="False">@canceltarget;if not @findobject! 'enemy' 'any' 'ground' 'any' 9;promptalias 'enemy';endif;while  @findobject! 'enemy' 'any' 'ground' 'any' 9;cast 'Evil Omen' 'enemy';pause 1000;cast 'Curse' 'enemy';pause 1000;cast 'Corpse Skin' 'enemy';pause 1000;cast 'Meteor swarm' 'enemy';pause 2500;endwhile;</macro>
+  <macro name="semiauto min" interrupt="True" loop="False">if @findtype '0xf39' 'any' 'backpack' 'any' '2';@usetype '0xf39' '0' 'backpack' '1' 1;elseif @findtype '0xe86' 'any' 'backpack' 'any' '2';@usetype '0xe86' 'any' 'backpack' 'any' '2';endif;waitfortarget 5000;if direction == 0;targettileoffset 0 -1 0;elseif direction == 1;targettileoffset 1 -1 0;elseif direction == 2;targettileoffset 1 0 0;elseif direction == 3;targettileoffset 1 1 0;elseif direction == 4;targettileoffset 0 1 0;elseif direction == 5;targettileoffset -1 1 0;elseif direction == 6;targettileoffset -1 0 0;elseif direction == 7;targettileoffset -1 -1 0;else;headmsg 'No Tools Found!';endif;pause 600;if @injournal 'no metal' 'system';headmsg 'Time to Move';pause 2000;@clearjournal;endif;while weight >= 380;headmsg 'Time to Smelt';pause 1000;endwhile;while @findtype '0x19b9' 'any' 'backpack' 'any' '2' and weight >= 300;@moveitem 'found' 'mount';pause 600;endwhile;</macro>
+  <macro name="treasure" interrupt="False" loop="False">if @findtype 0x9ab 'any' 1 1;organizer 'trash'  0x9ab 0x4136e972;endif;</macro>
+  <macro name="vet" interrupt="True" loop="True">useobject 0x4131e5fc;waitfortarget 15000;target! 0x1e36bf;pause 3000;</macro>
+  <macro name="runebook copier" interrupt="True" loop="False">//Select runebook to be cloned;promptalias 'ToBeCloned';//Select a blank book;promptalias 'Blank Runebook';//Lists;clearlist 'Runes';clearlist 'Names';if not listexists 'Runes';createlist 'Runes';endif;if list 'Runes' == 0;pushlist 'Runes' 5;pushlist 'Runes' 11;pushlist 'Runes' 17;pushlist 'Runes' 23;pushlist 'Runes' 29;pushlist 'Runes' 35;pushlist 'Runes' 41;pushlist 'Runes' 47;pushlist 'Runes' 53;pushlist 'Runes' 59;pushlist 'Runes' 65;pushlist 'Runes' 71;pushlist 'Runes' 77;pushlist 'Runes' 83;pushlist 'Runes' 89;pushlist 'Runes' 95;endif;if not listexists 'Names';createlist 'Names';endif;if list 'Names' == 0;pushlist 'Names' '1';pushlist 'Names' "2";pushlist 'Names' '3';pushlist 'Names' '4';pushlist 'Names' '5';pushlist 'Names' '6';pushlist 'Names' "7";pushlist 'Names' "8";pushlist 'Names' '9';pushlist 'Names' "10";pushlist 'Names' '11';pushlist 'Names' '12';pushlist 'Names' "13";pushlist 'Names' '14';pushlist 'Names' '15';pushlist 'Names' '16';endif;if not @findtype 0x1f14 any 'backpack';sysmsg 'Out of blank runes!' 25;pause 100;playsound 984;pause 100;playsound 987;pause 100;playsound 988;pause 100;messagebox 'Error' '*No Runes restock &amp; restart*';stop;endif;clearjournal;for 0 to 'Runes';if mana &lt;= 30;useskill 'Meditation';while not mana == 60;endwhile;endif;pause 1500;useobject! 'ToBeCloned';waitforgump 0x554b87f3 15000;pause 900;replygump 0x554b87f3 Runes[0];pause '3500';if injournal 'blocked' 'system';replay;endif;if @findtype 0x1f14 0 'backpack' 1 2;autotargetobject 'found';cast 'Mark';pause 3500;useobject! 'found';waitforprompt 15000;promptmsg Names[0];pause 2000;moveitem 'found' 'Blank Runebook';pause 500;useskill 'Meditation';pause 1500;if @injournal 'Names[0]' 'system';@poplist 'Names' 'front';@poplist 'Runes' 'front';endif;else;playsound 984;pause 100;playsound 987;pause 100;playsound 988;pause 100;messagebox 'Error' '*No Runes restock &amp; restart*';stop;endif;endfor;</macro>
+  <macro name="hiding stealth tra" interrupt="True" loop="True">while skill 'hiding' &lt; 80;useskill 'hiding';headmsg 'Hiding Macro Only';pause 11000;endwhile;while not hidden and skill 'hiding' >= 80;useskill 'hiding';headmsg 'Stealth Macro Enabled';pause 11000;endwhile;while hidden and skill 'hiding' > 80;useskill 'stealth';pause 11000;endwhile;</macro>
+  <macro name="gamble" interrupt="True" loop="True">useobject 0x40611fe3;</macro>
+  <macro name="add gold" interrupt="True" loop="True">replygump 0x9021dd59 5 2;waitforgump 0x9021dd59 15000;waitfortarget 15000;target! 0x14f0;waitforgump 0x9021dd59 15000;pause 200;</macro>
+  <macro name="2" interrupt="True" loop="True">getenemy 'murderer' 'enemy' 'criminal' 'grey' 'closest';cast 'Corpse Skin' 'enemy';</macro>
+  <macro name="NINJ" interrupt="True" loop="True">if skill 'ninjitsu' &lt; 65;cast 'Mirror Image';pause 3000;while skill 'ninjistsu' &lt; 65 and followers 'self' 5;cast 'Dispel' '';endwhile;elseif skill 'ninjitsu' &lt; 85;cast 'Focus Attack';pause 3000;elseif skill 'ninjitsu' &lt; 100;cast 'Death Strike';pause 3000;elseif skill 'ninjitsu' >= 100;headmsg 'Finished Ninjitsu!';stop;endif;</macro>
+  <macro name="debuff" interrupt="False" loop="False">cast 'Weaken' 'enemy';pause 300;cast 'Clumsy' 'enemy';pause 300;cast 'Feeblemind' 'enemy';</macro>
+  <macro name="last target" interrupt="False" loop="False">@getenemy 'innocent' 'criminal' 'gray' 'murderer' 'humanoid';@setalias 'last' 'enemy';@target! 'enemy';</macro>
+  <macro name="eoo" interrupt="False" loop="False">@getenemy 'murderer' 'enemy' 'criminal' 'gray' 'closest';cast 'enemy of one' 'enemy';</macro>
+  <macro name="teleport" interrupt="False" loop="False">cast 'Teleport';</macro>
+  <macro name="evil omen" interrupt="False" loop="False">cast 'Evil Omen' 'enemy';pause 500;cast 'Curse' 'enemy';</macro>
+  <macro name="curse" interrupt="False" loop="False">cast 'Curse' 'enemy';</macro>
+  <macro name="mining" interrupt="False" loop="True">if not listexists 'miningerrormessages';createlist 'miningerrormessages';pushlist 'miningerrormessages' 'no metal here';pushlist 'miningerrormessages' "You can't mine there";pushlist 'miningerrormessages' "Target cannot be seen";pushlist 'miningerrormessages' "You can't mine that";endif;if @findtype 0xe86 'any' 'backpack' or @findtype 0xf39 'any' 'backpack';useobject 'found';else;sysmsg "You do not have any digging tools!";stop;endif;waitfortarget 15000;if direction == 0;targettileoffset 0 -1 0;elseif direction == 1;targettileoffset 1 -1 0;elseif direction == 2;targettileoffset 1 0 0;elseif direction == 3;targettileoffset 1 1 0;elseif direction == 4;targettileoffset 0 1 0;elseif direction == 5;targettileoffset -1 1 0;elseif direction == 6;targettileoffset -1 0 0;elseif direction == 7;targettileoffset -1 -1 0;endif;pause 200;if @findtype 0xe86 'any' 'backpack' or @findtype 0xf39 'any' 'backpack';useobject 'found';else;sysmsg "You do not have any digging tools!";stop;endif;waitfortarget 15000;if direction == 1;targettileoffset 0 -1 0;elseif direction == 2;targettileoffset 1 -1 0;elseif direction == 3;targettileoffset 1 0 0;elseif direction == 4;targettileoffset 1 1 0;elseif direction == 5;targettileoffset 0 1 0;elseif direction == 6;targettileoffset -1 1 0;elseif direction == 7;targettileoffset -1 0 0;elseif direction == 0;targettileoffset -1 -1 0;endif;pause 200;if @findtype 0xe86 'any' 'backpack' or @findtype 0xf39 'any' 'backpack';useobject 'found';else;sysmsg "You do not have any digging tools!";stop;endif;waitfortarget 15000;if direction == 7;targettileoffset 0 -1 0;elseif direction == 0;targettileoffset 1 -1 0;elseif direction == 1;targettileoffset 1 0 0;elseif direction == 2;targettileoffset 1 1 0;elseif direction == 3;targettileoffset 0 1 0;elseif direction == 4;targettileoffset -1 1 0;elseif direction == 5;targettileoffset -1 0 0;elseif direction == 6;targettileoffset -1 -1 0;endif;pause 200;</macro>
+  <macro name="MINE ARTI" interrupt="False" loop="True">@usetype! 0x1372;waitfortarget 239;@targettilerelative! 'self' 1;pause 1000;@usetype! 0x1372;waitfortarget 242;@targettilerelative! 'self' 1;pause 1111;@usetype! 0x1372;waitfortarget 287;@targettilerelative! 'self' 1;pause 1211;@usetype! 0x1372;waitfortarget 134;@targettilerelative! 'self' 1;pause 1186;//if @injournal 'There are no artifacts';//  for 8;//    run 'north';//    clearjournal;//  endfor;//endif;</macro>
+  <macro name="septor" interrupt="False" loop="True">@usetype! 0x1372;waitfortarget 239;@targettilerelative! 'self' 1;pause 1000;@usetype! 0x1372;waitfortarget 242;@targettilerelative! 'self' 1;pause 1111;@usetype! 0x1372;waitfortarget 287;@targettilerelative! 'self' 1;pause 1211;@usetype! 0x1372;waitfortarget 134;@targettilerelative! 'self' 1;pause 1186;//if @injournal 'There are no artifacts';//  for 8;//    run 'north';//    clearjournal;//  endfor;//endif;</macro>
+  <macro name="curse weapon" interrupt="False" loop="False">cast 'Curse Weapon';</macro>
+  <macro name="auto teleport" interrupt="False" loop="False">autotargettilerelative 'self' 10;cast "Teleport";</macro>
+  <macro name="tele hide" interrupt="False" loop="False">autotargettilerelative 'self' 10;cast "Teleport";</macro>
+  <macro name="honorslef" interrupt="False" loop="False">virtue 'honor';</macro>
+  <macro name="heal pet" interrupt="False" loop="False">if not findalias 'pet';promptalias 'pet';endif;if not inrange 'pet' 1;headmsg 'Get closer.';unsetalias 'pet';stop;endif;if diffhits 'pet' &lt;= 0;headmsg 'Pet full health.';unsetalias 'pet';stop;endif;if @findtype 0xe21;@useobject 'found';else;headmsg 'out of bandages';stop;endif;clearjournal;waitfortarget 1000;target! 'pet';if injournal 'not damaged' 'system';headmsg 'not hurt';unsetalias 'pet';stop;endif;clearjournal;while not @injournal 'you finish applying' 'system';//headmsg 'pausing';pause 50;endwhile;replay;</macro>
+  <macro name="dispel field" interrupt="False" loop="False">if not listexists 'fields';createlist 'fields';endif;clearlist 'fields';@pushlist 'fields' '0xf6c';@pushlist 'fields' '0x3956';@pushlist 'fields' '0x3979';@pushlist 'fields' '0x3967';@pushlist 'fields' '0x3922';@pushlist 'fields' '0x3996';@pushlist 'fields' '0x80';@pushlist 'fields' '0x82';for 0 to 'fields';if @findtype fields[] '0x0' 'ground' 1 8;setalias 'foundfield' 'found';break;endif;endfor;@autotargetobject 'foundfield';cast 'dispel field';</macro>
+  <macro name="pot throw" interrupt="True" loop="False">if @injournal 'You should throw it now' 'system';usetype '0xf0d' 'any' 'backpack' '2';waitfortarget 35000;pause 100;attack 'enemy';target! 'last';@clearjournal;else;usetype '0xf0d' 'any' 'backpack' '2';pause 100;@canceltarget;endif;</macro>
+  <macro name="dex gain" interrupt="True" loop="True">useobject 0x40e2899b;</macro>
+  <macro name="crossheal 2" interrupt="False" loop="False">//set to do not auto interrupt;if not listexists 'BodyTypes';createlist 'BodyTypes';//human;pushlist 'BodyTypes' 0x190;pushlist 'BodyTypes' 0x191;//wraith;pushlist 'BodyTypes' 0x2ec;pushlist 'BodyTypes' 0x2eb;//elf;pushlist 'BodyTypes' 0x25d;pushlist 'BodyTypes' 0x25e;//lich;pushlist 'BodyTypes' 0x2ed;//vamp;pushlist 'BodyTypes' 0x2e9;pushlist 'BodyTypes' 0x2e8;endif;if not listexists 'ghosts';createlist 'ghosts';pushlist 'ghosts' 0x192;pushlist 'ghosts' 0x193;pushlist 'ghosts' 0x260;pushlist 'ghosts' 0x25f;endif;//res dead friends if res precast;clearignorelist;if targetexists 'beneficial';for 0 to 'ghosts';while @findtype ghosts[] 'any' ground 1 1;if @infriendlist 'found';target! 'found';endif;ignoreobject 'found';endwhile;endfor;endif;//paralyzed friends;clearignorelist;ignoreobject 'self';for 0 to 'BodyTypes';while @findtype BodyTypes[] 'any' ground 0 10;if @infriendlist 'found' and paralyzed 'found';cast 'clumsy' 'found';endif;ignoreobject 'found';endwhile;endfor;//find lowest hp friend;clearignorelist;ignoreobject 'self';@setalias 'buddy' 'self';for 0 to 'BodyTypes';while @findtype BodyTypes[] 'any' ground 0 10;if not @findalias 'buddy' and @infriendlist 'found';if murderer 'found' and @inregion 'guards' 'found' 10;headmsg 'Murderer in guards!' 33 'found';elseif criminal 'found' and @inregion 'guards' 'found' 10;headmsg 'Criminal in guards!' 1000 'found';else;@setalias 'buddy' 'found';endif;endif;if @infriendlist 'found' and hits 'found' &lt; hits 'buddy';if not yellowhits 'found';if murderer 'found' and @inregion 'guards' 'found' 10;headmsg 'Murderer in guards!' 33 'found';elseif criminal 'found' and @inregion 'guards' 'found' 10;headmsg 'Criminal in guards!' 1000 'found';else;@setalias 'buddy' 'found';endif;else;headmsg 'Mortaled!' 54 'found';endif;endif;ignoreobject 'found';endwhile;endfor;if targetexists 'server' or targetexists 'beneficial';target! 'buddy';endif;if poisoned 'buddy' and @inrange 'buddy' 10;cast 'cure' 'buddy';elseif hits 'buddy' &lt; 95 and @inrange 'buddy' 10;cast 'Greater Heal' 'buddy';endif;</macro>
+  <macro name="animal lore train" interrupt="False" loop="True">useskill 'Animal Lore';waitfortarget 15000;target! 0x100f5d;pause 1000;</macro>
+  <macro name="vet trainer" interrupt="False" loop="True">@cleartargetqueue;@clearjournal;if dead 'self';stop;endif;//Setup;if not findalias 'pet1';headmsg 'Select first pet';promptalias 'pet1';endif;if not findalias 'pet2';headmsg 'Select second pet';promptalias 'pet2';endif;//Heal them to full;while diffhits 'pet1' == '0' and diffhits 'pet2' == '0';pause 500;endwhile;if diffhits 'pet1' > diffhits 'pet2';if inrange 'pet1' 1;bandage;autotargetobject 'pet1';pause 2500;if poisoned 'pet1';cast 'Cure';autotargetobject 'pet1';endif;pause 1600;endif;@cleartargetqueue;else;if inrange 'pet2' 1;bandage;autotargetobject 'pet2';pause 2500;if poisoned 'pet2';cast 'Cure';autotargetobject 'pet2';endif;pause 1600;endif;@cleartargetqueue;endif;if not @injournal 'finish' 'system';pause 1100;replay;else if @injournal 'finish' 'system';@clearjournal;replay;elseif @injournal 'too far away' 'system';@clearjournal;replay;elseif @injournal 'stay close enough' 'system';@clearjournal;replay;endif;</macro>
+  <macro name="bard" interrupt="False" loop="True">useskill 'Provocation';waitfortarget 15000;target! 0xd74bd;waitfortarget 15000;target! 0x100f5d;pause 7000;</macro>
+  <macro name="mob detector" interrupt="True" loop="False">if @injournal 'a horse' 'system';msg '[e woohoo';clearjournal;stop;endif;</macro>
+  <macro name="mini cure" interrupt="False" loop="False">if hits &lt; maxhits and not poisoned 'self';cast 'Heal' 'Self';elseif poisoned 'self';cast 'Cure' 'Self';else;sysmsg 'No Damage has been taken!';endif;</macro>
+  <macro name="pull enemy bar" interrupt="False" loop="False">getenemy 'murderer' 'enemy' 'criminal' 'gray' 'humanoid' 'transformation';paperdoll 'enemy';pause 100;//    Change   ↓   x value based on your screen resolution;clickscreen! 1400 860;</macro>
+  <macro name="wep and shield eq" interrupt="False" loop="False">togglehands 'left';if not @findlayer 'self' 1;equipitem 'weapon' 1;pause 100;if not @findlayer 'self' 1;promptalias 'weapon';equipitem 'weapon' 1;endif;endif;if not @findlayer 'self' 2;equipitem 'sheild' 2;pause 100;if not @findlayer 'self' 2;promptalias 'sheild';equipitem 'sheild' 2;endif;endif;</macro>
+  <macro name="fire tails" interrupt="False" loop="False">useobject 0x41b824c0;</macro>
+  <macro name="shadow jump" interrupt="True" loop="False">if @injournal '';endif;</macro>
+  <macro name="potions" interrupt="False" loop="False">if @findlayer 'self' 2;togglehands 'left';pause 600;endif;if not timerexists 'Heal Potion';createtimer 'Heal Potion';endif;if poisoned 'self';usetype! 0xf07;endif;if stam &lt;= 50;usetype! 0xf0b;endif;if not yellowhits 'self';if diffhits >= 15 and timer 'Heal Potion' >= 10250;if usetype! 0xf0c;settimer 'Heal Potion' 0;endif;endif;if not @findlayer 'self' 2;togglehands 'left';pause 600;endif;endif;</macro>
+  <macro name="big heal" interrupt="False" loop="False">if hits &lt; maxhits and not poisoned 'self';cast 'Greater Heal' 'Self';elseif poisoned 'self';cast 'Cure' 'Self';else;sysmsg 'No Damage has been taken!';endif;</macro>
+  <macro name="mining cart" interrupt="True" loop="False"></macro>
+  <macro name="triple slash" interrupt="False" loop="False">replygump 0x7ec42f38 1000;</macro>
+  <macro name="vendor buy" interrupt="False" loop="False">msg 'Vendor buy';</macro>
+  <macro name="eval" interrupt="True" loop="True">useskill 'Evaluating Intelligence';waitfortarget 15000;target! 0x30ed1;pause 3000;</macro>
+  <macro name="gargoyle skinner" interrupt="True" loop="False">// PM Mayor if you have any issues, or need any help.;// Gargy knife skinner setup and list creation/population;if not @findobject 'gargyknife';headmsg 'Knife not found. Please Select Gargoyle Skinning Knife' 391 'self';promptalias 'gargyknife';endif;if not @findobject 'lootbag';headmsg 'Select Blue Loot Bag' 391 'self';promptalias 'lootbag';endif;if not listexists 'Jewelry';@createlist 'Jewelry';endif;if list 'Jewelry' == 0;@pushlist 'Jewelry' 0x108a;@pushlist 'Jewelry' 0x1f09;@pushlist 'Jewelry' 0x1086;@pushlist 'Jewelry' 0x1f06;endif;if not listexists 'Skill';@createlist 'Skill';endif;if @list 'Skill' &lt;= 23;@pushlist 'Skill' 'Animal Taming';@pushlist 'Skill' 'Animal Lore';@pushlist 'Skill' 'Veterinary';@pushlist 'Skill' 'Provocation';@pushlist 'Skill' 'Anatomy';@pushlist 'Skill' 'Archery';@pushlist 'Skill' 'Stealing';@pushlist 'Skill' 'Tactics';@pushlist 'Skill' 'Swordsmanship';@pushlist 'Skill' 'Fencing';@pushlist 'Skill' 'Ninjitsu';@pushlist 'Skill' 'Healing';@pushlist 'Skill' 'Focus';@pushlist 'Skill' 'Mace Fighting';@pushlist 'Skill' 'Magery';@pushlist 'Skill' 'Evaluating Intelligence';@pushlist 'Skill' 'Resisting Spells';@pushlist 'Skill' 'Spirit Speak';@pushlist 'Skill' 'Necromancy';@pushlist 'Skill' 'Parrying';@pushlist 'Skill' 'Bushido';@pushlist 'Skill' 'Peacemaking';@pushlist 'Skill' 'Discordance';@pushlist 'Skill' 'Provocation';endif;// Finds a corpse, uses gargoyle knife on it, and opens it.;canceltarget;if @findtype 0x2006 'any' 'ground' 1 2;@setalias 'CorpseToLoot' 'found';@useobject! 'CorpseToLoot';@useobject! 'gargyknife';waitfortarget 200;@target! 'CorpseToLoot';endif;// Looter will look for any jewels on the corpse and if found, scan them. If it finds something with a skill from the list that's 10 or higher, it will move it into the loot bag alias set at the beginning of this macro.;for 'any' in 'Jewelry';if @findtype 'Jewelry[]' 'any' 'CorpseToLoot';@setalias 'scanner' 'found';waitforproperties 'scanner' 600;for 0 to 'Skill';if @property 'Skill[]' 'scanner' >= 10;sysmsg 'Moving Jewel to Loot Bag' '1999';msg "[e laugh";pause 600;@moveitem 'scanner' 'lootbag';endif;endfor;endif;endfor;// To claim and cut the corpse;if @inrange 'CorpseToLoot' 2;@msg "[claim -c";waitfortarget 80;target! 'CorpseToLoot';pause 75;canceltarget;endif;// Bag Checks;if @weight >= 500;//set a fill from pack for all your keys you have here. Notes on how to set aliases in pinned messages;//ex: waitforcontext 'reg key' 2 1000;//waitforcontext 'tailor key' 2 1000 etc... repeat as needed.;endif;if @contents 'backpack' >= 170;//set a fill from pack for all your keys you have here. Notes on how to set aliases in pinned messages;//ex: waitforcontext 'reg key' 2 1000;//waitforcontext 'tailor key' 2 1000 etc... repeat as needed.;endif;// PM Mayor if you have any issues, or need any help.;</macro>
+  <macro name="snoop enemy" interrupt="False" loop="False">getenemy 'friend' 'innocent' 'murderer' 'enemy' 'criminal' 'gray' 'closest';if not listexists 'bags';@createlist 'bags';@pushlist 'bags' 0xe76;@pushlist 'bags' 0xe75;@pushlist 'bags' 0xe74;@pushlist 'bags' 0xe78;@pushlist 'bags' 0xe7d;@pushlist 'bags' 0xe77;endif;if @inrange 'enemy' 1 and @findlayer 'enemy' 21;@setalias 'Enemypack' 'found';@pushlist 'bags' 'Enemypack';else;@unsetalias 'Enemypack';endif;if @findalias 'Enemypack';//Snoop Found Pack;useobject! 'Enemypack';for 0 to 'bags';//Snoop All Bags inside Pack;while @findtype bags[] 'any' 'Enemypack';pause 200;@pushlist 'bags' 'found';setalias 'inside' 'found';useobject! 'inside';pause 600;//Snoop 2nd Level of Bags;while @findtype containers[] 'any' 'inside';pause 200;@pushlist 'bags' 'found';useobject! 'found';pause 400;ignoreobject 'found';endwhile;ignoreobject 'inside';endwhile;endfor;@clearignorelist;</macro>
+  <macro name="mage and resist" interrupt="False" loop="True">////////////////////////////////////;//   This macro is designed for   //;//    training both magery and    //;// resist from 30. It is intended //;//     for characters with 40+    //;//          intelligence.         //;//                                //;//  Turn on loop and click play!  //;//                                //;//      ~~Made by kdivers~~       //;////////////////////////////////////;if skill 'magery' &lt; 100;if @injournal 'insufficient mana';clearjournal;useskill 'meditation';while mana &lt; maxmana;endwhile;else;if skill 'magery' &lt; 30;headmsg 'Buy more skill!';stop;elseif skill 'magery' &lt; 45;cast 'bless' 'self';pause 1000;elseif skill 'magery' &lt; 55;cast 'mana drain' 'self';pause 1000;elseif skill 'magery' &lt; 75;cast 'invisibility' 'self';pause 1000;elseif skill 'magery' &lt; 100;cast 'mana vampire' 'self';pause 1000;else;headmsg 'Magery complete!';stop;endif;endif;elseif skill 'resisting spells' &lt; 100;if @injournal 'insufficient mana';clearjournal;useskill 'meditation';while mana &lt; maxmana;endwhile;else;cast 'mana vampire' 'self';pause 1000;endif;else;headmsg 'Magery and resisting spells complete!';stop;endif;</macro>
+  <macro name="anatomy trainer" interrupt="False" loop="True">////////////////////////////////////;//   This macro is designed for   //;//    training anatomy from 0.    //;//                                //;//  Turn on loop and click play!  //;//                                //;//      ~~Made by kdivers~~       //;////////////////////////////////////;if not @findalias 'anat';headmsg 'Select the person to train anatomy on';promptalias 'anat';endif;if skill 'anatomy' &lt; 100;useskill 'anatomy';waitfortarget 2000;target! 'anat';pause 1000;else;headmsg 'Anatomy complete!';stop;endif;</macro>
+ </macros>
+ <autoloot>
+  <enabled>True</enabled>
+  <container>0x4136e971</container>
+  <guards>True</guards>
+ </autoloot>
+ <spellgrid/>
+ <organizer>
+  <group name="treasure chests" stack="True" target="0x41b55a9f" complete="True" source="0x4136e971" loop="False">
+   <item graphic="0xf8c" amount="0x0"/>
+   <item graphic="0xf84" amount="0x0"/>
+   <item graphic="0xf86" amount="0x0"/>
+   <item graphic="0xf7b" amount="0x0"/>
+   <item graphic="0xf85" amount="0x0"/>
+   <item graphic="0xf8d" amount="0x0"/>
+   <item graphic="0xf88" amount="0x0"/>
+   <item graphic="0xf7a" amount="0x0"/>
+   <item graphic="0xeed" amount="0x0"/>
+   <item graphic="0xf26" amount="0x0"/>
+   <item graphic="0xf21" amount="0x0"/>
+   <item graphic="0xf19" amount="0x0"/>
+   <item graphic="0xf13" amount="0x0"/>
+   <item graphic="0xf2d" amount="0x0"/>
+   <item graphic="0xf25" amount="0x0"/>
+   <item graphic="0xf10" amount="0x0"/>
+   <item graphic="0xf16" amount="0x0"/>
+   <item graphic="0xf15" amount="0x0"/>
+   <item graphic="0x14ec" amount="0x0"/>
+   <item graphic="0xf8b" amount="0x0"/>
+   <item graphic="0x14f0" amount="0x0"/>
+  </group>
+  <group name="trash" stack="True" target="0x4095298d" complete="True" source="0x299ce" loop="False">
+   <item graphic="0x1c08" amount="0x0"/>
+   <item graphic="0x144f" amount="0x0"/>
+   <item graphic="0x1450" amount="0x0"/>
+   <item graphic="0xe87" amount="0x0"/>
+   <item graphic="0x1b7b" amount="0x0"/>
+   <item graphic="0x13be" amount="0x0"/>
+   <item graphic="0x1544" amount="0x0"/>
+   <item graphic="0x140a" amount="0x0"/>
+   <item graphic="0x1413" amount="0x0"/>
+   <item graphic="0x13f0" amount="0x0"/>
+   <item graphic="0x1f49" amount="0x0"/>
+   <item graphic="0x1f59" amount="0x0"/>
+   <item graphic="0x140c" amount="0x0"/>
+   <item graphic="0xe81" amount="0x0"/>
+   <item graphic="0xf8a" amount="0x0"/>
+   <item graphic="0x13cc" amount="0x0"/>
+   <item graphic="0xf50" amount="0x0"/>
+   <item graphic="0x1f34" amount="0x0"/>
+   <item graphic="0x1bc3" amount="0x0"/>
+   <item graphic="0x1414" amount="0x0"/>
+   <item graphic="0xf7d" amount="0x0"/>
+   <item graphic="0x1717" amount="0x0"/>
+   <item graphic="0x26bb" amount="0x0"/>
+   <item graphic="0x26bb" amount="0x0"/>
+   <item graphic="0x1b74" amount="0x0"/>
+   <item graphic="0x1716" amount="0x0"/>
+   <item graphic="0x26c2" amount="0x0"/>
+   <item graphic="0xf61" amount="0x0"/>
+   <item graphic="0x13d6" amount="0x0"/>
+   <item graphic="0x1540" amount="0x0"/>
+   <item graphic="0x1441" amount="0x0"/>
+   <item graphic="0x1f52" amount="0x0"/>
+   <item graphic="0x1451" amount="0x0"/>
+   <item graphic="0x13ee" amount="0x0"/>
+   <item graphic="0x13bb" amount="0x0"/>
+   <item graphic="0xf5e" amount="0x0"/>
+   <item graphic="0x1c04" amount="0x0"/>
+   <item graphic="0x13ff" amount="0x0"/>
+   <item graphic="0x13b6" amount="0x0"/>
+   <item graphic="0x1b79" amount="0x0"/>
+   <item graphic="0x26ba" amount="0x0"/>
+   <item graphic="0x1718" amount="0x0"/>
+   <item graphic="0x144e" amount="0x0"/>
+   <item graphic="0x13fd" amount="0x0"/>
+   <item graphic="0xf52" amount="0x0"/>
+   <item graphic="0x1f31" amount="0x0"/>
+   <item graphic="0x2306" amount="0x0"/>
+   <item graphic="0x13dc" amount="0x0"/>
+   <item graphic="0x1545" amount="0x0"/>
+   <item graphic="0x1f55" amount="0x0"/>
+   <item graphic="0x1f5b" amount="0x0"/>
+   <item graphic="0x1f2d" amount="0x0"/>
+   <item graphic="0xf8e" amount="0x0"/>
+   <item graphic="0x1b76" amount="0x0"/>
+   <item graphic="0x13c6" amount="0x0"/>
+   <item graphic="0x143e" amount="0x0"/>
+   <item graphic="0x1bc4" amount="0x0"/>
+   <item graphic="0x1b72" amount="0x0"/>
+   <item graphic="0x13bf" amount="0x0"/>
+   <item graphic="0x1f33" amount="0x0"/>
+   <item graphic="0x1b7a" amount="0x0"/>
+   <item graphic="0x26be" amount="0x0"/>
+   <item graphic="0x26c1" amount="0x0"/>
+   <item graphic="0x1715" amount="0x0"/>
+   <item graphic="0xf8f" amount="0x0"/>
+   <item graphic="0xf47" amount="0x0"/>
+   <item graphic="0x1db9" amount="0x0"/>
+   <item graphic="0x1f0b" amount="0x0"/>
+   <item graphic="0x26c0" amount="0x0"/>
+   <item graphic="0x1405" amount="0x0"/>
+   <item graphic="0x13b9" amount="0x0"/>
+   <item graphic="0xec4" amount="0x0"/>
+   <item graphic="0xf4b" amount="0x0"/>
+   <item graphic="0x13b2" amount="0x0"/>
+   <item graphic="0x1f44" amount="0x0"/>
+   <item graphic="0xf78" amount="0x0"/>
+   <item graphic="0x1714" amount="0x0"/>
+   <item graphic="0x1c00" amount="0x0"/>
+   <item graphic="0x13cd" amount="0x0"/>
+   <item graphic="0x26c3" amount="0x0"/>
+   <item graphic="0x171c" amount="0x0"/>
+   <item graphic="0x1443" amount="0x0"/>
+   <item graphic="0x1c06" amount="0x0"/>
+   <item graphic="0x171a" amount="0x0"/>
+   <item graphic="0x1c0a" amount="0x0"/>
+   <item graphic="0xf4d" amount="0x0"/>
+   <item graphic="0x1412" amount="0x0"/>
+   <item graphic="0x143d" amount="0x0"/>
+   <item graphic="0x1f64" amount="0x0"/>
+   <item graphic="0x1410" amount="0x0"/>
+   <item graphic="0x1411" amount="0x0"/>
+   <item graphic="0x13eb" amount="0x0"/>
+   <item graphic="0x26bf" amount="0x0"/>
+   <item graphic="0xf62" amount="0x0"/>
+   <item graphic="0x13c7" amount="0x0"/>
+   <item graphic="0x1c02" amount="0x0"/>
+   <item graphic="0x13ec" amount="0x0"/>
+   <item graphic="0x1b73" amount="0x0"/>
+   <item graphic="0x1f5f" amount="0x0"/>
+   <item graphic="0x1f48" amount="0x0"/>
+   <item graphic="0x1f46" amount="0x0"/>
+   <item graphic="0x26bd" amount="0x0"/>
+   <item graphic="0xf49" amount="0x0"/>
+   <item graphic="0x13fb" amount="0x0"/>
+   <item graphic="0xec3" amount="0x0"/>
+   <item graphic="0x140e" amount="0x0"/>
+   <item graphic="0xe86" amount="0x0"/>
+   <item graphic="0x1713" amount="0x0"/>
+   <item graphic="0x1c0c" amount="0x0"/>
+   <item graphic="0x13db" amount="0x0"/>
+   <item graphic="0xf45" amount="0x0"/>
+   <item graphic="0x1f6c" amount="0x0"/>
+   <item graphic="0x1f57" amount="0x0"/>
+   <item graphic="0x13d5" amount="0x0"/>
+   <item graphic="0xf5c" amount="0x0"/>
+   <item graphic="0xf43" amount="0x0"/>
+   <item graphic="0x1f38" amount="0x0"/>
+   <item graphic="0x1f5d" amount="0x0"/>
+   <item graphic="0x1f43" amount="0x0"/>
+   <item graphic="0x1f5c" amount="0x0"/>
+   <item graphic="0x1407" amount="0x0"/>
+   <item graphic="0x13da" amount="0x0"/>
+   <item graphic="0x1f35" amount="0x0"/>
+   <item graphic="0x1f67" amount="0x0"/>
+   <item graphic="0x1f3e" amount="0x0"/>
+   <item graphic="0x26bc" amount="0x0"/>
+   <item graphic="0x1407" amount="0x0"/>
+   <item graphic="0x1547" amount="0x0"/>
+   <item graphic="0x1719" amount="0x0"/>
+   <item graphic="0xf7e" amount="0x0"/>
+   <item graphic="0x13b4" amount="0x0"/>
+   <item graphic="0x1f4d" amount="0x0"/>
+   <item graphic="0x1f2f" amount="0x0"/>
+   <item graphic="0x1f36" amount="0x0"/>
+   <item graphic="0x1f39" amount="0x0"/>
+   <item graphic="0x1403" amount="0x0"/>
+   <item graphic="0x1f4c" amount="0x0"/>
+   <item graphic="0x1408" amount="0x0"/>
+   <item graphic="0x1f60" amount="0x0"/>
+   <item graphic="0x1f65" amount="0x0"/>
+   <item graphic="0x143b" amount="0x0"/>
+   <item graphic="0x13b0" amount="0x0"/>
+   <item graphic="0x1f6a" amount="0x0"/>
+   <item graphic="0x171b" amount="0x0"/>
+   <item graphic="0x1f58" amount="0x0"/>
+   <item graphic="0x13cb" amount="0x0"/>
+   <item graphic="0x1f6b" amount="0x0"/>
+   <item graphic="0x1f69" amount="0x0"/>
+   <item graphic="0x1f63" amount="0x0"/>
+   <item graphic="0x1f50" amount="0x0"/>
+   <item graphic="0x1452" amount="0x0"/>
+   <item graphic="0x1401" amount="0x0"/>
+   <item graphic="0x1f62" amount="0x0"/>
+   <item graphic="0x1f4b" amount="0x0"/>
+   <item graphic="0x1f3a" amount="0x0"/>
+   <item graphic="0x1beb" amount="0x0"/>
+   <item graphic="0x1f66" amount="0x0"/>
+   <item graphic="0x1f66" amount="0x0"/>
+   <item graphic="0x1f47" amount="0x0"/>
+   <item graphic="0xeb3" amount="0x0"/>
+   <item graphic="0x1f37" amount="0x0"/>
+   <item graphic="0x1f53" amount="0x0"/>
+   <item graphic="0x1f51" amount="0x0"/>
+   <item graphic="0x1415" amount="0x0"/>
+   <item graphic="0x1f41" amount="0x0"/>
+   <item graphic="0x1f54" amount="0x0"/>
+   <item graphic="0x1f30" amount="0x0"/>
+   <item graphic="0x1f4a" amount="0x0"/>
+   <item graphic="0x1f40" amount="0x0"/>
+   <item graphic="0x1f32" amount="0x0"/>
+   <item graphic="0x1f3d" amount="0x0"/>
+   <item graphic="0x144f" amount="0x0"/>
+   <item graphic="0x1374" amount="0x0"/>
+   <item graphic="0x1439" amount="0x0"/>
+   <item graphic="0x182c" amount="0x0"/>
+   <item graphic="0x5748" amount="0x0"/>
+  </group>
+  <group name="runes" stack="False" target="0x42ec5072" complete="True" source="0x4136e96e" loop="False">
+   <item graphic="0x1f14" amount="0x0"/>
+  </group>
+  <group name="gold" stack="True" target="0x4136e971" complete="False" source="0x4136e96e" loop="False">
+   <item graphic="0xeed" amount="0x0"/>
+  </group>
+ </organizer>
+ <dresslist name="Dress-3">
+  <item layer="2">0x402227d8</item>
+ </dresslist>
+ <dresslist name="nexro" container="0x0">
+  <item layer="8">0x429b10d9</item>
+  <item layer="14">0x4614240b</item>
+  <item layer="6">0x4126f06e</item>
+  <item layer="19">0x440c59a8</item>
+  <item layer="7">0x44009d38</item>
+  <item layer="10">0x40801afa</item>
+  <item layer="4">0x41c4bcf9</item>
+  <item layer="2">0x40d93f2e</item>
+  <item layer="9">0x41b824c0</item>
+  <item layer="22">0x4367a7ec</item>
+  <item layer="23">0x428775e6</item>
+  <item layer="17">0x44eb1e14</item>
+  <item layer="13">0x41bc9b8e</item>
+  <item layer="3">0x428371b4</item>
+  <item layer="12">0x4300d3cd</item>
+  <item layer="18">0x41ff06fc</item>
+ </dresslist>
+ <dresslist name="stealing suit" container="0x41b58175">
+  <item layer="8">0x584ba99c</item>
+  <item layer="14">0x4ba099e9</item>
+  <item layer="6">0x406292a9</item>
+  <item layer="19">0x434df1ad</item>
+  <item layer="7">0x43eb0f48</item>
+  <item layer="4">0x4406d4de</item>
+  <item layer="9">0x41b824c0</item>
+  <item layer="22">0x43cfc077</item>
+  <item layer="17">0x40b7f20a</item>
+  <item layer="13">0x4166619c</item>
+  <item layer="3">0x438cb4d3</item>
+ </dresslist>
+ <dresslist name="Luck" container="0x0">
+  <item layer="8">0x4278e15e</item>
+  <item layer="14">0x42dd706b</item>
+  <item layer="6">0x4126f06e</item>
+  <item layer="10">0x4098cd77</item>
+  <item layer="4">0x4095fdb2</item>
+  <item layer="2">0x40d93f2e</item>
+  <item layer="13">0x41a7669c</item>
+  <item layer="12">0x4300d3cd</item>
+ </dresslist>
+ <dresslist name="pvp" container="0x0">
+  <item layer="8">0x40c01522</item>
+  <item layer="14">0x41be13db</item>
+  <item layer="6">0x490578a5</item>
+  <item layer="19">0x440c59a8</item>
+  <item layer="7">0x44009d38</item>
+  <item layer="10">0x418b60ec</item>
+  <item layer="5">0x4212991b</item>
+  <item layer="4">0x43e6ae49</item>
+  <item layer="9">0x41b824c0</item>
+  <item layer="22">0x4367a7ec</item>
+  <item layer="23">0x428775e6</item>
+  <item layer="17">0x42b1a717</item>
+  <item layer="13">0x4205590a</item>
+  <item layer="3">0x425db235</item>
+  <item layer="12">0x43c42cf0</item>
+  <item layer="20">0x4074aa17</item>
+  <item layer="18">0x41ff06fc</item>
+ </dresslist>
+ <dresslist name="archelogy" container="0x0">
+  <item layer="8">0x425c08ee</item>
+  <item layer="14">0x436d0110</item>
+  <item layer="6">0x4164c454</item>
+  <item layer="19">0x440c59a8</item>
+  <item layer="7">0x4168579b</item>
+  <item layer="10">0x418b60ec</item>
+  <item layer="5">0x48982992</item>
+  <item layer="4">0x43e8d6bd</item>
+  <item layer="1">0x40679264</item>
+  <item layer="9">0x41b824c0</item>
+  <item layer="22">0x4367a7ec</item>
+  <item layer="23">0x406ff2b9</item>
+  <item layer="13">0x4205590a</item>
+  <item layer="3">0x436d010f</item>
+  <item layer="12">0x440b3884</item>
+  <item layer="20">0x4074aa17</item>
+  <item layer="18">0x41ff06fc</item>
+ </dresslist>
+ <dresslist name="Dress-1">
+  <item layer="4">0x4578d7c9</item>
+  <item layer="1">0x4578d7c6</item>
+  <item layer="22">0x4578d7bc</item>
+  <item layer="17">0x4578d7c8</item>
+  <item layer="13">0x4578d7c1</item>
+  <item layer="3">0x4578d7ca</item>
+ </dresslist>
+ <dresslist name="Dress-2">
+  <item layer="1">0x412f6ed9</item>
+  <item layer="2">0x418122ad</item>
+ </dresslist>
+</profile>

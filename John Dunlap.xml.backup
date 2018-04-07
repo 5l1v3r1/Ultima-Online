@@ -1,0 +1,287 @@
+<!DOCTYPE profile>
+<profile>
+ <data name="CommandPrefix">0x0</data>
+ <data name="UseObjectsQueue">True</data>
+ <data name="ShowCorpseNames">True</data>
+ <data name="ShowCreatureNames">False</data>
+ <data name="OpenCorpses">True</data>
+ <data name="OpenCorpsesRange">0x2</data>
+ <data name="ShowMobileHits">True</data>
+ <data name="PositionInTitle">True</data>
+ <data name="ForceResolution">False</data>
+ <data name="GameWindowWidth">0x320</data>
+ <data name="GameWindowHeight">0x258</data>
+ <data name="FilterLight">True</data>
+ <data name="FilterMusic">True</data>
+ <data name="FilterBardsMusic">False</data>
+ <data name="FilterSound">False</data>
+ <data name="FilterWeather">False</data>
+ <data name="FilterSeason">False</data>
+ <data name="FixedSeason">0x0</data>
+ <data name="FilterDeath">False</data>
+ <data name="FilterRepeatedMessages">False</data>
+ <data name="FilterOthersSpeechColor">False</data>
+ <data name="FilterSnoopingMessages">False</data>
+ <data name="FilterTradeWindow">False</data>
+ <data name="FilterRewardGump">False</data>
+ <data name="HandsBeforePotions">True</data>
+ <data name="HandsBeforeCasting">False</data>
+ <data name="SmartTarget">0x2</data>
+ <data name="SmartTargetRange">False</data>
+ <data name="SmartTargetRangeValue">0xc</data>
+ <data name="HighlightCurrentTarget">False</data>
+ <data name="BlockInvalidHeal">True</data>
+ <data name="ActionDelay">0x258</data>
+ <data name="UseObjectsLimit">0x5</data>
+ <data name="TargetShare">0x1</data>
+ <data name="MountSerial">0x9d5dc</data>
+ <data name="BladeSerial">0xffffffff</data>
+ <data name="BoneCutter">False</data>
+ <data name="AutoMount">False</data>
+ <data name="AutoBandage">False</data>
+ <data name="AutoBandageTarget">0x0</data>
+ <data name="AutoBandageScale">False</data>
+ <data name="AutoBandageCount">False</data>
+ <data name="AutoBandageStart">False</data>
+ <data name="AutoBandageStartValue">0x5f</data>
+ <data name="AutoBandageDelay">0x9c4</data>
+ <data name="AutoBandageFormula">True</data>
+ <data name="AutoBandageHidden">False</data>
+ <data name="OpenDoors">True</data>
+ <data name="UseDoors">False</data>
+ <data name="SpellsColor">True</data>
+ <data name="SpellsMode">0x2</data>
+ <data name="SpellsTargetShare">0x0</data>
+ <data name="OpenDoorsMode">0x3</data>
+ <data name="OpenCorpsesMode">0x3</data>
+ <data name="ShowMobileFlags">False</data>
+ <data name="StateHighlightMode">0x0</data>
+ <data name="StaticFields">False</data>
+ <data name="CountStealthSteps">False</data>
+ <data name="FriendsListOnly">True</data>
+ <data name="FriendsParty">True</data>
+ <data name="MoveConflictingItems">False</data>
+ <data name="CustomCaption">True</data>
+ <data name="CustomCaptionMode">0x1</data>
+ <data name="CustomCaptionText">UO - $name $statusbar - $hits/$mana/$stam</data>
+ <data name="WarnCounters">True</data>
+ <data name="WarnCountersValue">0x5</data>
+ <data name="HighlightReagents">True</data>
+ <data name="DisplayCountersName">False</data>
+ <data name="CaptionUseNotoHue">True</data>
+ <data name="CaptionUseNotoHue">True</data>
+ <data name="DisplayCountersImage">True</data>
+ <data name="FilterKarmaMessages">False</data>
+ <data name="FilterFameMessages">False</data>
+ <data name="PreventDismount">False</data>
+ <data name="PreventAttackFriends">False</data>
+ <data name="AutoSearchContainers">False</data>
+ <data name="AutoAcceptParty">True</data>
+ <data name="StaticFieldsMode">0x0</data>
+ <friends>
+  <friend name="Alexis Bloodlust">0xd7f43</friend>
+  <friend name="Fibonacci">0xd3713</friend>
+  <friend name="a swamp dragon">0xcb018</friend>
+  <friend name="a hybrid mare">0xbe491</friend>
+  <friend name="Slippery Squirrl">0xa5b4c</friend>
+  <friend name="Trainer">0x9b168</friend>
+  <friend name="Al Bundy">0x9f2f0</friend>
+  <friend name="a white cracker">0xe13f4</friend>
+ </friends>
+ <counters>
+  <counter name="Nightshade" image="True" enabled="True" format="cntr" color="0x0" graphic="0xf88"/>
+  <counter name="Blood Moss" image="True" enabled="True" format="cntr-2" color="0x0" graphic="0xf7b"/>
+  <counter name="Black Pearl" image="True" enabled="True" format="cntr-3" color="0x0" graphic="0xf7a"/>
+  <counter name="Mandrake Root" image="True" enabled="True" format="cntr-4" color="0x0" graphic="0xf86"/>
+  <counter name="Ginseng" image="True" enabled="True" format="cntr-5" color="0x0" graphic="0xf85"/>
+  <counter name="Sulfurous Ash" image="True" enabled="True" format="cntr-6" color="0x0" graphic="0xf8c"/>
+  <counter name="Spiders' Silk" image="True" enabled="True" format="cntr-7" color="0x0" graphic="0xf8d"/>
+  <counter name="Garlic" image="True" enabled="True" format="cntr-8" color="0x0" graphic="0xf84"/>
+  <counter name="Purple Potion" image="True" enabled="True" format="cntr-9" color="0x0" graphic="0xf0d"/>
+  <counter name="Red Potion" image="True" enabled="True" format="cntr-10" color="0x0" graphic="0xf0b"/>
+  <counter name="Yellow Potion" image="True" enabled="True" format="cntr-11" color="0x0" graphic="0xf0c"/>
+  <counter name="Blue Potion" image="True" enabled="True" format="cntr-12" color="0x0" graphic="0xf08"/>
+  <counter name="White Potion" image="True" enabled="True" format="cntr-13" color="0x0" graphic="0xf09"/>
+  <counter name="Orange Potion" image="True" enabled="True" format="cntr-14" color="0x0" graphic="0xf07"/>
+  <counter name="bolas" image="True" enabled="True" format="cntr-15" color="0x0" graphic="0x26ac"/>
+  <counter name="pouch" image="True" enabled="True" format="cntr-16" color="0x487" graphic="0xe79"/>
+ </counters>
+ <scavenger enabled="False">
+  <scavenge enabled="True" color="0x0" graphic="0xf86"/>
+  <scavenge enabled="True" color="0x0" graphic="0xf8c"/>
+  <scavenge enabled="True" color="0x0" graphic="0xf88"/>
+  <scavenge enabled="True" color="0x0" graphic="0xf7a"/>
+  <scavenge enabled="True" color="0x0" graphic="0xf85"/>
+  <scavenge enabled="True" color="0x0" graphic="0xf8d"/>
+  <scavenge enabled="True" color="0x0" graphic="0xf84"/>
+  <scavenge enabled="True" color="0x0" graphic="0xf7b"/>
+  <scavenge enabled="True" color="0x0" graphic="0x26ac"/>
+  <scavenge enabled="True" color="0x0" graphic="0xeed"/>
+ </scavenger>
+ <vendors>
+  <buystate enabled="False" list=""/>
+  <sellstate enabled="False" list=""/>
+ </vendors>
+ <autosearchexemptions/>
+ <objects>
+  <obj name="anat">0x8e06f</obj>
+  <obj name="gc">0x404492e6</obj>
+  <obj name="gh">0x41d93cac</obj>
+  <obj name="gs">0x402ad746</obj>
+  <obj name="itemid">0x4078177a</obj>
+  <obj name="pet2">0x9d5dc</obj>
+ </objects>
+ <hotkeys>
+  <hotkey key="0x57" param="refresh mount" pass="True" action="macro.play"/>
+  <hotkey key="0x51" param="say all kill" pass="True" action="macro.play"/>
+  <hotkey key="0x45" param="dismount" pass="True" action="macro.play"/>
+  <hotkey key="0xbd" param="ma" pass="True" action="macro.play"/>
+  <hotkey key="0xbb" param="fb" pass="True" action="macro.play"/>
+  <hotkey key="0x33" param="harm" pass="True" action="macro.play"/>
+  <hotkey key="0x4a" param="weaken" pass="True" action="macro.play"/>
+  <hotkey key="0x4b" param="clumsy" pass="True" action="macro.play"/>
+  <hotkey key="0x4c" param="fm" pass="True" action="macro.play"/>
+  <hotkey key="0x20" param="attack" pass="True" action="macro.play"/>
+  <hotkey key="0x47" param="gate hop" pass="True" action="macro.play"/>
+  <hotkey key="0xbc" param="guards" pass="True" action="macro.play"/>
+  <hotkey key="0x54" param="crossheal" pass="True" action="macro.play"/>
+  <hotkey key="0x251" param="all kill 2" pass="True" action="macro.play"/>
+  <hotkey key="0xc" param="FS self" pass="True" action="macro.play"/>
+  <hotkey key="0x104" param="heal 2 pets" pass="True" action="macro.play"/>
+  <hotkey key="0x72" param="clone runebook" pass="True" action="macro.play"/>
+  <hotkey key="0x103" param="heal 1 pet" pass="True" action="macro.play"/>
+  <hotkey key="0x4" param="trash barrel" pass="True" action="macro.play"/>
+  <hotkey key="0x73" param="secure" pass="True" action="macro.play"/>
+  <hotkey key="0x46" param="ADV Bar Puller" pass="True" action="macro.play"/>
+  <hotkey key="0x39" pass="True" action="hotkeys"/>
+  <hotkey key="0x31" pass="True" action="spells.miniheal.self"/>
+  <hotkey key="0x32" pass="True" action="spells.bigheal.self"/>
+  <hotkey key="0x5a" pass="True" action="targeting.target.cancel"/>
+  <hotkey key="0x58" pass="True" action="targeting.target.last"/>
+  <hotkey key="0x59" pass="True" action="targeting.target.self"/>
+  <hotkey key="0x34" pass="True" action="spells.magery.explosion"/>
+  <hotkey key="0x35" pass="True" action="spells.magery.energybolt"/>
+  <hotkey key="0x36" pass="True" action="spells.magery.flamestrike"/>
+  <hotkey key="0x52" pass="True" action="spells.magery.reveal"/>
+  <hotkey key="0x48" pass="True" action="spells.magery.invisibility"/>
+  <hotkey key="0x44" pass="True" action="spells.magery.recall"/>
+  <hotkey key="0x102" pass="True" action="spells.magery.teleport"/>
+  <hotkey key="0x50" pass="True" action="spells.magery.poison"/>
+  <hotkey key="0x4f" pass="True" action="spells.magery.magicreflection"/>
+  <hotkey key="0xdb" pass="True" action="combat.consume.potions.heal"/>
+  <hotkey key="0xdd" pass="True" action="combat.consume.potions.cure"/>
+  <hotkey key="0xde" pass="True" action="combat.consume.potions.refresh"/>
+  <hotkey key="0xba" pass="True" action="combat.consume.potions.strength"/>
+  <hotkey key="0xdc" pass="True" action="combat.consume.potions.agility"/>
+  <hotkey key="0x53" pass="True" action="skills.hiding"/>
+  <hotkey key="0x4d" pass="True" action="skills.meditation"/>
+  <hotkey key="0x101" pass="True" action="spells.magery.greaterheal"/>
+  <hotkey key="0x30" pass="True" action="spells.magery.mindblast"/>
+  <hotkey key="0x41" pass="True" action="skills.animaltaming"/>
+  <hotkey key="0x42" pass="True" action="spells.magery.energyvortex"/>
+  <hotkey key="0xbf" pass="True" action="actions.use.righthand"/>
+  <hotkey key="0xbe" pass="True" action="combat.wands.heal"/>
+  <hotkey key="0x43" pass="True" action="actions.grabitem"/>
+  <hotkey key="0xc0" pass="True" action="combat.consume.potions.explosion"/>
+  <hotkey key="0x4e" pass="True" action="actions.use.once.pouch"/>
+  <hotkey key="0x243" pass="True" action="agents.autoloot"/>
+  <hotkey key="0x37" pass="True" action="spells.magery.lightning"/>
+  <hotkey key="0x24e" pass="True" action="spells.magery.magictrap"/>
+  <hotkey key="0x304" pass="True" action="combat.wands.manadrain"/>
+  <hotkey key="0x55" pass="True" action="spells.magery.protection"/>
+  <hotkey key="0x254" pass="True" action="spells.magery.cure"/>
+  <hotkey key="0x38" pass="True" action="spells.magery.manadrain"/>
+  <hotkey key="0x49" pass="True" action="spells.magery.reactivearmor"/>
+  <hotkey key="0x247" pass="True" action="combat.bandage.mount"/>
+  <hotkey key="0x56" pass="True" action="targeting.set.last"/>
+  <hotkey key="0x241" pass="True" action="skills.itemidentification"/>
+ </hotkeys>
+ <macros>
+  <macro name="ma fire" interrupt="False" loop="False">if @inrange 'enemy' 10;// Dump existing harmful target on enemy;if targetexists 'harmful';target! 'enemy';// Harm if enemy is standing next to you;elseif @inrange 'enemy' 1;cast 'Harm' 'enemy';else;// Handle sequence, using alias trick;if not @findalias 'Sequencing';cast 'Magic Arrow' 'enemy';@setalias 'Sequencing' 'self';else;cast 'Fireball' 'enemy';@unsetalias 'Sequencing';endif;// Wait until cast is finished;while waitingfortarget 'harmful';endwhile;endif;endif;</macro>
+  <macro name="refresh mount" interrupt="False" loop="False">togglemounted;pause 100;msg 'All follow me';pause 550;togglemounted;</macro>
+  <macro name="say all kill" interrupt="False" loop="False">getenemy 'murderer' 'enemy' 'criminal' 'gray'  'closest';autotargetenemy;if mounted 'self';useobject! 'self';endif;while mounted 'self';if @injournal 'you must wait' 'system';clearjournal;replay;endif;endwhile;msg 'all kill';</macro>
+  <macro name="dismount" interrupt="False" loop="False">togglemounted;</macro>
+  <macro name="harm fireball spam" interrupt="True" loop="False">while inrange 'enemy' 10;@target! 'enemy';if inrange 'enemy' 1;cast 'harm' 'enemy';else if inrange 'enemy' 10;cast 'Fireball' 'enemy';else;stop;endif;endwhile;</macro>
+  <macro name="pet trainer" interrupt="True" loop="False">//This macro will require 2 pets to attack eachother.;//It will ask you to target each pet, your bandaids, then;//it will force the pets to attack eachother, and will feed;//your pets every 10(?) minutes. It will automatically heal;//the lowest HP pet, and if a pet falls below 50% health, it;//will tell pets to stop and stay, and will spam heal them until full, then repeats.;//Things can happen, IE your pets not listening to you. DO NOT RUN THIS AFK.;//Setup;if not findalias 'pet1';headmsg 'Select first pet';promptalias 'pet1';endif;if not findalias 'pet2';headmsg 'Select second pet';promptalias 'pet2';endif;if not findalias 'bandages';headmsg 'Select bandages';promptalias 'bandages';endif;//Feed pets every hour;if not timerexists 'feed';createtimer 'feed';endif;if timer 'feed' > 600000;settimer 'feed' 0;feed 'pet1' 'Meat' 'any' 1;pause 500;feed 'pet2' 'Meat' 'any' 1;endif;//Tell pets to attack each other if they're full HP;if hits 'pet1' == maxhits 'pet1' and hits 'pet2' == maxhits 'pet2';waitforcontext 'pet1' 3 15000;autotargetobject 'pet2';pause 500;waitforcontext 'pet2' 3 15000;autotargetobject 'pet1';pause 500;endif;//Heal the lowest HP pet;if @findobject 'bandages';useobject 'found';else //Out of bandages;msg 'all stay';pause 3000;headmsg 'Select bandages';promptalias 'bandages';endif;if diffhits 'pet1' > diffhits 'pet2';autotargetobject 'pet1';else;autotargetobject 'pet2';endif;pause 5500;//Tell pets to stop if either is missing 50%;if diffhits 'pet1' > 50 or diffhits 'pet2' > 50;msg 'all stop';pause 2000;msg 'all stay';pause 2000;//Heal them to full;while hits 'pet1' &lt; maxhits 'pet1';useobject 'bandages';autotargetobject 'pet1';pause 5500;endwhile;while hits 'pet2' &lt; maxhits 'pet2';useobject 'bandages';autotargetobject 'pet2';pause 5500;endwhile;endif;</macro>
+  <macro name="ma" interrupt="False" loop="False">cast 'Magic Arrow' 'Enemy';</macro>
+  <macro name="fb" interrupt="False" loop="False">cast 'Fireball' 'Enemy';</macro>
+  <macro name="harm" interrupt="False" loop="False">cast 'Harm' 'Enemy';</macro>
+  <macro name="lightning" interrupt="False" loop="False">cast 'Lightning' 'Enemy';</macro>
+  <macro name="weaken" interrupt="False" loop="False">cast 'Weaken' 'Enemy';</macro>
+  <macro name="clumsy" interrupt="False" loop="False">cast 'Clumsy' 'Enemy';</macro>
+  <macro name="fm" interrupt="False" loop="False">cast 'Feeblemind' 'Enemy';</macro>
+  <macro name="spear" interrupt="False" loop="False">if not @findobject 'Spear';headmsg 'Target your two-hander';promptalias 'Spear';endif;if findobject 'Spear' 'any' 'backpack';equipitem 'Spear' 2;else;moveitem 'Spear' 'backpack';endif;</macro>
+  <macro name="attack" interrupt="False" loop="False">@Getenemy 'murderer' 'Enemy' 'criminal' 'gray' 'closest';if @findobject 'enemy';autotargetobject! 'enemy';attack! 'enemy';endif;@clearusequeue;@cancelautotarget;</macro>
+  <macro name="bola" interrupt="False" loop="False">msg 'claim list';waitforgump 0xf4e111f7 15000;replygump 0xf4e111f7 2;pause 100;togglemounted;pause 250;usetype! 0x26ac 'enemy';</macro>
+  <macro name="gate hop" interrupt="False" loop="False">if @findtype 0xf6c 'any' 'ground' 1 2;sysmsg 'Moongate found, lets go!' 80;useobject! 'found';endif;if inregion 'guards';waitforgump 0xdd8b146a 2000;replygump 0xdd8b146a 1;endif;</macro>
+  <macro name="resist med trainer" interrupt="False" loop="True">if skill 'magery' &lt; 100;if @injournal 'insufficient mana';@clearjournal;useskill 'meditation';while mana &lt; maxmana;endwhile;else;if skill 'magery' &lt; 30;headmsg 'Buy more skill!';stop;elseif skill 'magery' &lt; 45;cast 'bless' 'self';pause 1000;elseif skill 'magery' &lt; 55;cast 'mana drain' 'self';pause 1000;elseif skill 'magery' &lt; 75;cast 'invisibility' 'self';pause 1000;elseif skill 'magery' &lt; 100;cast 'mana vampire' 'self';pause 1000;else;headmsg 'Magery complete!';stop;endif;endif;elseif skill 'resisting spells' &lt; 100;if @injournal 'insufficient mana';@clearjournal;useskill 'meditation';while mana &lt; maxmana;endwhile;else;cast 'mana vampire' 'self';pause 1000;endif;else;headmsg 'Magery and resisting spells complete!';stop;endif;</macro>
+  <macro name="purpl" interrupt="True" loop="True">useobject 0x416ba0d9;</macro>
+  <macro name="heal pets" interrupt="False" loop="False">@cleartargetqueue;@clearjournal;if dead 'self';stop;endif;//Setup;if not findalias 'pet1';headmsg 'Select first pet';promptalias 'pet1';endif;if not findalias 'pet2';headmsg 'Select second pet';promptalias 'pet2';endif;//Heal them to full;while diffhits 'pet1' == '0' and diffhits 'pet2' == '0';pause 500;endwhile;if diffhits 'pet1' > diffhits 'pet2';if inrange 'pet1' 1;bandage;autotargetobject 'pet1';pause 3000;if poisoned 'pet1';cast 'Cure';autotargetobject 'pet1';endif;pause 1600;endif;@cleartargetqueue;else;if inrange 'pet2' 1;bandage;autotargetobject 'pet2';pause 3000;if poisoned 'pet2';cast 'Cure';autotargetobject 'pet2';endif;pause 1600;endif;@cleartargetqueue;endif;if not @injournal 'finish' 'system';pause 1100;replay;else if @injournal 'finish' 'system';@clearjournal;replay;elseif @injournal 'too far away' 'system';@clearjournal;replay;elseif @injournal 'stay close enough' 'system';@clearjournal;replay;endif;</macro>
+  <macro name="guard me" interrupt="False" loop="False">msg 'All guard me';</macro>
+  <macro name="guards" interrupt="False" loop="False">msg 'Vendor buy bank guards i ban thee';</macro>
+  <macro name="crossheal" interrupt="False" loop="False">@unsetalias 'target';for 15;@getfriend 'humanoid' 'transformation' 'friend';if not @findobject 'friend';break;elseif @inrange 'friend' 10 and not dead 'friend';if criminal 'friend' or murderer 'friend';if @inregion 'guards' 'friend';continue;endif;endif;if not @findobject 'target' or hits 'target' > hits 'friend';@setalias 'target' 'friend';endif;endif;endfor;@setalias 'friend' 'target';// Help;if @findobject 'friend' and not dead 'friend';if targetexists 'beneficial';target! 'friend';endif;if paralyzed 'friend';cast 'clumsy' 'friend';elseif yellowhits 'friend';cast 'invisibility' 'friend';else;bigheal 'friend';endif;while waitingfortarget;if criminal 'friend' or murderer 'friend';if @inregion 'guards' 'friend';sysmsg 'Target cancelled, guards zone!' 55;cancelautotarget;break;endif;endif;endwhile;else;headmsg '* No friend *' 25;endif;</macro>
+  <macro name="bola 2" interrupt="False" loop="False">usetype! 0x26ac;</macro>
+  <macro name="all kill 2" interrupt="False" loop="False">msg 'All kill';</macro>
+  <macro name="auto gheal wand" interrupt="False" loop="False">equipwand 'greater heal' 1;pause 1000;useobject 'righthand';@target! 'self';</macro>
+  <macro name="bandage friend" interrupt="False" loop="True">usetype! 0xe21 'any' 'backpack';pause 100;target! 0xa5b4c;pause 10000;</macro>
+  <macro name="FS self" interrupt="False" loop="False">cast 'Flame Strike' 'Self';</macro>
+  <macro name="stop" interrupt="False" loop="True">if hits &lt; 6;msg 'no bandages, low health, logging out!';logoutbutton;else;sysmsg 'Still going';endif;</macro>
+  <macro name="heal 2 pets" interrupt="False" loop="False">//Experience;//Heals 2 pets.;//Included health/weight check on self;@cleartargetqueue;@clearjournal;if dead 'self';stop;endif;if not timerexists 'VetBandage';createtimer 'VetBandage';settimer 'VetBandage' 0;endif;while weight > maxweight;cast 'bless';autotargetself!;pause 2500;if weight >= 428;headmsg 'OVER MAX';endif;endwhile;//Setup;if not findalias 'pet1';headmsg 'Select first pet';promptalias 'pet1';endif;if not findalias 'pet2';headmsg 'Select second pet';promptalias 'pet2';endif;//Heal them to full;while not @inrange 'pet1' 2 and not @inrange 'pet2' 2;headmsg "Get closer";pause 300;endwhile;while hits 'pet1' == maxhits 'pet1' and hits 'pet2' == maxhits 'pet2';if weight > maxweight;cast 'bless';autotargetself;endif;pause 500;endwhile;if diffhits 'pet1' > diffhits 'pet2';if @inrange 'pet1' 1 and timer 'VetBandage' >= '6300';bandage;autotargetobject! 'pet1';settimer 'VetBandage' 0;if poisoned 'pet1';pause 1200;endif;@cleartargetqueue;endif;else;if @inrange 'pet2' 1 and timer 'VetBandage' >= '6300';bandage;autotargetobject! 'pet2';settimer 'VetBandage' 0;if poisoned 'pet2';pause 1200;endif;@cleartargetqueue;endif;endif;if not @injournal 'finish' 'system';pause 1100;replay;elseif @injournal 'finish' 'system';@clearjournal;replay;elseif @injournal 'too far away' 'system';@clearjournal;replay;elseif @injournal 'stay close enough' 'system';@clearjournal;replay;endif;@clearjournal;</macro>
+  <macro name="clone runebook" interrupt="False" loop="False">// Description: Automatic Runebook Cloner.;// You need to insert the names of each rune on the "Names" List. IT will run over and over if a location is blocked untill it makes it passed too the rune.;//===========================================================;//Select runebook to be cloned;promptalias 'ToBeCloned';//Select a blank book;promptalias 'Blank Runebook';//Lists;clearlist 'Runes';clearlist 'Names';if not listexists 'Runes';createlist 'Runes';endif;if list 'Runes' == 0;pushlist 'Runes' 5;pushlist 'Runes' 11;pushlist 'Runes' 17;pushlist 'Runes' 23;pushlist 'Runes' 29;pushlist 'Runes' 35;pushlist 'Runes' 41;pushlist 'Runes' 47;pushlist 'Runes' 53;pushlist 'Runes' 59;pushlist 'Runes' 65;pushlist 'Runes' 71;pushlist 'Runes' 77;pushlist 'Runes' 83;pushlist 'Runes' 89;pushlist 'Runes' 95;endif;if not listexists 'Names';createlist 'Names';endif;if list 'Names' == 0;pushlist 'Names' 'A. Lich Covetous';pushlist 'Names' "A. Lich Covetous 2";pushlist 'Names' 'A. Lich Wrong';pushlist 'Names' 'A. Lich Fire';pushlist 'Names' 'A. Lich Shame';pushlist 'Names' 'A. Lich Hyloth';pushlist 'Names' "A. Lich Hyloth 2";pushlist 'Names' "A. Lich Ruins";pushlist 'Names' 'A. Lich T2A';pushlist 'Names' "A. Lich T2A 2";pushlist 'Names' 'Dread/Elder';pushlist 'Names' 'Trinsic West';pushlist 'Names' "Trinsic East";pushlist 'Names' 'Vesper';pushlist 'Names' 'Wind';pushlist 'Names' 'Yew';endif;if not @findtype 0x1f14 any 'backpack';sysmsg 'Out of blank runes!' 25;pause 100;playsound 984;pause 100;playsound 987;pause 100;playsound 988;pause 100;messagebox 'Error'  '*No Runes restock &amp; restart*';stop;endif;clearjournal;for 0 to 'Runes';if  mana &lt;= 30;useskill 'Meditation';while not mana == maxmana;endwhile;endif;pause 1500;useobject! 'ToBeCloned';waitforgump 0x554b87f3 15000;pause 900;replygump 0x554b87f3 Runes[0];pause '3500';if injournal 'blocked' 'system';replay;endif;if @findtype 0x1f14 0 'backpack' 1 2;autotargetobject 'found';cast 'Mark';pause 3500;useobject! 'found';waitforprompt 15000;promptmsg Names[0];pause 2000;moveitem 'found' 'Blank Runebook';pause 2000;if @injournal 'Names[0]' 'system';@poplist 'Names' 'front';@poplist 'Runes' 'front';endif;else;playsound 984;pause 100;playsound 987;pause 100;playsound 988;pause 100;messagebox 'Error'  '*No Runes restock &amp; restart*';stop;endif;endfor;</macro>
+  <macro name="heal 1 pet" interrupt="False" loop="False">if not listexists 'petlist';createlist 'petlist';//add an entry for each pet you hunt with:;@pushlist 'petlist' 0x176ca2 // rare white horse;@pushlist 'petlist' 0x1572d2 // meta;@pushlist 'petlist' 0x2627 // white wyrm;endif;//Removes pets if mounted, stabled or you get too far away;if findalias 'Pet1' and not @findobject 'Pet1';unsetalias 'Pet1';endif;if findalias 'Pet2' and not @findobject 'Pet2';unsetalias 'Pet2';endif;//makes sure the pets never equal each other;if findalias 'Pet1' and findalias 'Pet2';if serial 'Pet1' == serial 'Pet2';unsetalias 'Pet2';endif;endif;//Searches for your pets when you don't have 2 active;if not @findobject 'Pet1' or not @findobject 'Pet2';for 0 to 'petlist';if @findobject petlist[] 'any' 'ground' 0 30;if not @findobject 'Pet1';setalias 'Pet1' petlist[];elseif not @findobject 'Pet2' and serial 'Pet1' != 'petlist[]';setalias 'Pet2' petlist[];endif;endif;endfor;endif;// sets backup bandie timer just in case;if not timerexists 'bandie';settimer 'bandie' 10000;endif;// provoke protection if target cursor exists;if not targetexists;//Starts healing your pets;if @injournal 'finish applying' 'system' or timer 'bandie' >= 10000;if @findobject 'Pet1' and @findobject 'Pet2';if hits 'Pet1' &lt; 90 or hits 'Pet2' &lt; 90;if diffhits 'Pet1' > diffhits 'Pet2' and @inrange 'Pet1' 1;usetype 0xe21 'any' 'backpack';waitfortarget 3500;target! 'Pet1';settimer 'bandie' 0;elseif @inrange 'Pet2' 1 and hits 'Pet2' &lt; 90;usetype 0xe21 'any' 'backpack';waitfortarget 3500;target! 'Pet2';settimer 'bandie' 0;endif;clearjournal;pause 1000;endif;elseif @findobject 'Pet1' or @findobject 'Pet2';if hits 'found' &lt; 90 and @inrange 'found' 1;usetype 0xe21 'any' 'backpack';waitfortarget 3500;target! 'found';settimer 'bandie' 0;clearjournal;pause 1000;endif;endif;endif;endif;if @injournal 'too far away' 'system';@clearjournal;elseif @injournal 'stay close enough' 'system';@clearjournal;endif;</macro>
+  <macro name="trash barrel" interrupt="False" loop="False">msg 'I wish to place a trash barrel';</macro>
+  <macro name="secure" interrupt="False" loop="False">msg 'I wish to secure this';</macro>
+  <macro name="ADV Bar Puller" interrupt="False" loop="False">// Create list of Known Enemys if it does not exist;if not listexists 'KnownEnemys';createlist 'KnownEnemys';@pushlist! 'KnownEnemys' 0x866e4 // Rochelle;@pushlist! 'KnownEnemys' 0x8f81c // ANGRY (Blue);@pushlist! 'KnownEnemys' 0x2e3dc // Grey (USA Guild);@pushlist! 'KnownEnemys' 0xd3d46 // Erwin Rommel;@pushlist! 'KnownEnemys' 0xdc2a2 // Pumpkin;@pushlist! 'KnownEnemys' 0xeb48a // Galaxy Gallia (Dark Knight Alt in UDA);@pushlist! 'KnownEnemys' 0x798c3 // Jeepers Creepers;@pushlist! 'KnownEnemys' 0xbb367 // Brutally Honest;@pushlist! 'KnownEnemys' 0xc38f6 // ShAgGyDaDoPe;@pushlist! 'KnownEnemys' 0xd0a57 // BrutallY;endif;// Display mobiles names;shownames 'mobiles';// Begin Loop;for 0 to 'KnownEnemys';if @injournal 'Rochelle';paperdoll 0x866e4;pause 100;clickscreen! 1869 267;endif;if @injournal 'ANGRY';paperdoll 0x8f81c;pause 100;clickscreen! 1869 267;endif;if @injournal 'Grey';paperdoll 0x2e3dc;pause 100;clickscreen! 1869 267;endif;if @injournal 'Erwin Rommel';paperdoll 0xd3d46;pause 100;clickscreen! 1869 267;endif;if @injournal 'Pumpkin';paperdoll 0xdc2a2;pause 100;clickscreen! 1869 267;endif;if @injournal 'Galaxy Gallia';paperdoll 0xeb48a;pause 100;clickscreen! 1869 267;endif;if @injournal 'Jeepers Creepers';paperdoll 0x798c3;pause 100;clickscreen! 1869 267;endif;if @injournal 'Brutally Honest';paperdoll 0xbb367;pause 100;clickscreen! 1869 267;endif;if @injournal 'ShAgGyDaDoPe';paperdoll 0xc38f6;pause 100;clickscreen! 1869 267;endif;if @injournal 'BrutallY';paperdoll 0xd0a57;pause 100;clickscreen! 1869 267;endif;endfor;@clearjournal;</macro>
+  <macro name="test" interrupt="True" loop="False"></macro>
+  <macro name="SYNC" interrupt="False" loop="False">cast 'explosion';waitfortarget 3000;@clearjournal;if targetexists;waitforjournal 'with explosion' 99999;target 'last';pause 200;cast 'energy bolt';pause 200;usetype '0xf0d';waitfortarget 500;canceltarget;waitfortarget 3000;target 'last';waitforjournal '2' 4000;headmsg 't!' 50;pause 720 // &lt;&lt;&lt; SET BASED ON YOUR PING;usetype! '0xf0d';waitfortarget 1500;//;if not @inrange 'last' 12;headmsg 'Range > 12' 25;targettileoffset (0 3 0);stop;endif;//;target! 'last';endif;</macro>
+  <macro name="alchy trainer" interrupt="True" loop="True">//This macro is designed for         //;//training alchemy from 30. Have //;//5 empty kegs on you and a lot  //;//of mortars and pestals. This      //;//macro only makes PVP worthy  //;//potions to minimize waste.       //;//Turn on loop and click play!      //;if skill 'alchemy' &lt; 60 and not @findobject 'TR';headmsg 'Select Total Refresh Keg';promptalias 'TR';endif;if skill 'alchemy' &lt; 70 and not @findobject 'GA';headmsg 'Select Greater Agility Keg';promptalias 'GA';endif;if skill 'alchemy' &lt; 80 and not @findobject 'GS';headmsg 'Select Greater Strength Keg';promptalias 'GS';endif;if skill 'alchemy' &lt; 90 and not @findobject 'GH';headmsg 'Select Greater Heal Keg';promptalias 'GH';endif;//if skill 'alchemy' &lt; 100 and not @findobject 'GC';//  headmsg 'Select Greater Cure Keg';//  promptalias 'GC';//endif;if skill 'alchemy' &lt; 30;headmsg 'Buy more skill!';stop;elseif skill 'alchemy' &lt; 60;if usetype 0xe9b 0x0 'backpack';waitforgump 0x38920abd 15000;replygump 0x38920abd 1;waitforgump 0x38920abd 15000;replygump 0x38920abd 9;waitforgump 0x38920abd 2000;endif;if @findtype 0xf0b 0x0 'backpack';moveitem 'found' 'TR';pause 600;endif;elseif skill 'alchemy' &lt; 70;if usetype 0xe9b 0x0 'backpack';waitforgump 0x38920abd 15000;replygump 0x38920abd 8;waitforgump 0x38920abd 15000;replygump 0x38920abd 9;waitforgump 0x38920abd 2000;endif;if @findtype 0xf08 0x0 'backpack';moveitem 'found' 'GA';pause 600;endif;elseif skill 'alchemy' &lt; 80;if usetype 0xe9b 0x0 'backpack';waitforgump 0x38920abd 15000;replygump 0x38920abd 29;waitforgump 0x38920abd 15000;replygump 0x38920abd 9;waitforgump 0x38920abd 2000;endif;if @findtype 0xf09 0x0 'backpack';moveitem 'found' 'GS';pause 600;endif;elseif skill 'alchemy' &lt; 90;if usetype 0xe9b 0x0 'backpack';waitforgump 0x38920abd 15000;replygump 0x38920abd 22;waitforgump 0x38920abd 15000;replygump 0x38920abd 16;waitforgump 0x38920abd 2000;endif;if @findtype 0xf0c 0x0 'backpack';moveitem 'found' 'GH';pause 600;endif;elseif skill 'alchemy' &lt; 100;if usetype 0xe9b 0x0 'backpack';waitforgump 0x38920abd 15000;replygump 0x38920abd 43;waitforgump 0x38920abd 15000;replygump 0x38920abd 16;waitforgump 0x38920abd 2000;endif;if @findtype 0xf07 0x0 'backpack';moveitem 'found' 'GC';pause 600;endif;else;headmsg 'Alchemy complete!';stop;endif;</macro>
+  <macro name="anatomy trainer" interrupt="True" loop="True">//   This macro is designed for   //;//    training anatomy from 0.    //;//  Turn on loop and click play!  //;if not @findalias 'anat';headmsg 'Select the person to train anatomy on';promptalias 'anat';endif;if skill 'anatomy' &lt; 100;useskill 'anatomy';waitfortarget 2000;target! 'anat';pause 1000;else;headmsg 'Anatomy complete!';stop;endif;</macro>
+  <macro name="item id" interrupt="False" loop="True">////////////////////////////////////;//   This macro is designed for   //;//  training item identification  //;//  from 0. I typically target my //;//            dagger.             //;//                                //;//  Turn on loop and click play!  //;//                                //;//      ~~Made by kdivers~~       //;////////////////////////////////////;if not @findalias 'itemid';headmsg 'Select the item to train ID on';promptalias 'itemid';endif;if skill 'item identification' &lt; 100;useskill 'item identification';waitfortarget 2000;target! 'itemid';pause 1000;else;headmsg 'Item Identification Complete!';stop;endif;</macro>
+ </macros>
+ <autoloot>
+  <enabled>True</enabled>
+  <container>0x41a41be6</container>
+  <guards>True</guards>
+ </autoloot>
+ <spellgrid/>
+ <organizer>
+  <group name="gems" source="0x41a41be6" stack="True" target="0x41125873" complete="True" loop="False">
+   <item amount="0x0" graphic="0xf26"/>
+   <item amount="0x0" graphic="0xf16"/>
+   <item amount="0x0" graphic="0xf13"/>
+   <item amount="0x0" graphic="0xf2d"/>
+   <item amount="0x0" graphic="0xf19"/>
+   <item amount="0x0" graphic="0xf21"/>
+   <item amount="0x0" graphic="0xf25"/>
+   <item amount="0x0" graphic="0xf15"/>
+   <item amount="0x0" graphic="0xf10"/>
+  </group>
+  <group name="pots" source="0x41125874" stack="True" target="0x41a41be6" complete="True" loop="False">
+   <item amount="0xf" graphic="0xf07"/>
+   <item amount="0x19" graphic="0xf0b"/>
+   <item amount="0x1e" graphic="0xf0c"/>
+  </group>
+  <group name="regs" source="0x41125874" stack="True" target="0x41a41be6" complete="True" loop="False">
+   <item amount="0x64" graphic="0xf84"/>
+   <item amount="0x64" graphic="0xf8d"/>
+   <item amount="0x64" graphic="0xf88"/>
+   <item amount="0x64" graphic="0xf85"/>
+   <item amount="0x64" graphic="0xf86"/>
+   <item amount="0x64" graphic="0xf8c"/>
+   <item amount="0x64" graphic="0xf7a"/>
+   <item amount="0x64" graphic="0xf7b"/>
+  </group>
+  <group name="loot" source="0x41a41be6" stack="False" target="0x41125872" complete="False" loop="False"/>
+ </organizer>
+ <dresslist name="leather" container="0x0">
+  <item layer="6">0x40997eed</item>
+  <item layer="19">0x402c5a82</item>
+  <item layer="7">0x409169c5</item>
+  <item layer="10">0x408c458a</item>
+  <item layer="4">0x41f403f0</item>
+  <item layer="22">0x40633a2e</item>
+  <item layer="13">0x40b4031c</item>
+  <item layer="3">0x401e93bb</item>
+ </dresslist>
+ <dresslist name="Spear"/>
+</profile>

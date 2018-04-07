@@ -1,0 +1,128 @@
+<!DOCTYPE profile>
+<profile>
+ <data name="CommandPrefix">0x0</data>
+ <data name="UseObjectsQueue">True</data>
+ <data name="ShowCorpseNames">True</data>
+ <data name="ShowCreatureNames">False</data>
+ <data name="OpenCorpses">True</data>
+ <data name="OpenCorpsesRange">0x3</data>
+ <data name="ShowMobileHits">True</data>
+ <data name="PositionInTitle">False</data>
+ <data name="ForceResolution">False</data>
+ <data name="GameWindowWidth">0x320</data>
+ <data name="GameWindowHeight">0x258</data>
+ <data name="FilterLight">True</data>
+ <data name="FilterMusic">False</data>
+ <data name="FilterBardsMusic">False</data>
+ <data name="FilterSound">False</data>
+ <data name="FilterWeather">False</data>
+ <data name="FilterSeason">False</data>
+ <data name="FixedSeason">0x0</data>
+ <data name="FilterDeath">False</data>
+ <data name="FilterRepeatedMessages">False</data>
+ <data name="FilterOthersSpeechColor">False</data>
+ <data name="FilterSnoopingMessages">False</data>
+ <data name="FilterTradeWindow">False</data>
+ <data name="FilterRewardGump">False</data>
+ <data name="HandsBeforePotions">True</data>
+ <data name="HandsBeforeCasting">False</data>
+ <data name="SmartTarget">0x0</data>
+ <data name="SmartTargetRange">False</data>
+ <data name="SmartTargetRangeValue">0xc</data>
+ <data name="HighlightCurrentTarget">False</data>
+ <data name="BlockInvalidHeal">False</data>
+ <data name="ActionDelay">0x258</data>
+ <data name="UseObjectsLimit">0x5</data>
+ <data name="TargetShare">0x0</data>
+ <data name="MountSerial">0xdd31</data>
+ <data name="BladeSerial">0xffffffff</data>
+ <data name="BoneCutter">False</data>
+ <data name="AutoMount">False</data>
+ <data name="AutoBandage">True</data>
+ <data name="AutoBandageTarget">0x0</data>
+ <data name="AutoBandageScale">False</data>
+ <data name="AutoBandageCount">True</data>
+ <data name="AutoBandageStart">True</data>
+ <data name="AutoBandageStartValue">0x5a</data>
+ <data name="AutoBandageDelay">0x1d1a</data>
+ <data name="AutoBandageFormula">False</data>
+ <data name="AutoBandageHidden">False</data>
+ <data name="OpenDoors">True</data>
+ <data name="UseDoors">False</data>
+ <data name="SpellsColor">False</data>
+ <data name="SpellsMode">0x2</data>
+ <data name="SpellsTargetShare">0x0</data>
+ <data name="OpenDoorsMode">0x3</data>
+ <data name="OpenCorpsesMode">0x3</data>
+ <data name="ShowMobileFlags">False</data>
+ <data name="StateHighlightMode">0x0</data>
+ <data name="StaticFields">False</data>
+ <data name="CountStealthSteps">False</data>
+ <data name="FriendsListOnly">False</data>
+ <data name="FriendsParty">False</data>
+ <data name="MoveConflictingItems">False</data>
+ <data name="CustomCaption">True</data>
+ <data name="CustomCaptionMode">0x1</data>
+ <data name="CustomCaptionText">UO - $name $statusbar - $hits/$mana/$stam</data>
+ <data name="WarnCounters">True</data>
+ <data name="WarnCountersValue">0x5</data>
+ <data name="HighlightReagents">True</data>
+ <data name="DisplayCountersName">False</data>
+ <data name="CaptionUseNotoHue">True</data>
+ <data name="CaptionUseNotoHue">True</data>
+ <data name="DisplayCountersImage">True</data>
+ <data name="FilterKarmaMessages">False</data>
+ <data name="FilterFameMessages">False</data>
+ <data name="PreventDismount">False</data>
+ <data name="PreventAttackFriends">False</data>
+ <data name="AutoSearchContainers">False</data>
+ <data name="AutoAcceptParty">True</data>
+ <data name="StaticFieldsMode">0x0</data>
+ <counters/>
+ <vendors>
+  <buystate enabled="False" list=""/>
+  <sellstate enabled="False" list=""/>
+ </vendors>
+ <scavenger enabled="True">
+  <scavenge color="0x0" enabled="True" graphic="0xeed"/>
+  <scavenge color="0x0" enabled="True" graphic="0xf7b"/>
+  <scavenge color="0x0" enabled="True" graphic="0xf88"/>
+  <scavenge color="0x0" enabled="True" graphic="0xf85"/>
+  <scavenge color="0x0" enabled="True" graphic="0xf8c"/>
+  <scavenge color="0x0" enabled="True" graphic="0xf7a"/>
+  <scavenge color="0x0" enabled="True" graphic="0xf84"/>
+  <scavenge color="0x0" enabled="True" graphic="0xf86"/>
+ </scavenger>
+ <autosearchexemptions/>
+ <objects>
+  <obj name="found">0x14eb21</obj>
+ </objects>
+ <hotkeys>
+  <hotkey pass="True" action="macro.play" param="Targeting System" key="0x20"/>
+  <hotkey pass="True" action="macro.play" param="dress" key="0x51"/>
+  <hotkey pass="True" action="macro.play" param="refresh horse" key="0x57"/>
+  <hotkey pass="True" action="hotkeys" key="0x39"/>
+  <hotkey pass="True" action="spells.miniheal.self" key="0x31"/>
+  <hotkey pass="True" action="spells.magery.greaterheal" key="0x32"/>
+  <hotkey pass="True" action="spells.last" key="0x58"/>
+  <hotkey pass="True" action="targeting.target.cancel" key="0x5a"/>
+  <hotkey pass="True" action="targeting.target.self" key="0x59"/>
+  <hotkey pass="True" action="actions.togglemounted" key="0x45"/>
+ </hotkeys>
+ <macros>
+  <macro loop="False" interrupt="True" name="Targeting System">@getenemy 'murderer' 'Enemy' 'criminal' 'gray' 'closest';if @findobject 'enemy';// Set the next line to the distance you want to be at for the macro to insist on turning on war mode.;if distance 'enemy' &lt;= 8;warmode 'on';endif;// Set the next line to the distance you want to be at for the macro to insist you needn't be in war mode any longer.;if distance 'enemy' > 12;warmode 'off';endif;autotargetobject! 'enemy';attack! 'enemy';endif;if not @findobject 'enemy';warmode 'off';endif;@clearusequeue;@cancelautotarget;</macro>
+  <macro loop="False" interrupt="True" name="Weapon Swap">if not listexists 'swapweapons';createlist 'swapweapons';endif;if list 'swapweapons' &lt; 1;pushlist 'swapweapons' 0x41cebcd4 //set serial here;pushlist 'swapweapons' 0x41cebe3d //set serial here;endif;if findobject 'lefthand';clearhands 'both';pause 500;endif;equipitem swapweapons[0] 1;poplist 'swapweapons' 'front';</macro>
+  <macro loop="False" interrupt="False" name="dress">togglehands 'left';</macro>
+  <macro loop="False" interrupt="False" name="refresh horse">msg 'all follow me';</macro>
+ </macros>
+ <autoloot>
+  <enabled>True</enabled>
+  <container>0x404ac2f9</container>
+  <guards>True</guards>
+ </autoloot>
+ <organizer/>
+ <spellgrid/>
+ <dresslist name="Halberd" container="0x0">
+  <item layer="2">0x40996f4c</item>
+ </dresslist>
+</profile>
